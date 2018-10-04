@@ -16,9 +16,9 @@ Gem::Specification.new do |spec|
   spec.version       = TrainPlugins::Aws::VERSION
   spec.authors       = ['Chef InSpec Team']
   spec.email         = ['inspec@chef.io']
-  spec.summary       = "Train Plugin example, rot13's file content and command output"
-  spec.description   = 'Example for implementing a Train plugin.  This simply performs the ROT13 substitution cipher on file content and command output.'
-  spec.homepage      = 'https://github.com/inspec/train/tree/master/examples/plugin'
+  spec.summary       = "AWS API Transport for Train"
+  spec.description   = 'Allows applictaions using Train to speak to AWS; handles authentication, cacheing, and SDK dependency management.'
+  spec.homepage      = 'https://github.com/inspec/train-aws'
   spec.license       = 'Apache-2.0'
 
   # Though complicated-looking, this is pretty standard for a gemspec.
@@ -33,14 +33,12 @@ Gem::Specification.new do |spec|
 
   # If you rely on any other gems, list them here with any constraints.
   # This is how `inspec plugin install` is able to manage your dependencies.
-  # For example, perhaps you are writing a thing that talks to AWS, and you
-  # want to ensure you have `aws-sdk` in a certain version.
 
   # If you only need certain gems during development or testing, list
   # them in Gemfile, not here.
   # Do not list inspec as a dependency of the train plugin.
 
   # All plugins should mention train, > 1.4
-  spec.add_dependency 'train', '~> 1.4'
-  spec.add_dependency 'rot13', '~> 0.1'
+  spec.add_dependency 'train', '~> 2.0'
+  spec.add_dependency 'aws-sdk', '~> 3.0'
 end

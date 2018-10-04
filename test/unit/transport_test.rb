@@ -1,4 +1,4 @@
-# This is a unit test for the example Train plugin, Aws.
+# This is a unit test for the AWS Train Plugin.
 # Its job is to verify that the Transport class is setup correctly.
 
 # Include our test harness
@@ -21,7 +21,7 @@ describe TrainPlugins::Aws::Transport do
   # Objects, and begin with 'must' (positive) or 'wont' (negative)
   # See https://ruby-doc.org/stdlib-2.1.0/libdoc/minitest/rdoc/MiniTest/Expectations.html
 
-  it "should be registered with the plugin registry without the train- prtefix" do
+  it "should be registered with the plugin registry without the train- prefix" do
     # Note that Train uses String keys here, not Symbols
     Train::Plugins.registry.keys.wont_include('train-aws')
     Train::Plugins.registry.keys.must_include('aws')
