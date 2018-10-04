@@ -1,21 +1,21 @@
-# This is a unit test for the example Train plugin, LocalRot13.
+# This is a unit test for the example Train plugin, Aws.
 # Its job is to verify that the Connection class is setup correctly.
 
 # Include our test harness
 require_relative '../helper'
 
 # Load the class under test, the Connection definition.
-require 'train-local-rot13/connection'
+require 'train-aws/connection'
 
 # Because InSpec is a Spec-style test suite, we're going to use MiniTest::Spec
 # here, for familiar look and feel. However, this isn't InSpec (or RSpec) code.
-describe TrainPlugins::LocalRot13::Connection do
+describe TrainPlugins::Aws::Connection do
 
   # When writing tests, you can use `let` to create variables that you
   # can reference easily.
 
   # This is a long name.  Shorten it for clarity.
-  let(:connection_class) { TrainPlugins::LocalRot13::Connection }
+  let(:connection_class) { TrainPlugins::Aws::Connection }
 
   # Some tests through here use minitest Expectations, which attach to all
   # Objects, and begin with 'must' (positive) or 'wont' (negative)

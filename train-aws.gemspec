@@ -6,14 +6,14 @@
 # from a file in the source tree.  The next three lines make that happen.
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'train-local-rot13/version'
+require 'train-aws/version'
 
 Gem::Specification.new do |spec|
   # Importantly, all Train plugins must be prefixed with `train-`
-  spec.name          = 'train-local-rot13'
+  spec.name          = 'train-aws'
 
   # It is polite to namespace your plugin under InspecPlugins::YourPluginInCamelCase
-  spec.version       = TrainPlugins::LocalRot13::VERSION
+  spec.version       = TrainPlugins::Aws::VERSION
   spec.authors       = ['Chef InSpec Team']
   spec.email         = ['inspec@chef.io']
   spec.summary       = "Train Plugin example, rot13's file content and command output"
@@ -25,7 +25,7 @@ Gem::Specification.new do |spec|
   # It just filters what will actually be packaged in the gem (leaving
   # out tests, etc)
   spec.files = %w{
-    README.md train-local-rot13.gemspec Gemfile
+    README.md train-aws.gemspec Gemfile
   } + Dir.glob(
     'lib/**/*', File::FNM_DOTMATCH
   ).reject { |f| File.directory?(f) }

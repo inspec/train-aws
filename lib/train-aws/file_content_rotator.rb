@@ -4,7 +4,7 @@
 require 'rot13'
 
 module TrainPlugins
-  module LocalRot13
+  module Aws
     class FileContentRotator
       # The FileContentRotator has-a Train::File
       def initialize(train_file)

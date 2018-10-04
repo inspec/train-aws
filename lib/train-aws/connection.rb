@@ -16,21 +16,21 @@
 
 # Push platform detection out to a mixin, as it tends
 # to develop at a different cadence than the rest
-require 'train-local-rot13/platform'
+require 'train-aws/platform'
 
 # This is a support library for our file content meddling
-require 'train-local-rot13/file_content_rotator'
+require 'train-aws/file_content_rotator'
 
 # This is a support library for our command meddling
 require 'mixlib/shellout'
 require 'ostruct'
 
 module TrainPlugins
-  module LocalRot13
+  module Aws
     # You must inherit from BaseConnection.
     class Connection < Train::Plugins::Transport::BaseConnection
       # We've placed platform detection in a separate module; pull it in here.
-      include TrainPlugins::LocalRot13::Platform
+      include TrainPlugins::Aws::Platform
 
       def initialize(options)
         # 'options' here is a hash, Symbol-keyed,

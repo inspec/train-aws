@@ -3,7 +3,7 @@
 # of the connection.
 
 # Abbreviate the namespace here, if you like.
-module TrainPlugins::LocalRot13
+module TrainPlugins::Aws
   # Since we're mixing in the platform detection facility into Connection,
   # this has to come in as a Module.
   module Platform
@@ -32,7 +32,7 @@ module TrainPlugins::LocalRot13
       # Use release to report a version number.  You might use the version
       # of the plugin, or a version of an important underlying SDK, or a
       # version of a remote API.
-      force_platform!('local-rot13', release: TrainPlugins::LocalRot13::VERSION)
+      force_platform!('aws', release: TrainPlugins::Aws::VERSION)
     end
   end
 end

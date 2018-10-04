@@ -4,7 +4,7 @@
 # many CI servers can update this file when "version bumping".
 
 module TrainPlugins
-  module LocalRot13
+  module Aws
     VERSION = '0.1.0'.freeze
   end
 end

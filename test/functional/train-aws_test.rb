@@ -13,7 +13,7 @@ require_relative '../helper'
 # Because InSpec is a Spec-style test suite, and Train has a close relationship
 # to InSpec, we're going to use MiniTest::Spec here, for familiar look and
 # feel. However, this isn't InSpec (or RSpec) code.
-describe 'train-local-rot13' do
+describe 'train-aws' do
   # Our helper.rb locates this library from the Train install that
   # Bundler installed for us. If we want its methods, we still must
   # import it.  Including it here will make it available in all child
@@ -32,7 +32,7 @@ describe 'train-local-rot13' do
   # Objects, and begin with 'must' (positive) or 'wont' (negative)
   # See https://ruby-doc.org/stdlib-2.1.0/libdoc/minitest/rdoc/MiniTest/Expectations.html
 
-  # LocalRot13 should do at least this:
+  # Aws should do at least this:
   # * Not explode when you run Train with it
   # * Apply rot13 when you use Train to read a file
   # * Apply rot13 when you use Train to run a command
@@ -44,24 +44,24 @@ describe 'train-local-rot13' do
 
     it "should not explode on create" do
       # This checks for uncaught exceptions.
-      Train.create('local-rot13')
+      Train.create('aws')
 
       # This checks for warnings (or any other output) to stdout/stderr
-      proc { Train.create('local-rot13') }.must_be_silent
+      proc { Train.create('aws') }.must_be_silent
     end
 
     it "should not explode on connect" do
       # This checks for uncaught exceptions.
-      Train.create('local-rot13').connection
+      Train.create('aws').connection
 
       # This checks for warnings (or any other output) to stdout/stderr
-      proc { Train.create('local-rot13').connection }.must_be_silent
+      proc { Train.create('aws').connection }.must_be_silent
     end
   end
 
   describe "reading a file" do
     it "should rotate the text by 13 positions" do
-      conn = Train.create('local-rot13').connection
+      conn = Train.create('aws').connection
       # Here, plugin_fixtures_path is provided by the TrainPluginFunctionalHelper,
       # and refers to the absolute path to the test fixtures directory.
       # The file 'hello' simply has the text 'hello' in it.
@@ -73,7 +73,7 @@ describe 'train-local-rot13' do
 
   describe "running a command" do
     it "should rotate the stdout by 13 positions" do
-      conn = Train.create('local-rot13').connection
+      conn = Train.create('aws').connection
       file_obj = conn.run_command('echo hello')
       file_obj.stdout.wont_include('hello')
       file_obj.stdout.must_include('uryyb')
