@@ -21,19 +21,26 @@ describe TrainPlugins::Aws::Transport do
   # Objects, and begin with 'must' (positive) or 'wont' (negative)
   # See https://ruby-doc.org/stdlib-2.1.0/libdoc/minitest/rdoc/MiniTest/Expectations.html
 
-  it "should be registered with the plugin registry without the train- prefix" do
-    # Note that Train uses String keys here, not Symbols
-    Train::Plugins.registry.keys.wont_include('train-aws')
-    Train::Plugins.registry.keys.must_include('aws')
+  describe 'plugin definition' do
+
+    it "should be registered with the plugin registry without the train- prefix" do
+     # Note that Train uses String keys here, not Symbols
+     Train::Plugins.registry.keys.wont_include('train-aws')
+     Train::Plugins.registry.keys.must_include('aws')
+    end
+
+    it "should inherit from the Train plugin base" do
+      # For Class, '<' means 'is a descendant of'
+      (plugin_class < Train.plugin(1)).must_equal(true)
+    end
+
+    it "should provide a connection() method" do
+      # false passed to instance_methods says 'don't use inheritance'
+      plugin_class.instance_methods(false).must_include(:connection)
+    end
   end
 
-  it "should inherit from the Train plugin base" do
-    # For Class, '<' means 'is a descendant of'
-    (plugin_class < Train.plugin(1)).must_equal(true)
+  describe 'API-SDK custom methods' do
   end
 
-  it "should provide a connection() method" do
-    # false passed to instance_methods says 'don't use inheritance'
-    plugin_class.instance_methods(false).must_include(:connection)
-  end
 end

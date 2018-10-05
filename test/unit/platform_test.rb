@@ -16,6 +16,20 @@ describe TrainPlugins::Aws::Platform do
   end
 
   it "should force platform to 'aws'" do
-    # TODO - don't know how to test this
+    plat = TrainPlugins::Aws::Connection.new({}).platform
+    plat.name.must_equal 'aws'
+    plat.linux?.must_equal false
+    plat.cloud?.must_equal true
+    plat.family.must_equal 'cloud'
+    plat.family_hierarchy.must_equal ['cloud', 'api']
+  end
+
+  it 'provides api details in the platform data' do
+    aws_version = Gem.loaded_specs['aws-sdk-core'].version
+    aws_version = "aws-sdk-core: v#{aws_version}"
+    plugin_version = "train-aws: v#{TrainPlugins::Aws::VERSION}"
+    expected_release = "#{plugin_version}, #{aws_version}"
+    plat = TrainPlugins::Aws::Connection.new({}).platform
+    plat.release.must_equal expected_release
   end
 end

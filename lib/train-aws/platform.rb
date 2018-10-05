@@ -17,22 +17,21 @@ module TrainPlugins::Aws
       # If you were defining a cloud API, you should say you are a member
       # of the cloud family.
 
-      # This plugin makes up a new platform.  Train (or rather InSpec) only
-      # know how to read files on Windows and Un*x (MacOS is a kind of Un*x),
-      # so we'll say we're part of those families.
-      Train::Platforms.name('test-fixture').in_family('unix')
-      Train::Platforms.name('test-fixture').in_family('windows')
+      # This plugin defines a new platform.
+      Train::Platforms.name('aws').in_family('cloud')
 
       # When you know you will only ever run on your dedicated platform
-      # (for example, a plugin named train-aws would only run on the AWS
-      # API, which we report as the 'aws' platform).
       # force_platform! lets you bypass platform detection.
       # The options to this are not currently documented completely.
 
       # Use release to report a version number.  You might use the version
       # of the plugin, or a version of an important underlying SDK, or a
       # version of a remote API.
-      force_platform!('aws', release: TrainPlugins::Aws::VERSION)
+      aws_version = Gem.loaded_specs['aws-sdk-core'].version
+      aws_version = "aws-sdk-core: v#{aws_version}"
+      plugin_version = "train-aws: v#{TrainPlugins::Aws::VERSION}"
+
+      force_platform!('aws', release: "#{plugin_version}, #{aws_version}")
     end
   end
 end
