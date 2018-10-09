@@ -1,3 +1,5 @@
+# PRE-ALPHA - DO NOT USE
+
 # train-aws - Train Plugin for connecting to AWS
 
 This plugin allows applications that rely on Train to communicate with the Amazon Web Services API.  For example, InSpec uses this to perform compliance checks against AWS infrastructure components.
