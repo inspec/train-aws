@@ -40,7 +40,20 @@ describe TrainPlugins::Aws::Transport do
     end
   end
 
-  describe 'API-SDK custom methods' do
+  describe 'Transport Options' do
+    let(:transport) { plugin_class.new }
+
+    it 'should have the correct options' do
+      [
+        :access_key_id,
+        :profile,
+        :region,
+        :secret_access_key,
+        :session_token,
+      ].each do |option_name|
+        transport.options.keys.must_include(option_name)
+      end
+    end
   end
 
 end

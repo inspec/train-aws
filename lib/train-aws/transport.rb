@@ -1,4 +1,7 @@
 
+require 'train/plugins'
+require 'aws-sdk-core'
+
 # Train Plugins v1 are usually declared under the TrainPlugins namespace.
 # Each plugin has three components: Transport, Connection, and Platform.
 # We'll only define the Transport here, but we'll refer to the others.
@@ -8,6 +11,14 @@ module TrainPlugins
   module Aws
     class Transport < Train.plugin(1)
       name 'aws'
+
+      option :region, required: true, default: ENV['AWS_REGION']
+      option :access_key_id, default: ENV['AWS_ACCESS_KEY_ID']
+      option :secret_access_key, default: ENV['AWS_SECRET_ACCESS_KEY']
+      option :session_token, default: ENV['AWS_SESSION_TOKEN']
+
+      # This can provide the access key id and secret access key
+      option :profile, default: ENV['AWS_PROFILE']
 
       # The only thing you MUST do in a transport is a define a
       # connection() method that returns a instance that is a

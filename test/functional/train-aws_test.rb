@@ -1,4 +1,4 @@
-# Functional tests for the Train Local Rot13 Example Plugin.
+# Functional tests for train-aws
 
 # Functional tests are used to verify the behaviors of the plugin are as
 # expected, to a user.
@@ -32,11 +32,6 @@ describe 'train-aws' do
   # Objects, and begin with 'must' (positive) or 'wont' (negative)
   # See https://ruby-doc.org/stdlib-2.1.0/libdoc/minitest/rdoc/MiniTest/Expectations.html
 
-  # Aws should do at least this:
-  # * Not explode when you run Train with it
-  # * Apply rot13 when you use Train to read a file
-  # * Apply rot13 when you use Train to run a command
-
   describe "creating a train instance with this transport" do
     # This is a bit of an awkward test. There is no 'wont_raise', so
     # we just execute the risky code; if it breaks, the test will be
@@ -49,6 +44,9 @@ describe 'train-aws' do
       # This checks for warnings (or any other output) to stdout/stderr
       proc { Train.create('aws') }.must_be_silent
     end
+  end
+
+  describe 'connecting using the transport'
 
     it "should not explode on connect" do
       # This checks for uncaught exceptions.
@@ -60,23 +58,17 @@ describe 'train-aws' do
   end
 
   describe "reading a file" do
-    it "should rotate the text by 13 positions" do
+    it "should throw an exception if you try to read a file" do
       conn = Train.create('aws').connection
-      # Here, plugin_fixtures_path is provided by the TrainPluginFunctionalHelper,
-      # and refers to the absolute path to the test fixtures directory.
-      # The file 'hello' simply has the text 'hello' in it.
-      file_obj = conn.file(File.join(plugin_fixtures_path, 'hello'))
-      file_obj.content.wont_include('hello')
-      file_obj.content.must_include('uryyb')
+      path = File.join(plugin_fixtures_path, 'nonesuch')
+      proc { conn.file(path).contents }.must_raise(NotImplementedError)
     end
   end
 
   describe "running a command" do
-    it "should rotate the stdout by 13 positions" do
+    it "should throw an exception if you try to run a command" do
       conn = Train.create('aws').connection
-      file_obj = conn.run_command('echo hello')
-      file_obj.stdout.wont_include('hello')
-      file_obj.stdout.must_include('uryyb')
+      proc { conn.run_command('date') }.must_raise(NotImplementedError)
     end
   end
 end

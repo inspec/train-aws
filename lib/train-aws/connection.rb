@@ -33,11 +33,45 @@ module TrainPlugins
         # Have a look at the Local, SSH, and AWS transports for ideas about what
         # you can do with the options.
 
-        # Regardless, let the BaseConnection have a chance to configure itself.
+        # Override for any cli options
+        # aws://region/my-profile
+        options[:region] = options[:host] || options[:region]
+        if options[:path]
+          # string the leading / from path
+          options[:profile] = options[:path].sub(%r{^/}, '')
+        end
+
+        # Now let the BaseConnection have a chance to configure itself.
         super(options)
 
-        # If you need to attempt a connection to a remote system, or verify your
-        # credentials, now is a good time.
+        # Force enable caching.
+        enable_cache :api_call
+
+        # Why are we doing this?
+        # Why aren't we calling the AWS config system?
+        ENV['AWS_PROFILE'] = @options[:profile] if @options[:profile]
+        ENV['AWS_REGION'] = @options[:region] if @options[:region]
+      end
+
+      # We support caching on the aws_client call, but not the aws_resource call
+      def aws_client(klass)
+        return klass.new unless cache_enabled?(:api_call)
+        @cache[:api_call][klass.to_s.to_sym] ||= klass.new
+      end
+
+      def aws_resource(klass, args)
+        klass.new(args)
+      end
+
+      # TODO: determine exactly what this is used for
+      def uri
+        "aws://#{@options[:region]}"
+      end
+
+      def unique_identifier
+        # use aws account id
+        sts_client = aws_client(::Aws::STS::Client)
+        sts_client.get_caller_identity.account
       end
 
     end

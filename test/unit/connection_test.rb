@@ -16,6 +16,8 @@ describe TrainPlugins::Aws::Connection do
 
   # This is a long name.  Shorten it for clarity.
   let(:connection_class) { TrainPlugins::Aws::Connection }
+  let(:connection) { connection_class.new({}) }
+  let(:cache) { connection.instance_variable_get(:@cache) }
 
   # Some tests through here use minitest Expectations, which attach to all
   # Objects, and begin with 'must' (positive) or 'wont' (negative)
@@ -95,27 +97,19 @@ describe TrainPlugins::Aws::Connection do
         end
       end
 
+      # Current behavior is to never cache in resource mode, for fear of blowing memory.
+      # We could be more sophisticated and limit the cache size. PRs welcome.
       describe 'when caching is enabled' do
-        it 'should cache hit on a resource when the args match' do
+        it 'should cache miss on a resource when the args match' do
           resource_args = { user: 1, name: 'test_user' }
           resource_one = connection.aws_resource(DummyAwsResource, resource_args)
-          # TODO this is a surprising outcome
-          resource.args.must_equal resource_args
+          resource_one.args.must_equal resource_args
+
+          resource_two = connection.aws_resource(DummyAwsResource, resource_args)
+          resource_two.wont_equal(resource_one)
           cache[:api_call].count.must_equal 0
         end
-
-        # it 'should cache miss on a resource when the args differ' do
-        #   hash = { user: 1, name: 'test_user' }
-        #   resource = connection.aws_resource(AwsResource, hash)
-        #   resource.hash.must_equal hash
-        #   cache[:api_call].count.must_equal 0
-        # end
       end
-
-      # describe 'when caching is disabled' do
-      #   it 'should not cache' do
-      #   end
-      # end
     end
   end
 

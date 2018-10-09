@@ -40,5 +40,6 @@ Gem::Specification.new do |spec|
 
   # All plugins should mention train, > 1.4
   spec.add_dependency 'train', '~> 2.0'
-  spec.add_dependency 'aws-sdk', '~> 3.0'
+  spec.add_dependency 'aws-sdk-core', '~> 3.0'
+  # TODO - add service-specific gems as resource pack needs them
 end

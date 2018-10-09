@@ -4,3 +4,4 @@
 # any utilities to make testing a plugin easier.
 
 require 'train/plugin_test_helper'
+require 'minitest/mock'
