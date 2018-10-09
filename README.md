@@ -1,12 +1,9 @@
-# Example Train Plugin - train-aws
+# train-aws - Train Plugin for connecting to AWS
 
-This plugin is provided as a teaching example for building a Train plugin.  Train plugins allow you to connect to remote systems or APIs, so that other tools such as InSpec or Chef Workstation can talk over the connection.
+This plugin allows applications that rely on Train to communicate with the Amazon Web Services API.  For example, InSpec uses this to perform compliance checks against AWS infrastructure components.
 
-train-aws's functionality is simple: it acts as a local transport (targeting the local machine), but it applies the [rot13](https://en.wikipedia.org/wiki/ROT13) trivial cypher transformation on the contents of each file it reads, and on the stdout of every command it executes.
+The plugin is a wrapper around `aws-sdk-core` version 3, with additional service-specific gems added where needed by the `inspec-aws`
 
-Please note that ROT13 is an incredibly weak cypher, and can be broken by most elementary school students.  Do not use this plugin for security purposes.
-
-## Relationship between InSpec and Train
 
 Train itself has no CLI, nor a sophisticated test harness.  InSpec does have such facilities, so installing Train plugins will require an InSpec installation.  You do not need to use or understand InSpec.
 
@@ -14,9 +11,11 @@ Train plugins may be developed without an InSpec installation.
 
 ## To Install this as a User
 
+Train plugins are distributed as gems.  You may choose to manage the gem yourself, but if you are an InSpec user, InSPec can handle it for you.
+
 You will need InSpec v2.3 or later.
 
-If you just want to use this (not learn how to write a plugin), you can so by simply running:
+Simply run:
 
 ```
 $ inspec plugin install train-aws
@@ -29,44 +28,81 @@ $ inspec detect -t aws://
 == Platform Details
 
 Name:      aws
-Families:  unix, os, windows, os
-Release:   0.1.0
-Arch:      example
-
-$ inspec shell -t aws:// -c 'command("echo hello")'
-uryyb
+Families:  cloud, api
+Release:   train-aws: v0.1.0, aws-sdk-core: 3.30.0
+Arch:      -
 ```
 
-## Features of This Example Kit
+## Authenticating to AWS
 
-This example plugin is a full-fledged plugin example, with everything a real-world, industrial grade plugin would have, including:
+These instructions assume you are using InSpec.
 
-* an implementation of a Train plugin, using the Train Plugin V1 API, including
-  * a Transport
-  * a Connection
-  * Platform configuration
-* documentation (you are reading it now)
-* tests, at the unit and functional level
-* a .gemspec, for packaging and publishing it as a gem
-* a Gemfile, for managing its dependencies
-* a Rakefile, for running development tasks
-* Rubocop linting support for using the base Train project rubocop.yml (See Rakefile)
+### Setting up AWS credentials for InSpec
 
-You are encouraged to use this plugin as a starting point for real plugins.
+InSpec uses the standard AWS authentication mechanisms. Typically, you will create an IAM user specifically for auditing activities.
 
-## Development of a Plugin
+* 1 Create an IAM user in the AWS console, with your choice of username. Check the box marked "Programmatic Access."
+* 2 On the Permissions screen, choose Direct Attach. Select the AWS-managed IAM Profile named "ReadOnlyAccess." If you wish to restrict the user further, you may do so; see individual InSpec resources to identify which permissions are required.
+* 3 After generating the key, record the Access Key ID and Secret Key.
 
-[Plugin Development](https://github.com/inspec/train/blob/master/docs/dev/plugins.md) is documented on the `train` project on GitHub.  Additionally, this example
-plugin has extensive comments explaining what is happening, and why.
+#### Using Environment Variables to provide credentials
 
-### A Tour of the Plugin
+You may provide the credentials to InSpec by setting the following environment variables: `AWS_REGION`, `AWS_ACCESS_KEY_ID`, and `AWS_SECRET_KEY_ID`. You may also use `AWS_PROFILE`, or if you are using MFA, `AWS_SESSION_TOKEN`. See the [AWS Command Line Interface Docs](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-getting-started.html) for details.
 
-One nice circuit of the plugin might be:
- * look at the gemspec, to see what the plugin thinks it does
- * look at the functional tests, to see the plugin proving it does what it says
- * look at the unit tests, to see how the plugin claims it is internally structured
- * look at the Rakefile, to see how to interact with the project
- * look at lib/train-aws.rb, the entry point which InSpec will always load if the plugin is installed
- * look at lib/train-aws/transport.rb, the plugin "backbone"
- * look at lib/train-aws/connection.rb, the plugin implementation
- * look at lib/train-aws/platform.rb, OS platform support declaration
+Once you have your environment variables set, you can verify your credentials by running:
+
+```bash
+you$ inspec detect -t aws://
+
+== Platform Details
+Name:      aws
+Families:  cloud, api
+Release:   aws-sdk-v2.10.125
+```
+
+#### Using the InSpec target option to provide credentials on AWS
+
+Look for a file in your home directory named `~/.aws/credentials`. If it does not exist, create it. Choose a name for your profile; here, we're using the name 'auditing'. Add your credentials as a new profile, in INI format:
+
+```bash
+[auditing]
+aws_access_key_id = AKIA....
+aws_secret_access_key = 1234....abcd
+```
+
+You may now run InSpec using the `--target` / `-t` option, using the format `-t aws://region/profile`.  For example, to connect to the Ohio region using a profile named 'auditing', use `-t aws://us-east-2/auditing`.  Any omitted portion will use teh environment variables.
+
+To verify your credentials,
+
+```bash
+you$ inspec detect -t aws://
+
+== Platform Details
+Name:      aws
+Families:  cloud, api
+Release:   aws-sdk-v2.10.125
+```
+
+
+## Reporting Issues
+
+Bugs, typos, limitations, and frustrations are welcome to be reported through the [GitHub issues page for the train-aws project](https://github.com/inspec/train-aws/issues).
+
+You may also ask questions in the #inspec channel of the CHef Community Slack team.  However, for an issue to get traction, please report it as a github issue.
+
+## Development on this Plugin
+
+
+### Development Process
+
+If you wish to contribute to this plugin, please use the usual fork-branch-push-PR cycle.  All functional changes need new tests, and bugfixes are expected to include a new test that demonstrates the bug.
+
+### Reference Information
+
+[Plugin Development](https://github.com/inspec/train/blob/master/docs/dev/plugins.md) is documented on the `train` project on GitHub.
+
+### Testing changes against AWS
+
+Live-fire testing against AWS is performed by the `integration` set of tests.  To run the integration tests, you will need to have a set of AWS credentials as follows:
+
+TODO
