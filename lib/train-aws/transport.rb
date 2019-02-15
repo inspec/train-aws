@@ -1,4 +1,5 @@
 
+require 'train'
 require 'train/plugins'
 require 'aws-sdk-core'
 

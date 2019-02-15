@@ -34,17 +34,11 @@ describe TrainPlugins::Aws::Connection do
     [
       :file_via_connection,
       :run_command_via_connection,
-      :local?,
     ].each do |method_name|
       it "should NOT provide a #{method_name}() method" do
         # false passed to instance_methods says 'don't use inheritance'
         connection_class.instance_methods(false).wont_include(method_name)
       end
-    end
-
-    # Ensure Train knows this is not local.
-    it "should declare itself as a non-local transport" do
-      connection_class.new(Hash.new).local?.must_equal(false)
     end
   end
 

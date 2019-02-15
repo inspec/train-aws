@@ -15,6 +15,10 @@
 # Push platform detection out to a mixin, as it tends
 # to develop at a different cadence than the rest
 require 'train-aws/platform'
+require 'train'
+require 'train/plugins'
+
+require 'aws-sdk-core'
 
 module TrainPlugins
   module Aws
