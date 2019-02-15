@@ -5,28 +5,28 @@
 #                    Rake Default Task
 #------------------------------------------------------------------#
 
-task default: [:test]
+# Do not run integration by default
+task default: [:'test:unit', :'test:functional']
 
 #------------------------------------------------------------------#
 #                    Test Runner Tasks
 #------------------------------------------------------------------#
-
-# This task template will make a task named 'test', and run
-# the tests that it finds.
 require 'rake/testtask'
 
-Rake::TestTask.new(:test) do |t|
-  t.libs.push 'lib'
-  t.libs.push 'test'
-  t.test_files = FileList[
-    'test/unit/*_test.rb',
-    'test/integration/*_test.rb',
-    'test/function/*_test.rb',
-  ]
-  t.verbose = true
-  # Ideally, we'd run tests with warnings enabled,
-  # but the dependent gems have many warnings.
-  t.warning = false
+namespace :test do
+  {
+    unit: 'test/unit/*_test.rb',
+    functional: 'test/integration/*_test.rb',
+    integration: 'test/function/*_test.rb',
+  }.each do |task_name, glob|
+    Rake::TestTask.new(task_name) do |t|
+      t.libs.push 'lib'
+      t.libs.push 'test'
+      t.test_files = FileList[glob]
+      t.verbose = true
+      t.warning = false
+    end
+  end
 end
 
 # #------------------------------------------------------------------#

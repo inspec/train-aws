@@ -11,9 +11,11 @@ gemspec
 
 # Remaining group is only used for development.
 group :development do
+  gem 'pry'
   gem 'bundler'
   gem 'byebug'
   gem 'minitest'
+  gem 'mocha'
   gem 'm'
   gem 'rake'
   gem 'rubocop', '= 0.49.1' # Need to keep in sync with main InSpec project, so config files will work
