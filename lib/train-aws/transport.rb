@@ -13,13 +13,18 @@ module TrainPlugins
     class Transport < Train.plugin(1)
       name 'aws'
 
-      option :region, required: true, default: ENV['AWS_REGION']
-      option :access_key_id, default: ENV['AWS_ACCESS_KEY_ID']
-      option :secret_access_key, default: ENV['AWS_SECRET_ACCESS_KEY']
-      option :session_token, default: ENV['AWS_SESSION_TOKEN']
+      # Pass ENV vars in using a block to `option`.  This causes `
+      # option to lazy-evaluate the block to provide a default value.`
+      # Otherwise, we would read the ENV var (and set the default)
+      # once at compile time, which would make testing difficult.
+      # TODO: convert to thor-style defaults
+      option(:region, required: true) { ENV['AWS_REGION'] }
+      option(:access_key_id) { ENV['AWS_ACCESS_KEY_ID'] }
+      option(:secret_access_key) { ENV['AWS_SECRET_ACCESS_KEY'] }
+      option(:session_token) { ENV['AWS_SESSION_TOKEN'] }
 
       # This can provide the access key id and secret access key
-      option :profile, default: ENV['AWS_PROFILE']
+      option(:profile) { ENV['AWS_PROFILE'] }
 
       # The only thing you MUST do in a transport is a define a
       # connection() method that returns a instance that is a
