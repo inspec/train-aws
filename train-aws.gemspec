@@ -41,11 +41,11 @@ Gem::Specification.new do |spec|
 
   spec.add_dependency 'train', '~> 2.0'
   spec.add_dependency 'aws-sdk-core', '~> 3.0'
-
   spec.add_dependency 'aws-sdk-cloudtrail', '~> 1.8'
   spec.add_dependency 'aws-sdk-cloudwatch', '~> 1.13'
   spec.add_dependency 'aws-sdk-cloudwatchlogs', '~> 1.13'
   spec.add_dependency 'aws-sdk-configservice', '~> 1.21'
+  spec.add_dependency 'aws-sdk-costandusagereportservice', '~> 1.6'
   spec.add_dependency 'aws-sdk-ec2', '~> 1.70'
   spec.add_dependency 'aws-sdk-ecs', '~> 1.30'
   spec.add_dependency 'aws-sdk-eks', '~> 1.9'

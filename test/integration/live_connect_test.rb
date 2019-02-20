@@ -87,6 +87,7 @@ describe 'Live-fire conenctions to AWS' do
       'cloudtrail' => { client: :CloudTrail, call: :describe_trails, duck: :trail_list },
       'cloudwatch' => {client: :CloudWatch, call: :describe_alarms, duck: :metric_alarms },
       'cloudwatchlogs' => {client: :CloudWatchLogs, call: :describe_log_groups, duck: :log_groups },
+      'billing' => {client: :CostandUsageReportService, call: :describe_report_definitions, duck: :report_definitions },
       'config' => {client: :ConfigService, call: :describe_config_rules, duck: :config_rules },
       'ec2' => {client: :EC2, call: :describe_instances, duck: :reservations },
       'ecs' => {client: :ECS, call: :list_clusters, duck: :cluster_arns },

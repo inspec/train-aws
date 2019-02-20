@@ -20,10 +20,10 @@ require 'train/plugins'
 
 require 'aws-sdk-core'
 
-require 'aws-sdk-ec2'
 require 'aws-sdk-cloudtrail'
 require 'aws-sdk-cloudwatch'
 require 'aws-sdk-cloudwatchlogs'
+require 'aws-sdk-costandusagereportservice'
 require 'aws-sdk-configservice'
 require 'aws-sdk-ec2'
 require 'aws-sdk-ecs'
