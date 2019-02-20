@@ -36,10 +36,24 @@ Gem::Specification.new do |spec|
 
   # If you only need certain gems during development or testing, list
   # them in Gemfile, not here.
-  # Do not list inspec as a dependency of the train plugin.
 
-  # All plugins should mention train, > 1.4
+  # Do not list inspec as a dependency of a train plugin.
+
   spec.add_dependency 'train', '~> 2.0'
   spec.add_dependency 'aws-sdk-core', '~> 3.0'
-  # TODO - add service-specific gems as resource pack needs them
+
+  spec.add_dependency 'aws-sdk-cloudtrail', '~> 1.8'
+  spec.add_dependency 'aws-sdk-cloudwatch', '~> 1.13'
+  spec.add_dependency 'aws-sdk-cloudwatchlogs', '~> 1.13'
+  spec.add_dependency 'aws-sdk-configservice', '~> 1.21'
+  spec.add_dependency 'aws-sdk-ec2', '~> 1.70'
+  spec.add_dependency 'aws-sdk-ecs', '~> 1.30'
+  spec.add_dependency 'aws-sdk-eks', '~> 1.9'
+  spec.add_dependency 'aws-sdk-elasticloadbalancing', '~> 1.8'
+  spec.add_dependency 'aws-sdk-iam', '~> 1.13'
+  spec.add_dependency 'aws-sdk-kms', '~> 1.13'
+  spec.add_dependency 'aws-sdk-rds', '~> 1.43'
+  spec.add_dependency 'aws-sdk-s3', '~> 1.30'
+  spec.add_dependency 'aws-sdk-sns', '~> 1.9'
+  spec.add_dependency 'aws-sdk-sqs', '~> 1.10'
 end

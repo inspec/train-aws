@@ -20,6 +20,22 @@ require 'train/plugins'
 
 require 'aws-sdk-core'
 
+require 'aws-sdk-ec2'
+require 'aws-sdk-cloudtrail'
+require 'aws-sdk-cloudwatch'
+require 'aws-sdk-cloudwatchlogs'
+require 'aws-sdk-configservice'
+require 'aws-sdk-ec2'
+require 'aws-sdk-ecs'
+require 'aws-sdk-eks'
+require 'aws-sdk-elasticloadbalancing'
+require 'aws-sdk-iam'
+require 'aws-sdk-kms'
+require 'aws-sdk-rds'
+require 'aws-sdk-s3'
+require 'aws-sdk-sqs'
+require 'aws-sdk-sns'
+
 module TrainPlugins
   module Aws
     # You must inherit from BaseConnection.

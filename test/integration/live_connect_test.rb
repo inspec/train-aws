@@ -14,6 +14,7 @@
 
 require 'train'
 require_relative '../helper'
+require 'aws-sdk-core'
 
 # On load, scrape all AWS_* ENV vars out and store them
 # We'll re-inject them as needed
@@ -55,6 +56,13 @@ describe 'Live-fire conenctions to AWS' do
       uuid.length.must_equal 12
     end
 
+    it 'works correctly using region and profile directly passed in' do
+      transport = Train.create('aws', region: region, profile: profile)
+      connection =  transport.connection
+      uuid = connection.unique_identifier
+      uuid.length.must_equal 12
+    end
+
     it 'works correctly when the profile and region are in the ENV' do
       ENV['AWS_REGION'] = region
       ENV['AWS_PROFILE'] = profile
@@ -71,11 +79,33 @@ describe 'Live-fire conenctions to AWS' do
     # TODO: session key
   end
 
-  describe 'that access a variety of services' do
+  describe 'that access a variety of services via Clients' do
+    # It is important to test each of these, since the gem depends on
+    # each service on a gem-by-gem basis.  The Connection must load
+    # all the services.
     {
-      # 'sts' => {client: '', call: '', check: ->{|r| true } },
+      'cloudtrail' => { client: :CloudTrail, call: :describe_trails, duck: :trail_list },
+      'cloudwatch' => {client: :CloudWatch, call: :describe_alarms, duck: :metric_alarms },
+      'cloudwatchlogs' => {client: :CloudWatchLogs, call: :describe_log_groups, duck: :log_groups },
+      'config' => {client: :ConfigService, call: :describe_config_rules, duck: :config_rules },
+      'ec2' => {client: :EC2, call: :describe_instances, duck: :reservations },
+      'ecs' => {client: :ECS, call: :list_clusters, duck: :cluster_arns },
+      'eks' => {client: :EKS, call: :list_clusters, duck: :clusters },
+      'elb' => {client: :ElasticLoadBalancing, call: :describe_load_balancers, duck: :load_balancer_descriptions },
+      'iam' => {client: :IAM, call: :list_groups, duck: :groups },
+      'KMS' => {client: :KMS, call: :list_keys, duck: :keys },
+      'RDS' => {client: :RDS, call: :describe_db_instances, duck: :db_instances },
+      'S3' => {client: :S3, call: :list_buckets, duck: :buckets },
+      'SQS' => {client: :SQS, call: :list_queues, duck: :queue_urls },
+      'SNS' => {client: :SNS, call: :list_topics, duck: :topics },
     }.each do |service_name, test_args|
-      it "should be ale to access the '#{service_name}' service" do
+      it "should be able to access the '#{service_name}' service" do
+        connection = Train.create('aws', region: region, profile: profile).connection
+        service_module = ::Aws.const_get(test_args[:client])
+        client_class = service_module.const_get(:Client)
+        client = connection.aws_client(client_class)
+        result = client.send(test_args[:call])
+        result.must_respond_to test_args[:duck]
       end
     end
   end
