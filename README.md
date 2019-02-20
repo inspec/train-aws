@@ -1,11 +1,8 @@
-# PRE-ALPHA - DO NOT USE
-
 # train-aws - Train Plugin for connecting to AWS
 
 This plugin allows applications that rely on Train to communicate with the Amazon Web Services API.  For example, InSpec uses this to perform compliance checks against AWS infrastructure components.
 
-The plugin is a wrapper around `aws-sdk-core` version 3, with additional service-specific gems added where needed by the `inspec-aws`
-
+The plugin is a wrapper around `aws-sdk-core` version 3, with additional service-specific gems added where needed by the `inspec-aws` resource pack.
 
 Train itself has no CLI, nor a sophisticated test harness.  InSpec does have such facilities, so installing Train plugins will require an InSpec installation.  You do not need to use or understand InSpec.
 
@@ -85,7 +82,6 @@ Families:  cloud, api
 Release:   aws-sdk-v2.10.125
 ```
 
-
 ## Reporting Issues
 
 Bugs, typos, limitations, and frustrations are welcome to be reported through the [GitHub issues page for the train-aws project](https://github.com/inspec/train-aws/issues).
@@ -93,7 +89,6 @@ Bugs, typos, limitations, and frustrations are welcome to be reported through th
 You may also ask questions in the #inspec channel of the CHef Community Slack team.  However, for an issue to get traction, please report it as a github issue.
 
 ## Development on this Plugin
-
 
 ### Development Process
 
@@ -105,6 +100,4 @@ If you wish to contribute to this plugin, please use the usual fork-branch-push-
 
 ### Testing changes against AWS
 
-Live-fire testing against AWS is performed by the `integration` set of tests.  To run the integration tests, you will need to have a set of AWS credentials as follows:
-
-TODO
+Live-fire testing against AWS is performed by the `integration` set of tests.  To run the integration tests, you will need to have a set of AWS credentials exported to your environment.  See test/integration/live_connect_test.rb .
