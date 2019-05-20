@@ -40,6 +40,7 @@ Gem::Specification.new do |spec|
   # Do not list inspec as a dependency of a train plugin.
 
   spec.add_dependency 'train', '~> 2.0'
+  spec.add_dependency 'aws-sdk-autoscaling', '~> 1.22.0'
   spec.add_dependency 'aws-sdk-core', '~> 3.0'
   spec.add_dependency 'aws-sdk-cloudtrail', '~> 1.8'
   spec.add_dependency 'aws-sdk-cloudwatch', '~> 1.13'
@@ -52,6 +53,7 @@ Gem::Specification.new do |spec|
   spec.add_dependency 'aws-sdk-elasticloadbalancing', '~> 1.8'
   spec.add_dependency 'aws-sdk-iam', '~> 1.13'
   spec.add_dependency 'aws-sdk-kms', '~> 1.13'
+  spec.add_dependency 'aws-sdk-organizations', '~> 1.17.0'
   spec.add_dependency 'aws-sdk-rds', '~> 1.43'
   spec.add_dependency 'aws-sdk-s3', '~> 1.30'
   spec.add_dependency 'aws-sdk-sns', '~> 1.9'
