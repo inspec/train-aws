@@ -1,5 +1,11 @@
 # train-aws - Train Plugin for connecting to AWS
 
+* **Project State: Active**
+* **Issues Response SLA: 3 business days**
+* **Pull Request Response SLA: 3 business days**
+
+For more information on project states and SLAs, see [this documentation](https://github.com/chef/chef-oss-practices/blob/master/repo-management/repo-states.md).
+
 This plugin allows applications that rely on Train to communicate with the Amazon Web Services API.  For example, InSpec uses this to perform compliance checks against AWS infrastructure components.
 
 The plugin is a wrapper around `aws-sdk-core` version 3, with additional service-specific gems added where needed by the `inspec-aws` resource pack.
