@@ -14,27 +14,27 @@
 
 # Push platform detection out to a mixin, as it tends
 # to develop at a different cadence than the rest
-require 'train-aws/platform'
-require 'train'
-require 'train/plugins'
+require "train-aws/platform"
+require "train"
+require "train/plugins"
 
-require 'aws-sdk-core'
+require "aws-sdk-core"
 
-require 'aws-sdk-cloudtrail'
-require 'aws-sdk-cloudwatch'
-require 'aws-sdk-cloudwatchlogs'
-require 'aws-sdk-costandusagereportservice'
-require 'aws-sdk-configservice'
-require 'aws-sdk-ec2'
-require 'aws-sdk-ecs'
-require 'aws-sdk-eks'
-require 'aws-sdk-elasticloadbalancing'
-require 'aws-sdk-iam'
-require 'aws-sdk-kms'
-require 'aws-sdk-rds'
-require 'aws-sdk-s3'
-require 'aws-sdk-sqs'
-require 'aws-sdk-sns'
+require "aws-sdk-cloudtrail"
+require "aws-sdk-cloudwatch"
+require "aws-sdk-cloudwatchlogs"
+require "aws-sdk-costandusagereportservice"
+require "aws-sdk-configservice"
+require "aws-sdk-ec2"
+require "aws-sdk-ecs"
+require "aws-sdk-eks"
+require "aws-sdk-elasticloadbalancing"
+require "aws-sdk-iam"
+require "aws-sdk-kms"
+require "aws-sdk-rds"
+require "aws-sdk-s3"
+require "aws-sdk-sqs"
+require "aws-sdk-sns"
 
 module TrainPlugins
   module Aws
@@ -58,7 +58,7 @@ module TrainPlugins
         options[:region] = options[:host] || options[:region]
         if options[:path]
           # string the leading / from path
-          options[:profile] = options[:path].sub(%r{^/}, '')
+          options[:profile] = options[:path].sub(%r{^/}, "")
         end
 
         # Now let the BaseConnection have a chance to configure itself.
@@ -69,8 +69,8 @@ module TrainPlugins
 
         # Why are we doing this?
         # Why aren't we calling the AWS config system?
-        ENV['AWS_PROFILE'] = @options[:profile] if @options[:profile]
-        ENV['AWS_REGION'] = @options[:region] if @options[:region]
+        ENV["AWS_PROFILE"] = @options[:profile] if @options[:profile]
+        ENV["AWS_REGION"] = @options[:region] if @options[:region]
       end
 
       # We support caching on the aws_client call, but not the aws_resource call
