@@ -32,15 +32,8 @@ end
 # #------------------------------------------------------------------#
 # #                    Code Style Tasks
 # #------------------------------------------------------------------#
-# require 'rubocop/rake_task'
-
-# RuboCop::RakeTask.new(:lint) do |t|
-#   # Choices of rubocop rules to enforce are deeply personal.
-#   # Here, we set things up so that your plugin will use the Bundler-installed
-#   # train gem's copy of the Train project's rubocop.yml file (which
-#   # is indeed packaged with the train gem).
-#   require 'train/globals'
-#   train_rubocop_yml = File.join(Train.src_root, '.rubocop.yml')
-
-#   t.options = ['--display-cop-names', '--config', train_rubocop_yml]
-# end
+require "chefstyle"
+require "rubocop/rake_task"
+RuboCop::RakeTask.new do |task|
+    task.options << "--display-cop-names"
+end
