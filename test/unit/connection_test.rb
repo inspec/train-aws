@@ -2,10 +2,10 @@
 # Its job is to verify that the Connection class is setup correctly.
 
 # Include our test harness
-require_relative '../helper'
+require_relative "../helper"
 
 # Load the class under test, the Connection definition.
-require 'train-aws/connection'
+require "train-aws/connection"
 
 # Because InSpec is a Spec-style test suite, we're going to use MiniTest::Spec
 # here, for familiar look and feel. However, this isn't InSpec (or RSpec) code.
@@ -23,7 +23,7 @@ describe TrainPlugins::Aws::Connection do
   # Objects, and begin with 'must' (positive) or 'wont' (negative)
   # See https://ruby-doc.org/stdlib-2.1.0/libdoc/minitest/rdoc/MiniTest/Expectations.html
 
-  describe 'connection definition' do
+  describe "connection definition" do
 
     it "should inherit from the Train Connection base" do
       # For Class, '<' means 'is a descendant of'
@@ -42,10 +42,9 @@ describe TrainPlugins::Aws::Connection do
     end
   end
 
-
   # As an API-type plugin, we get to decide how to talk to our API.
 
-  describe 'API-SDK interface' do
+  describe "API-SDK interface" do
     # We use the aws-sdk, which provides two metaphors for accessing AWS objects:
     # a client-based approach (which focuses on explicit API calls) and a
     # resource-based approach  (which allows you to ask for all EC2 instances,
@@ -60,11 +59,11 @@ describe TrainPlugins::Aws::Connection do
       end
     end
 
-    describe 'aws_client' do
+    describe "aws_client" do
       # The aws_client call simply instantiates a Class that you provide.
       # Normally, that would be something like Aws::Iam::Client.
       # For testing, we're just passing Object.
-      it 'should instantiate things and cache them when caching is enabled' do
+      it "should instantiate things and cache them when caching is enabled" do
         connection.enable_cache(:api_call) # Just being explicit; this is the default
         client_one = connection.aws_client(Object)
         client_one.is_a?(Object).must_equal true
@@ -73,7 +72,7 @@ describe TrainPlugins::Aws::Connection do
         client_one.must_equal client_two
       end
 
-      it 'should instantiate things without caching them when caching is disabled' do
+      it "should instantiate things without caching them when caching is disabled" do
         connection.disable_cache(:api_call)
         client_one = connection.aws_client(Object)
         client_one.is_a?(Object).must_equal true
@@ -83,7 +82,7 @@ describe TrainPlugins::Aws::Connection do
       end
     end
 
-    describe 'aws_resource' do
+    describe "aws_resource" do
       class DummyAwsResource
         attr_reader :args
         def initialize(args)
@@ -93,9 +92,9 @@ describe TrainPlugins::Aws::Connection do
 
       # Current behavior is to never cache in resource mode, for fear of blowing memory.
       # We could be more sophisticated and limit the cache size. PRs welcome.
-      describe 'when caching is enabled' do
-        it 'should cache miss on a resource when the args match' do
-          resource_args = { user: 1, name: 'test_user' }
+      describe "when caching is enabled" do
+        it "should cache miss on a resource when the args match" do
+          resource_args = { user: 1, name: "test_user" }
           resource_one = connection.aws_resource(DummyAwsResource, resource_args)
           resource_one.args.must_equal resource_args
 
@@ -107,10 +106,9 @@ describe TrainPlugins::Aws::Connection do
     end
   end
 
-
   # Train connections need to be able to generate a UUID for targets.
   # train-aws uses the account ID.
-  describe 'uuid facility' do
+  describe "uuid facility" do
     class AwsCallerId
       def account
         "123456789012"
@@ -123,9 +121,9 @@ describe TrainPlugins::Aws::Connection do
       end
     end
 
-    it 'returns an account id' do
+    it "returns an account id" do
       connection.stubs(:aws_client).returns(StsClient.new)
-      connection.unique_identifier.must_equal '123456789012'
+      connection.unique_identifier.must_equal "123456789012"
     end
   end
 end

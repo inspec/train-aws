@@ -2,10 +2,10 @@
 # Its job is to verify that the Transport class is setup correctly.
 
 # Include our test harness
-require_relative '../helper'
+require_relative "../helper"
 
 # Load the class under test, the Plugin definition.
-require 'train-aws/transport'
+require "train-aws/transport"
 
 # Because InSpec is a Spec-style test suite, we're going to use MiniTest::Spec
 # here, for familiar look and feel. However, this isn't InSpec (or RSpec) code.
@@ -21,12 +21,12 @@ describe TrainPlugins::Aws::Transport do
   # Objects, and begin with 'must' (positive) or 'wont' (negative)
   # See https://ruby-doc.org/stdlib-2.1.0/libdoc/minitest/rdoc/MiniTest/Expectations.html
 
-  describe 'plugin definition' do
+  describe "plugin definition" do
 
     it "should be registered with the plugin registry without the train- prefix" do
      # Note that Train uses String keys here, not Symbols
-     Train::Plugins.registry.keys.wont_include('train-aws')
-     Train::Plugins.registry.keys.must_include('aws')
+      Train::Plugins.registry.keys.wont_include("train-aws")
+      Train::Plugins.registry.keys.must_include("aws")
     end
 
     it "should inherit from the Train plugin base" do
@@ -40,10 +40,10 @@ describe TrainPlugins::Aws::Transport do
     end
   end
 
-  describe 'Transport Options' do
+  describe "Transport Options" do
     let(:transport) { plugin_class.new }
 
-    it 'should have the correct options' do
+    it "should have the correct options" do
       [
         :access_key_id,
         :profile,
