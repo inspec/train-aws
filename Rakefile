@@ -34,6 +34,6 @@ end
 # #------------------------------------------------------------------#
 require "chefstyle"
 require "rubocop/rake_task"
-RuboCop::RakeTask.new do |task|
+RuboCop::RakeTask.new(:lint) do |task|
     task.options << "--display-cop-names"
 end
