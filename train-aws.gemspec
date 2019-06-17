@@ -39,25 +39,6 @@ Gem::Specification.new do |spec|
 
   # Do not list inspec as a dependency of a train plugin.
 
+  spec.add_dependency "aws-sdk", "~> 3"
   spec.add_dependency "train", "~> 2.0"
-  spec.add_dependency "aws-sdk-autoscaling", "~> 1.22.0"
-  spec.add_dependency "aws-sdk-core", "~> 3.0"
-  spec.add_dependency "aws-sdk-cloudtrail", "~> 1.8"
-  spec.add_dependency "aws-sdk-cloudwatch", "~> 1.13"
-  spec.add_dependency "aws-sdk-cloudwatchlogs", "~> 1.13"
-  spec.add_dependency "aws-sdk-configservice", "~> 1.21"
-  spec.add_dependency "aws-sdk-costandusagereportservice", "~> 1.6"
-  spec.add_dependency "aws-sdk-dynamodb", "~> 1.31"
-  spec.add_dependency "aws-sdk-ec2", "~> 1.70"
-  spec.add_dependency "aws-sdk-ecr", "~> 1.18"
-  spec.add_dependency "aws-sdk-ecs", "~> 1.30"
-  spec.add_dependency "aws-sdk-eks", "~> 1.9"
-  spec.add_dependency "aws-sdk-elasticloadbalancing", "~> 1.8"
-  spec.add_dependency "aws-sdk-iam", "~> 1.13"
-  spec.add_dependency "aws-sdk-kms", "~> 1.13"
-  spec.add_dependency "aws-sdk-organizations", "~> 1.17.0"
-  spec.add_dependency "aws-sdk-rds", "~> 1.43"
-  spec.add_dependency "aws-sdk-s3", "~> 1.30"
-  spec.add_dependency "aws-sdk-sns", "~> 1.9"
-  spec.add_dependency "aws-sdk-sqs", "~> 1.10"
 end
