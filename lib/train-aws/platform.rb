@@ -1,3 +1,5 @@
+require "train-aws/version"
+
 # Platform definition file.  This is a good place to separate out any
 # logic regarding the identification of the OS or API at the far end
 # of the connection.
