@@ -1,4 +1,6 @@
 ---
+project: inspec/train-aws:master
+
 rubygems:
   - train-aws
 
