@@ -8,6 +8,7 @@ slack:
   notify_channel: inspec-notify
 
 github:
+  delete_branch_on_merge: true
   version_tag_format: "v{{version}}"
   minor_bump_labels:
     - "CI/Bump Minor Version"
