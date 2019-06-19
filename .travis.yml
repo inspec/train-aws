@@ -2,8 +2,9 @@
 sudo: required
 language: ruby
 cache: bundler
+dist: xenial
 
-bundler_args: --without integration tools
+bundler_args: "--without integration tools"
 
 before_install:
   - gem install bundler
@@ -15,9 +16,9 @@ branches:
 
 matrix:
   include:
-  - rvm: 2.3.8
-    script: bundle exec rake
   - rvm: 2.4.5
     script: bundle exec rake
   - rvm: 2.5.3
+    script: bundle exec rake
+  - rvm: 2.6.2
     script: bundle exec rake
