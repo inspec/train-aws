@@ -29,6 +29,8 @@ describe 'Live-fire conenctions to AWS' do
   # Purge ENV prior to each test
   before do
     ENV.delete_if { |var_name, _| var_name.start_with?('AWS') }
+
+    skip "Bad ENV!" unless ORIG_AWS_ENV_VARS.size >= 4
   end
 
   let(:key_id) {ORIG_AWS_ENV_VARS['AWS_ACCESS_KEY_ID']}
