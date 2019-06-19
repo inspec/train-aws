@@ -20,7 +20,7 @@ module TrainPlugins::Aws
       # of the cloud family.
 
       # This plugin defines a new platform.
-      Train::Platforms.name('aws').in_family('cloud')
+      Train::Platforms.name("aws").in_family("cloud")
 
       # When you know you will only ever run on your dedicated platform
       # force_platform! lets you bypass platform detection.
@@ -29,11 +29,11 @@ module TrainPlugins::Aws
       # Use release to report a version number.  You might use the version
       # of the plugin, or a version of an important underlying SDK, or a
       # version of a remote API.
-      aws_version = Gem.loaded_specs['aws-sdk-core'].version
+      aws_version = Gem.loaded_specs["aws-sdk-core"].version
       aws_version = "aws-sdk-core: v#{aws_version}"
       plugin_version = "train-aws: v#{TrainPlugins::Aws::VERSION}"
 
-      force_platform!('aws', release: "#{plugin_version}, #{aws_version}")
+      force_platform!("aws", release: "#{plugin_version}, #{aws_version}")
     end
   end
 end
