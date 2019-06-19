@@ -1,8 +1,8 @@
-<!-- latest_release 0.1.3 -->
-## [v0.1.3](https://github.com/inspec/train-aws/tree/v0.1.3) (2019-06-18)
+<!-- latest_release 0.1.4 -->
+## [v0.1.4](https://github.com/inspec/train-aws/tree/v0.1.4) (2019-06-19)
 
 #### Merged Pull Requests
-- Add missing inline comment flags for expeditor changelog rollover [#10](https://github.com/inspec/train-aws/pull/10) ([miah](https://github.com/miah))
+- Please make CI green [#12](https://github.com/inspec/train-aws/pull/12) ([zenspider](https://github.com/zenspider))
 <!-- latest_release -->
 
 ## [v0.1.1](https://github.com/inspec/train-aws/tree/v0.1.1) (2019-05-21)
@@ -14,6 +14,7 @@
 ### Changes since 0.1.1 release
 
 #### Merged Pull Requests
+- Please make CI green [#12](https://github.com/inspec/train-aws/pull/12) ([zenspider](https://github.com/zenspider)) <!-- 0.1.4 -->
 - Add missing inline comment flags for expeditor changelog rollover [#10](https://github.com/inspec/train-aws/pull/10) ([miah](https://github.com/miah)) <!-- 0.1.3 -->
 <!-- release_rollup -->
 
