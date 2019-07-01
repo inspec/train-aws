@@ -106,4 +106,4 @@ If you wish to contribute to this plugin, please use the usual fork-branch-push-
 
 ### Testing changes against AWS
 
-Live-fire testing against AWS is performed by the `integration` set of tests.  To run the integration tests, you will need to have a set of AWS credentials exported to your environment.  See test/integration/live_connect_test.rb .
+Live-fire testing against AWS may be performed by the `integration` set of tests.  To run the integration tests, you will need to have a set of AWS credentials exported to your environment.  See test/integration/live_connect_test.rb .
