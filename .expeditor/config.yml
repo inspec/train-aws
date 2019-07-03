@@ -4,8 +4,6 @@
 slack:
   notify_channel: inspec-notify
 
-project: inspec/train-aws:master
-
 # This publish is triggered by the `built_in:publish_rubygems` artifact_action.
 rubygems:
   - train-aws
