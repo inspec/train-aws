@@ -1,4 +1,8 @@
-<!-- latest_release -->
+<!-- latest_release 0.1.8 -->
+## [v0.1.8](https://github.com/inspec/train-aws/tree/v0.1.8) (2019-07-15)
+
+#### Merged Pull Requests
+- Add buildkite verify pipeline configuration and script [#26](https://github.com/inspec/train-aws/pull/26) ([miah](https://github.com/miah))
 <!-- latest_release -->
 
 ## [v0.1.1](https://github.com/inspec/train-aws/tree/v0.1.1) (2019-05-21)
@@ -6,7 +10,11 @@
 #### Merged Pull Requests
 - Update README for ORP [#3](https://github.com/inspec/train-aws/pull/3) ([miah](https://github.com/miah))
 
-<!-- release_rollup -->
+<!-- release_rollup since=0.1.7 -->
+### Changes since 0.1.7 release
+
+#### Merged Pull Requests
+- Add buildkite verify pipeline configuration and script [#26](https://github.com/inspec/train-aws/pull/26) ([miah](https://github.com/miah)) <!-- 0.1.8 -->
 <!-- release_rollup -->
 
 <!-- latest_stable_release -->
