@@ -1,8 +1,8 @@
-<!-- latest_release 0.1.10 -->
-## [v0.1.10](https://github.com/inspec/train-aws/tree/v0.1.10) (2019-07-22)
+<!-- latest_release 0.1.11 -->
+## [v0.1.11](https://github.com/inspec/train-aws/tree/v0.1.11) (2019-08-15)
 
 #### Merged Pull Requests
-- minor bump to get BK working? [#28](https://github.com/inspec/train-aws/pull/28) ([zenspider](https://github.com/zenspider))
+- Move train dependency to Gemfile from gemspec [#29](https://github.com/inspec/train-aws/pull/29) ([clintoncwolfe](https://github.com/clintoncwolfe))
 <!-- latest_release -->
 
 ## [v0.1.1](https://github.com/inspec/train-aws/tree/v0.1.1) (2019-05-21)
@@ -14,6 +14,7 @@
 ### Changes since 0.1.7 release
 
 #### Merged Pull Requests
+- Move train dependency to Gemfile from gemspec [#29](https://github.com/inspec/train-aws/pull/29) ([clintoncwolfe](https://github.com/clintoncwolfe)) <!-- 0.1.11 -->
 - minor bump to get BK working? [#28](https://github.com/inspec/train-aws/pull/28) ([zenspider](https://github.com/zenspider)) <!-- 0.1.10 -->
 - Tom said this line was invalid. removing. [#27](https://github.com/inspec/train-aws/pull/27) ([miah](https://github.com/miah)) <!-- 0.1.9 -->
 - Add buildkite verify pipeline configuration and script [#26](https://github.com/inspec/train-aws/pull/26) ([miah](https://github.com/miah)) <!-- 0.1.8 -->
