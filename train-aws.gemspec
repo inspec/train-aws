@@ -17,7 +17,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Chef InSpec Team"]
   spec.email         = ["inspec@chef.io"]
   spec.summary       = "AWS API Transport for Train"
-  spec.description   = "Allows applictaions using Train to speak to AWS; handles authentication, cacheing, and SDK dependency management."
+  spec.description   = "Allows applications using Train to speak to AWS; handles authentication, cacheing, and SDK dependency management."
   spec.homepage      = "https://github.com/inspec/train-aws"
   spec.license       = "Apache-2.0"
 
