@@ -17,7 +17,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Chef InSpec Team"]
   spec.email         = ["inspec@chef.io"]
   spec.summary       = "AWS API Transport for Train"
-  spec.description   = "Allows applictaions using Train to speak to AWS; handles authentication, cacheing, and SDK dependency management."
+  spec.description   = "Allows applications using Train to speak to AWS; handles authentication, cacheing, and SDK dependency management."
   spec.homepage      = "https://github.com/inspec/train-aws"
   spec.license       = "Apache-2.0"
 
@@ -25,7 +25,7 @@ Gem::Specification.new do |spec|
   # It just filters what will actually be packaged in the gem (leaving
   # out tests, etc)
   spec.files = %w{
-    README.md train-aws.gemspec Gemfile
+    train-aws.gemspec Gemfile
   } + Dir.glob(
     "lib/**/*", File::FNM_DOTMATCH
   ).reject { |f| File.directory?(f) }
