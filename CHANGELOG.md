@@ -1,8 +1,4 @@
-<!-- latest_release 0.1.12 -->
-## [v0.1.12](https://github.com/inspec/train-aws/tree/v0.1.12) (2019-10-31)
-
-#### Merged Pull Requests
-- Don&#39;t ship the readme.md in the gem artifact [#31](https://github.com/inspec/train-aws/pull/31) ([tas50](https://github.com/tas50))
+<!-- latest_release -->
 <!-- latest_release -->
 
 ## [v0.1.1](https://github.com/inspec/train-aws/tree/v0.1.1) (2019-05-21)
@@ -10,14 +6,16 @@
 #### Merged Pull Requests
 - Update README for ORP [#3](https://github.com/inspec/train-aws/pull/3) ([miah](https://github.com/miah))
 
-<!-- release_rollup since=0.1.11 -->
-### Changes not yet released to rubygems.org
-
-#### Merged Pull Requests
-- Don&#39;t ship the readme.md in the gem artifact [#31](https://github.com/inspec/train-aws/pull/31) ([tas50](https://github.com/tas50)) <!-- 0.1.12 -->
+<!-- release_rollup -->
 <!-- release_rollup -->
 
 <!-- latest_stable_release -->
+## [v0.1.12](https://github.com/inspec/train-aws/tree/v0.1.12) (2019-11-01)
+
+#### Merged Pull Requests
+- Don&#39;t ship the readme.md in the gem artifact [#31](https://github.com/inspec/train-aws/pull/31) ([tas50](https://github.com/tas50))
+<!-- latest_stable_release -->
+
 ## [v0.1.11](https://github.com/inspec/train-aws/tree/v0.1.11) (2019-08-15)
 
 #### Merged Pull Requests
@@ -25,7 +23,6 @@
 - Tom said this line was invalid. removing. [#27](https://github.com/inspec/train-aws/pull/27) ([miah](https://github.com/miah))
 - minor bump to get BK working? [#28](https://github.com/inspec/train-aws/pull/28) ([zenspider](https://github.com/zenspider))
 - Move train dependency to Gemfile from gemspec [#29](https://github.com/inspec/train-aws/pull/29) ([clintoncwolfe](https://github.com/clintoncwolfe))
-<!-- latest_stable_release -->
 
 ## [v0.1.7](https://github.com/inspec/train-aws/tree/v0.1.7) (2019-07-09)
 
