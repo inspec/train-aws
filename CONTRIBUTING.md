@@ -25,7 +25,7 @@ Chef Projects are built to last. We strive to ensure high quality throughout the
 
 1. **Tests:** To ensure high quality code and protect against future regressions, we require all the code in Chef Projects to have appropriate test coverage.  If a new feature is being added, that means unit tests that check internal correctness, and functional tests that verify user experience.  For bug fixes, that means tests that clearly demonstrate the defect, fail prior to the change, and pass after the change. See the [test](https://github.com/inspec/train-aws/tree/master/test)
 directory for the existing tests and use ```bundle exec rake test``` to run them.
-2. **Green CI Tests:** We use [Travis CI](https://travis-ci.org/) and/or [AppVeyor](https://www.appveyor.com/) CI systems to test all pull requests. We require these test runs to succeed on every pull request before being merged.
+2. **Green CI Tests:** We use Buildkite CI to test all pull requests. We require these test runs to succeed on every pull request before being merged.
 
 In addition to this it would be nice to include the description of the problem you are solving
   with your change. You can use [Issue Template](https://github.com/inspec/train-aws/tree/master/ISSUE_TEMPLATE.md) in the description section
