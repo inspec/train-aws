@@ -24,9 +24,7 @@ Gem::Specification.new do |spec|
   # Though complicated-looking, this is pretty standard for a gemspec.
   # It just filters what will actually be packaged in the gem (leaving
   # out tests, etc)
-  spec.files = %w{
-    train-aws.gemspec Gemfile
-  } + Dir.glob(
+  spec.files = %w{ LICENSE } + Dir.glob(
     "lib/**/*", File::FNM_DOTMATCH
   ).reject { |f| File.directory?(f) }
   spec.require_paths = ["lib"]

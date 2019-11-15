@@ -76,6 +76,7 @@ module TrainPlugins
       # We support caching on the aws_client call, but not the aws_resource call
       def aws_client(klass)
         return klass.new unless cache_enabled?(:api_call)
+
         @cache[:api_call][klass.to_s.to_sym] ||= klass.new
       end
 
