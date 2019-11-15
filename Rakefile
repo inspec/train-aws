@@ -6,7 +6,7 @@
 #------------------------------------------------------------------#
 
 # Do not run integration by default
-task default: [:'test:unit', :'test:functional']
+task default: %i{test:unit test:functional}
 
 #------------------------------------------------------------------#
 #                    Test Runner Tasks

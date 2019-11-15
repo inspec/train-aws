@@ -31,10 +31,10 @@ describe TrainPlugins::Aws::Connection do
     end
 
     # Since this is an API-type connection, we MUST NOT implement these three.
-    [
-      :file_via_connection,
-      :run_command_via_connection,
-    ].each do |method_name|
+    %i{
+      file_via_connection
+      run_command_via_connection
+    }.each do |method_name|
       it "should NOT provide a #{method_name}() method" do
         # false passed to instance_methods says 'don't use inheritance'
         connection_class.instance_methods(false).wont_include(method_name)
@@ -49,10 +49,10 @@ describe TrainPlugins::Aws::Connection do
     # a client-based approach (which focuses on explicit API calls) and a
     # resource-based approach  (which allows you to ask for all EC2 instances,
     # and the SDK will handle pagination, etc.)
-    [
-      :aws_client,
-      :aws_resource,
-    ].each do |method_name|
+    %i{
+      aws_client
+      aws_resource
+    }.each do |method_name|
       it "should provide a #{method_name}() method" do
         # false passed to instance_methods says 'don't use inheritance'
         connection_class.instance_methods(false).must_include(method_name)
