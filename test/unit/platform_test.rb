@@ -12,16 +12,16 @@ require "train-aws/connection"
 # here, for familiar look and feel. However, this isn't InSpec (or RSpec) code.
 describe TrainPlugins::Aws::Platform do
   it "should implement a platform method" do
-    TrainPlugins::Aws::Platform.instance_methods(false).must_include(:platform)
+    _(TrainPlugins::Aws::Platform.instance_methods(false)).must_include(:platform)
   end
 
   it "should force platform to 'aws'" do
     plat = TrainPlugins::Aws::Connection.new({}).platform
-    plat.name.must_equal "aws"
-    plat.linux?.must_equal false
-    plat.cloud?.must_equal true
-    plat.family.must_equal "cloud"
-    plat.family_hierarchy.must_equal %w{cloud api}
+    _(plat.name).must_equal "aws"
+    _(plat.linux?).must_equal false
+    _(plat.cloud?).must_equal true
+    _(plat.family).must_equal "cloud"
+    _(plat.family_hierarchy).must_equal %w{cloud api}
   end
 
   it "provides api details in the platform data" do
@@ -30,6 +30,6 @@ describe TrainPlugins::Aws::Platform do
     plugin_version = "train-aws: v#{TrainPlugins::Aws::VERSION}"
     expected_release = "#{plugin_version}, #{aws_version}"
     plat = TrainPlugins::Aws::Connection.new({}).platform
-    plat.release.must_equal expected_release
+    _(plat.release).must_equal expected_release
   end
 end

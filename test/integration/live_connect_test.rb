@@ -53,27 +53,27 @@ describe "Live-fire conenctions to AWS" do
       transport = Train.create("aws", transport_options)
       connection = transport.connection
       uuid = connection.unique_identifier
-      uuid.length.must_equal 12
+      _(uuid.length).must_equal 12
     end
 
     it "works correctly using region and profile directly passed in" do
       transport = Train.create("aws", region: region, profile: profile)
       connection = transport.connection
       uuid = connection.unique_identifier
-      uuid.length.must_equal 12
+      _(uuid.length).must_equal 12
     end
 
     it "works correctly when the profile and region are in the ENV" do
       ENV["AWS_REGION"] = region
       ENV["AWS_PROFILE"] = profile
-      uuid.length.must_equal 12
+      _(uuid.length).must_equal 12
     end
 
     it "works correctly when the key and region are in the ENV" do
       ENV["AWS_REGION"] = region
       ENV["AWS_ACCESS_KEY_ID"] = key_id
       ENV["AWS_SECRET_ACCESS_KEY"] = secret_key
-      uuid.length.must_equal 12
+      _(uuid.length).must_equal 12
     end
 
     # TODO: session key
@@ -106,7 +106,8 @@ describe "Live-fire conenctions to AWS" do
         client_class = service_module.const_get(:Client)
         client = connection.aws_client(client_class)
         result = client.send(test_args[:call])
-        result.must_respond_to test_args[:duck]
+
+        _(result).must_respond_to test_args[:duck]
       end
     end
   end

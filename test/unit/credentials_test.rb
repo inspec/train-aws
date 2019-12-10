@@ -28,11 +28,11 @@ describe "AWS credential handling" do
 
   describe "when no options provided" do
     it "defaults to env options" do
-      observed_options[:region].must_equal "fixture_region_from_env"
-      observed_options[:access_key_id].must_equal "fixture_key_id_from_env"
-      observed_options[:profile].must_equal "fixture_profile_from_env"
-      observed_options[:secret_access_key].must_equal "fixture_access_key_from_env"
-      observed_options[:session_token].must_equal "fixture_session_token_from_env"
+      _(observed_options[:region]).must_equal "fixture_region_from_env"
+      _(observed_options[:access_key_id]).must_equal "fixture_key_id_from_env"
+      _(observed_options[:profile]).must_equal "fixture_profile_from_env"
+      _(observed_options[:secret_access_key]).must_equal "fixture_access_key_from_env"
+      _(observed_options[:session_token]).must_equal "fixture_session_token_from_env"
     end
   end
 
@@ -40,12 +40,12 @@ describe "AWS credential handling" do
     let(:given_options) { { region: "overidden_region", access_key_id: "overidden_key" } }
 
     it "should override defaults when given options" do
-      observed_options[:region].must_equal "overidden_region"
-      observed_options[:access_key_id].must_equal "overidden_key"
+      _(observed_options[:region]).must_equal "overidden_region"
+      _(observed_options[:access_key_id]).must_equal "overidden_key"
       # These were not overridden
-      observed_options[:profile].must_equal "fixture_profile_from_env"
-      observed_options[:secret_access_key].must_equal "fixture_access_key_from_env"
-      observed_options[:session_token].must_equal "fixture_session_token_from_env"
+      _(observed_options[:profile]).must_equal "fixture_profile_from_env"
+      _(observed_options[:secret_access_key]).must_equal "fixture_access_key_from_env"
+      _(observed_options[:session_token]).must_equal "fixture_session_token_from_env"
     end
   end
 
@@ -60,9 +60,9 @@ describe "AWS credential handling" do
       # URI parts as a URL with host, path, etc.
       # train-aws takes those parsed pieces and re-labels them according
       # to AWS credential components.
-      observed_options[:region].must_equal "region_from_url"
-      observed_options[:profile].must_equal "profile_from_url"
-      observed_options[:session_token].must_equal "fixture_session_token_from_env"
+      _(observed_options[:region]).must_equal "region_from_url"
+      _(observed_options[:profile]).must_equal "profile_from_url"
+      _(observed_options[:session_token]).must_equal "fixture_session_token_from_env"
     end
   end
 
