@@ -1,4 +1,8 @@
-<!-- latest_release -->
+<!-- latest_release 0.1.14 -->
+## [v0.1.14](https://github.com/inspec/train-aws/tree/v0.1.14) (2019-12-10)
+
+#### Merged Pull Requests
+- Fix conservative dependencies to have proper &quot;x.y&quot; values [#30](https://github.com/inspec/train-aws/pull/30) ([zenspider](https://github.com/zenspider))
 <!-- latest_release -->
 
 ## [v0.1.1](https://github.com/inspec/train-aws/tree/v0.1.1) (2019-05-21)
@@ -6,7 +10,11 @@
 #### Merged Pull Requests
 - Update README for ORP [#3](https://github.com/inspec/train-aws/pull/3) ([miah](https://github.com/miah))
 
-<!-- release_rollup -->
+<!-- release_rollup since=0.1.13 -->
+### Changes not yet released to rubygems.org
+
+#### Merged Pull Requests
+- Fix conservative dependencies to have proper &quot;x.y&quot; values [#30](https://github.com/inspec/train-aws/pull/30) ([zenspider](https://github.com/zenspider)) <!-- 0.1.14 -->
 <!-- release_rollup -->
 
 <!-- latest_stable_release -->
