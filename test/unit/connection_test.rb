@@ -27,7 +27,7 @@ describe TrainPlugins::Aws::Connection do
 
     it "should inherit from the Train Connection base" do
       # For Class, '<' means 'is a descendant of'
-      (connection_class < Train::Plugins::Transport::BaseConnection).must_equal(true)
+      _(connection_class < Train::Plugins::Transport::BaseConnection).must_equal(true)
     end
 
     # Since this is an API-type connection, we MUST NOT implement these three.
@@ -37,7 +37,7 @@ describe TrainPlugins::Aws::Connection do
     }.each do |method_name|
       it "should NOT provide a #{method_name}() method" do
         # false passed to instance_methods says 'don't use inheritance'
-        connection_class.instance_methods(false).wont_include(method_name)
+        _(connection_class.instance_methods(false)).wont_include(method_name)
       end
     end
   end
@@ -55,7 +55,7 @@ describe TrainPlugins::Aws::Connection do
     }.each do |method_name|
       it "should provide a #{method_name}() method" do
         # false passed to instance_methods says 'don't use inheritance'
-        connection_class.instance_methods(false).must_include(method_name)
+        _(connection_class.instance_methods(false)).must_include(method_name)
       end
     end
 
@@ -66,19 +66,21 @@ describe TrainPlugins::Aws::Connection do
       it "should instantiate things and cache them when caching is enabled" do
         connection.enable_cache(:api_call) # Just being explicit; this is the default
         client_one = connection.aws_client(Object)
-        client_one.is_a?(Object).must_equal true
-        cache[:api_call].count.must_equal 1
+        _(client_one.is_a?(Object)).must_equal true
+        _(cache[:api_call].count).must_equal 1
+
         client_two = connection.aws_client(Object)
-        client_one.must_equal client_two
+        _(client_one).must_equal client_two
       end
 
       it "should instantiate things without caching them when caching is disabled" do
         connection.disable_cache(:api_call)
         client_one = connection.aws_client(Object)
-        client_one.is_a?(Object).must_equal true
-        cache[:api_call].count.must_equal 0
+        _(client_one.is_a?(Object)).must_equal true
+        _(cache[:api_call].count).must_equal 0
+
         client_two = connection.aws_client(Object)
-        client_one.wont_equal client_two
+        _(client_one).wont_equal client_two
       end
     end
 
@@ -96,11 +98,11 @@ describe TrainPlugins::Aws::Connection do
         it "should cache miss on a resource when the args match" do
           resource_args = { user: 1, name: "test_user" }
           resource_one = connection.aws_resource(DummyAwsResource, resource_args)
-          resource_one.args.must_equal resource_args
+          _(resource_one.args).must_equal resource_args
 
           resource_two = connection.aws_resource(DummyAwsResource, resource_args)
-          resource_two.wont_equal(resource_one)
-          cache[:api_call].count.must_equal 0
+          _(resource_two).wont_equal(resource_one)
+          _(cache[:api_call].count).must_equal 0
         end
       end
     end
@@ -123,7 +125,7 @@ describe TrainPlugins::Aws::Connection do
 
     it "returns an account id" do
       connection.stubs(:aws_client).returns(StsClient.new)
-      connection.unique_identifier.must_equal "123456789012"
+      _(connection.unique_identifier).must_equal "123456789012"
     end
   end
 end

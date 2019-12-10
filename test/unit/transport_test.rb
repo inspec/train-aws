@@ -25,18 +25,18 @@ describe TrainPlugins::Aws::Transport do
 
     it "should be registered with the plugin registry without the train- prefix" do
      # Note that Train uses String keys here, not Symbols
-      Train::Plugins.registry.keys.wont_include("train-aws")
-      Train::Plugins.registry.keys.must_include("aws")
+      _(Train::Plugins.registry.keys).wont_include("train-aws")
+      _(Train::Plugins.registry.keys).must_include("aws")
     end
 
     it "should inherit from the Train plugin base" do
       # For Class, '<' means 'is a descendant of'
-      (plugin_class < Train.plugin(1)).must_equal(true)
+      _(plugin_class < Train.plugin(1)).must_equal(true)
     end
 
     it "should provide a connection() method" do
       # false passed to instance_methods says 'don't use inheritance'
-      plugin_class.instance_methods(false).must_include(:connection)
+      _(plugin_class.instance_methods(false)).must_include(:connection)
     end
   end
 
@@ -51,7 +51,7 @@ describe TrainPlugins::Aws::Transport do
         secret_access_key
         session_token
       }.each do |option_name|
-        transport.options.keys.must_include(option_name)
+        _(transport.options.keys).must_include(option_name)
       end
     end
   end

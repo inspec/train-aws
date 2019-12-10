@@ -29,6 +29,22 @@ namespace :test do
   end
 end
 
+desc "Check the current dependencies against inspec-aws"
+task :deps do
+  src = `curl -sL https://github.com/inspec/inspec-aws/archive/master.tar.gz | tar xO inspec-aws-master/Gemfile`
+
+  exp = src.lines.grep(/^gem..aws/)
+  exp.map! { |s| s[/aws-[\w-]+/] }
+  act = File.readlines("train-aws.gemspec").grep(/^  spec.add_dep.*aws-sdk/)
+  act.map! { |s| s[/aws-[\w-]+/] }
+
+  puts "# Missing:"
+  puts exp - act
+  puts
+  puts "# Extra?:"
+  puts act - exp
+end
+
 # #------------------------------------------------------------------#
 # #                    Code Style Tasks
 # #------------------------------------------------------------------#
