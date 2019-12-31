@@ -1,8 +1,8 @@
-<!-- latest_release 0.1.14 -->
-## [v0.1.14](https://github.com/inspec/train-aws/tree/v0.1.14) (2019-12-10)
+<!-- latest_release 0.1.15 -->
+## [v0.1.15](https://github.com/inspec/train-aws/tree/v0.1.15) (2019-12-31)
 
 #### Merged Pull Requests
-- Fix conservative dependencies to have proper &quot;x.y&quot; values [#30](https://github.com/inspec/train-aws/pull/30) ([zenspider](https://github.com/zenspider))
+- Substitute require for require_relative [#33](https://github.com/inspec/train-aws/pull/33) ([tas50](https://github.com/tas50))
 <!-- latest_release -->
 
 ## [v0.1.1](https://github.com/inspec/train-aws/tree/v0.1.1) (2019-05-21)
@@ -14,6 +14,7 @@
 ### Changes not yet released to rubygems.org
 
 #### Merged Pull Requests
+- Substitute require for require_relative [#33](https://github.com/inspec/train-aws/pull/33) ([tas50](https://github.com/tas50)) <!-- 0.1.15 -->
 - Fix conservative dependencies to have proper &quot;x.y&quot; values [#30](https://github.com/inspec/train-aws/pull/30) ([zenspider](https://github.com/zenspider)) <!-- 0.1.14 -->
 <!-- release_rollup -->
 
