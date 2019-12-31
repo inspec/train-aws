@@ -1,8 +1,4 @@
-<!-- latest_release 0.1.15 -->
-## [v0.1.15](https://github.com/inspec/train-aws/tree/v0.1.15) (2019-12-31)
-
-#### Merged Pull Requests
-- Substitute require for require_relative [#33](https://github.com/inspec/train-aws/pull/33) ([tas50](https://github.com/tas50))
+<!-- latest_release -->
 <!-- latest_release -->
 
 ## [v0.1.1](https://github.com/inspec/train-aws/tree/v0.1.1) (2019-05-21)
@@ -10,20 +6,21 @@
 #### Merged Pull Requests
 - Update README for ORP [#3](https://github.com/inspec/train-aws/pull/3) ([miah](https://github.com/miah))
 
-<!-- release_rollup since=0.1.13 -->
-### Changes not yet released to rubygems.org
-
-#### Merged Pull Requests
-- Substitute require for require_relative [#33](https://github.com/inspec/train-aws/pull/33) ([tas50](https://github.com/tas50)) <!-- 0.1.15 -->
-- Fix conservative dependencies to have proper &quot;x.y&quot; values [#30](https://github.com/inspec/train-aws/pull/30) ([zenspider](https://github.com/zenspider)) <!-- 0.1.14 -->
+<!-- release_rollup -->
 <!-- release_rollup -->
 
 <!-- latest_stable_release -->
+## [v0.1.15](https://github.com/inspec/train-aws/tree/v0.1.15) (2019-12-31)
+
+#### Merged Pull Requests
+- Fix conservative dependencies to have proper &quot;x.y&quot; values [#30](https://github.com/inspec/train-aws/pull/30) ([zenspider](https://github.com/zenspider))
+- Substitute require for require_relative [#33](https://github.com/inspec/train-aws/pull/33) ([tas50](https://github.com/tas50))
+<!-- latest_stable_release -->
+
 ## [v0.1.13](https://github.com/inspec/train-aws/tree/v0.1.13) (2019-11-19)
 
 #### Merged Pull Requests
 - Ship the license file and not the gemfile/gemspec [#32](https://github.com/inspec/train-aws/pull/32) ([tas50](https://github.com/tas50))
-<!-- latest_stable_release -->
 
 ## [v0.1.12](https://github.com/inspec/train-aws/tree/v0.1.12) (2019-11-01)
 
