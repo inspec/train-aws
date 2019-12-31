@@ -12,10 +12,10 @@ libdir = File.dirname(__FILE__)
 $LOAD_PATH.unshift(libdir) unless $LOAD_PATH.include?(libdir)
 
 # It's traditonal to keep your gem version in a separate file, so CI can find it easier.
-require "train-aws/version"
+require_relative "train-aws/version"
 
 # A train plugin has three components: Transport, Connection, and Platform.
 # Transport acts as the glue.
-require "train-aws/transport"
-require "train-aws/platform"
-require "train-aws/connection"
+require_relative "train-aws/transport"
+require_relative "train-aws/platform"
+require_relative "train-aws/connection"
