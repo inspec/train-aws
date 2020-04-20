@@ -99,7 +99,7 @@ Gem::Specification.new do |spec|
   # spec.add_dependency "aws-sdk-ec2instanceconnect", "~> 1.0"
   spec.add_dependency "aws-sdk-ecr", "~> 1.18"
   spec.add_dependency "aws-sdk-ecs", "~> 1.30"
-  spec.add_dependency "aws-sdk_efs", "~> 1.0"
+  spec.add_dependency "aws-sdk-efs", "~> 1.0"
   spec.add_dependency "aws-sdk-eks", "~> 1.9"
   spec.add_dependency "aws-sdk-elasticache", "~> 1.0"
   spec.add_dependency "aws-sdk-elasticbeanstalk", "~> 1.0"
