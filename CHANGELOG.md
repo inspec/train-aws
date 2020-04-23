@@ -1,8 +1,4 @@
-<!-- latest_release 0.1.16 -->
-## [v0.1.16](https://github.com/inspec/train-aws/tree/v0.1.16) (2020-04-23)
-
-#### Merged Pull Requests
-- Add aws-sdk-efs dependecy [#34](https://github.com/inspec/train-aws/pull/34) ([omer-chefio](https://github.com/omer-chefio))
+<!-- latest_release -->
 <!-- latest_release -->
 
 ## [v0.1.1](https://github.com/inspec/train-aws/tree/v0.1.1) (2019-05-21)
@@ -10,20 +6,21 @@
 #### Merged Pull Requests
 - Update README for ORP [#3](https://github.com/inspec/train-aws/pull/3) ([miah](https://github.com/miah))
 
-<!-- release_rollup since=0.1.15 -->
-### Changes not yet released to rubygems.org
-
-#### Merged Pull Requests
-- Add aws-sdk-efs dependecy [#34](https://github.com/inspec/train-aws/pull/34) ([omer-chefio](https://github.com/omer-chefio)) <!-- 0.1.16 -->
+<!-- release_rollup -->
 <!-- release_rollup -->
 
 <!-- latest_stable_release -->
+## [v0.1.16](https://github.com/inspec/train-aws/tree/v0.1.16) (2020-04-23)
+
+#### Merged Pull Requests
+- Add aws-sdk-efs dependecy [#34](https://github.com/inspec/train-aws/pull/34) ([omer-chefio](https://github.com/omer-chefio))
+<!-- latest_stable_release -->
+
 ## [v0.1.15](https://github.com/inspec/train-aws/tree/v0.1.15) (2019-12-31)
 
 #### Merged Pull Requests
 - Fix conservative dependencies to have proper &quot;x.y&quot; values [#30](https://github.com/inspec/train-aws/pull/30) ([zenspider](https://github.com/zenspider))
 - Substitute require for require_relative [#33](https://github.com/inspec/train-aws/pull/33) ([tas50](https://github.com/tas50))
-<!-- latest_stable_release -->
 
 ## [v0.1.13](https://github.com/inspec/train-aws/tree/v0.1.13) (2019-11-19)
 
