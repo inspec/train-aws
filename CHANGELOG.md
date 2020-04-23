@@ -1,4 +1,8 @@
-<!-- latest_release -->
+<!-- latest_release 0.1.16 -->
+## [v0.1.16](https://github.com/inspec/train-aws/tree/v0.1.16) (2020-04-23)
+
+#### Merged Pull Requests
+- Add aws-sdk-efs dependecy [#34](https://github.com/inspec/train-aws/pull/34) ([omer-chefio](https://github.com/omer-chefio))
 <!-- latest_release -->
 
 ## [v0.1.1](https://github.com/inspec/train-aws/tree/v0.1.1) (2019-05-21)
@@ -6,7 +10,11 @@
 #### Merged Pull Requests
 - Update README for ORP [#3](https://github.com/inspec/train-aws/pull/3) ([miah](https://github.com/miah))
 
-<!-- release_rollup -->
+<!-- release_rollup since=0.1.15 -->
+### Changes not yet released to rubygems.org
+
+#### Merged Pull Requests
+- Add aws-sdk-efs dependecy [#34](https://github.com/inspec/train-aws/pull/34) ([omer-chefio](https://github.com/omer-chefio)) <!-- 0.1.16 -->
 <!-- release_rollup -->
 
 <!-- latest_stable_release -->
