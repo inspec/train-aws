@@ -1,8 +1,4 @@
-<!-- latest_release 0.1.17 -->
-## [v0.1.17](https://github.com/inspec/train-aws/tree/v0.1.17) (2020-06-10)
-
-#### Merged Pull Requests
-- Add aws-sdk-cloudfront [#41](https://github.com/inspec/train-aws/pull/41) ([omerdemirok](https://github.com/omerdemirok))
+<!-- latest_release -->
 <!-- latest_release -->
 
 ## [v0.1.1](https://github.com/inspec/train-aws/tree/v0.1.1) (2019-05-21)
@@ -10,19 +6,20 @@
 #### Merged Pull Requests
 - Update README for ORP [#3](https://github.com/inspec/train-aws/pull/3) ([miah](https://github.com/miah))
 
-<!-- release_rollup since=0.1.16 -->
-### Changes not yet released to rubygems.org
-
-#### Merged Pull Requests
-- Add aws-sdk-cloudfront [#41](https://github.com/inspec/train-aws/pull/41) ([omerdemirok](https://github.com/omerdemirok)) <!-- 0.1.17 -->
+<!-- release_rollup -->
 <!-- release_rollup -->
 
 <!-- latest_stable_release -->
+## [v0.1.17](https://github.com/inspec/train-aws/tree/v0.1.17) (2020-06-16)
+
+#### Merged Pull Requests
+- Add aws-sdk-cloudfront [#41](https://github.com/inspec/train-aws/pull/41) ([omerdemirok](https://github.com/omerdemirok))
+<!-- latest_stable_release -->
+
 ## [v0.1.16](https://github.com/inspec/train-aws/tree/v0.1.16) (2020-04-23)
 
 #### Merged Pull Requests
 - Add aws-sdk-efs dependecy [#34](https://github.com/inspec/train-aws/pull/34) ([omer-chefio](https://github.com/omer-chefio))
-<!-- latest_stable_release -->
 
 ## [v0.1.15](https://github.com/inspec/train-aws/tree/v0.1.15) (2019-12-31)
 
