@@ -1,5 +1,3 @@
-# encoding: utf-8
-
 # Because train-aws is an API-type plugin, and AWS requires credentials for
 # most operations, the plugin must handle obtaining AWS credentials in various ways.
 

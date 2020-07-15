@@ -24,7 +24,7 @@ describe TrainPlugins::Aws::Transport do
   describe "plugin definition" do
 
     it "should be registered with the plugin registry without the train- prefix" do
-     # Note that Train uses String keys here, not Symbols
+      # Note that Train uses String keys here, not Symbols
       _(Train::Plugins.registry.keys).wont_include("train-aws")
       _(Train::Plugins.registry.keys).must_include("aws")
     end
