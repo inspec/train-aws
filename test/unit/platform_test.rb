@@ -5,7 +5,7 @@
 require_relative "../helper"
 
 # Load the class under test, the Connection definition.
-# We're actually testig the Platform module, but it's exposed via the Connection.
+# We're actually testing the Platform module, but it's exposed via the Connection.
 require "train-aws/connection"
 
 # Because InSpec is a Spec-style test suite, we're going to use MiniTest::Spec

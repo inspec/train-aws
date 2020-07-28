@@ -25,7 +25,7 @@ ORIG_AWS_ENV_VARS = ENV.keys.each_with_object({}) do |var_name, acc|
   acc
 end
 
-describe "Live-fire conenctions to AWS" do
+describe "Live-fire connections to AWS" do
   # Purge ENV prior to each test
   before do
     ENV.delete_if { |var_name, _| var_name.start_with?("AWS") }

@@ -37,11 +37,11 @@ describe "AWS credential handling" do
   end
 
   describe "when given AWS-specific options" do
-    let(:given_options) { { region: "overidden_region", access_key_id: "overidden_key" } }
+    let(:given_options) { { region: "overridden_region", access_key_id: "overridden_key" } }
 
     it "should override defaults when given options" do
-      _(observed_options[:region]).must_equal "overidden_region"
-      _(observed_options[:access_key_id]).must_equal "overidden_key"
+      _(observed_options[:region]).must_equal "overridden_region"
+      _(observed_options[:access_key_id]).must_equal "overridden_key"
       # These were not overridden
       _(observed_options[:profile]).must_equal "fixture_profile_from_env"
       _(observed_options[:secret_access_key]).must_equal "fixture_access_key_from_env"
@@ -66,7 +66,7 @@ describe "AWS credential handling" do
     end
   end
 
-  # This seems to be sayig that we expect train-aws to *set* ENV vars,
+  # This seems to be saying that we expect train-aws to *set* ENV vars,
   # which would be surprising.
   # describe 'connect' do
   #   it 'validate aws connection with profile' do
