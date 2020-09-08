@@ -117,7 +117,7 @@ Gem::Specification.new do |spec|
   # spec.add_dependency "aws-sdk-glue", "~> 1.0"
   # spec.add_dependency "aws-sdk-greengrass", "~> 1.0"
   # spec.add_dependency "aws-sdk-groundstation", "~> 1.0"
-  spec.add_dependency "aws-sdk-guardduty", "~> 1.0"
+  spec.add_dependency "aws-sdk-guardduty", "~> 1.31"
   # spec.add_dependency "aws-sdk-health", "~> 1.0"
   spec.add_dependency "aws-sdk-iam", "~> 1.13"
   # spec.add_dependency "aws-sdk-importexport", "~> 1.0"
