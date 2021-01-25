@@ -1,8 +1,8 @@
-<!-- latest_release 0.1.28 -->
-## [v0.1.28](https://github.com/inspec/train-aws/tree/v0.1.28) (2021-01-25)
+<!-- latest_release 0.1.29 -->
+## [v0.1.29](https://github.com/inspec/train-aws/tree/v0.1.29) (2021-01-25)
 
 #### Merged Pull Requests
-- Update aws-sdk-applicationautoscaling requirement from ~&gt; 1.46.0 to &gt;= 1.46, &lt; 1.50 [#117](https://github.com/inspec/train-aws/pull/117) ([dependabot-preview[bot]](https://github.com/dependabot-preview[bot]))
+- Update aws-sdk-transfer requirement from ~&gt; 1.26.0 to &gt;= 1.26, &lt; 1.30 [#118](https://github.com/inspec/train-aws/pull/118) ([dependabot-preview[bot]](https://github.com/dependabot-preview[bot]))
 <!-- latest_release -->
 
 ## [v0.1.1](https://github.com/inspec/train-aws/tree/v0.1.1) (2019-05-21)
@@ -14,6 +14,7 @@
 ### Changes not yet released to rubygems.org
 
 #### Merged Pull Requests
+- Update aws-sdk-transfer requirement from ~&gt; 1.26.0 to &gt;= 1.26, &lt; 1.30 [#118](https://github.com/inspec/train-aws/pull/118) ([dependabot-preview[bot]](https://github.com/dependabot-preview[bot])) <!-- 0.1.29 -->
 - Update aws-sdk-applicationautoscaling requirement from ~&gt; 1.46.0 to &gt;= 1.46, &lt; 1.50 [#117](https://github.com/inspec/train-aws/pull/117) ([dependabot-preview[bot]](https://github.com/dependabot-preview[bot])) <!-- 0.1.28 -->
 - Update aws-sdk-databasemigrationservice requirement from ~&gt; 1.42.0 to &gt;= 1.42, &lt; 1.51 [#115](https://github.com/inspec/train-aws/pull/115) ([dependabot-preview[bot]](https://github.com/dependabot-preview[bot])) <!-- 0.1.27 -->
 - Update aws-sdk-glue requirement from ~&gt; 1.71.0 to &gt;= 1.71, &lt; 1.83 [#114](https://github.com/inspec/train-aws/pull/114) ([dependabot-preview[bot]](https://github.com/dependabot-preview[bot])) <!-- 0.1.26 -->
