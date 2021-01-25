@@ -1,8 +1,8 @@
-<!-- latest_release 0.1.21 -->
-## [v0.1.21](https://github.com/inspec/train-aws/tree/v0.1.21) (2021-01-25)
+<!-- latest_release 0.1.22 -->
+## [v0.1.22](https://github.com/inspec/train-aws/tree/v0.1.22) (2021-01-25)
 
 #### Merged Pull Requests
-- Add AWS Shield SDK [#68](https://github.com/inspec/train-aws/pull/68) ([samscottchef](https://github.com/samscottchef))
+- Update aws-sdk-secretsmanager requirement from ~&gt; 1.42.0 to &gt;= 1.42, &lt; 1.44 [#71](https://github.com/inspec/train-aws/pull/71) ([dependabot-preview[bot]](https://github.com/dependabot-preview[bot]))
 <!-- latest_release -->
 
 ## [v0.1.1](https://github.com/inspec/train-aws/tree/v0.1.1) (2019-05-21)
@@ -14,6 +14,7 @@
 ### Changes not yet released to rubygems.org
 
 #### Merged Pull Requests
+- Update aws-sdk-secretsmanager requirement from ~&gt; 1.42.0 to &gt;= 1.42, &lt; 1.44 [#71](https://github.com/inspec/train-aws/pull/71) ([dependabot-preview[bot]](https://github.com/dependabot-preview[bot])) <!-- 0.1.22 -->
 - Add AWS Shield SDK [#68](https://github.com/inspec/train-aws/pull/68) ([samscottchef](https://github.com/samscottchef)) <!-- 0.1.21 -->
 - Drop ruby 2.4, add ruby 3; get Ruby 2.5 working [#120](https://github.com/inspec/train-aws/pull/120) ([clintoncwolfe](https://github.com/clintoncwolfe)) <!-- 0.1.20 -->
 - Add missing SDKs for an up-coming work [#65](https://github.com/inspec/train-aws/pull/65) ([omerdemirok](https://github.com/omerdemirok)) <!-- 0.1.19 -->
