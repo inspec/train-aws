@@ -199,7 +199,7 @@ Gem::Specification.new do |spec|
   # spec.add_dependency "aws-sdk-servicediscovery", "~> 1.0"
   # spec.add_dependency "aws-sdk-servicequotas", "~> 1.0"
   spec.add_dependency "aws-sdk-ses", "~> 1.0"
-  # spec.add_dependency "aws-sdk-shield", "~> 1.0"
+  spec.add_dependency "aws-sdk-shield", "~> 1.30"
   # spec.add_dependency "aws-sdk-signer", "~> 1.0"
   # spec.add_dependency "aws-sdk-simpledb", "~> 1.0"
   spec.add_dependency "aws-sdk-sms", "~> 1.0"
