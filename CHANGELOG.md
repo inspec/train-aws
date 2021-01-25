@@ -1,8 +1,4 @@
-<!-- latest_release 0.1.31 -->
-## [v0.1.31](https://github.com/inspec/train-aws/tree/v0.1.31) (2021-01-25)
-
-#### Merged Pull Requests
-- Update aws-sdk-autoscaling requirement from ~&gt; 1.22.0 to &gt;= 1.22, &lt; 1.54 [#119](https://github.com/inspec/train-aws/pull/119) ([dependabot-preview[bot]](https://github.com/dependabot-preview[bot]))
+<!-- latest_release -->
 <!-- latest_release -->
 
 ## [v0.1.1](https://github.com/inspec/train-aws/tree/v0.1.1) (2019-05-21)
@@ -10,31 +6,32 @@
 #### Merged Pull Requests
 - Update README for ORP [#3](https://github.com/inspec/train-aws/pull/3) ([miah](https://github.com/miah))
 
-<!-- release_rollup since=0.1.18 -->
-### Changes not yet released to rubygems.org
-
-#### Merged Pull Requests
-- Update aws-sdk-autoscaling requirement from ~&gt; 1.22.0 to &gt;= 1.22, &lt; 1.54 [#119](https://github.com/inspec/train-aws/pull/119) ([dependabot-preview[bot]](https://github.com/dependabot-preview[bot])) <!-- 0.1.31 -->
-- Update aws-sdk-servicecatalog requirement from ~&gt; 1.48.0 to &gt;= 1.48, &lt; 1.58 [#116](https://github.com/inspec/train-aws/pull/116) ([dependabot-preview[bot]](https://github.com/dependabot-preview[bot])) <!-- 0.1.30 -->
-- Update aws-sdk-transfer requirement from ~&gt; 1.26.0 to &gt;= 1.26, &lt; 1.30 [#118](https://github.com/inspec/train-aws/pull/118) ([dependabot-preview[bot]](https://github.com/dependabot-preview[bot])) <!-- 0.1.29 -->
-- Update aws-sdk-applicationautoscaling requirement from ~&gt; 1.46.0 to &gt;= 1.46, &lt; 1.50 [#117](https://github.com/inspec/train-aws/pull/117) ([dependabot-preview[bot]](https://github.com/dependabot-preview[bot])) <!-- 0.1.28 -->
-- Update aws-sdk-databasemigrationservice requirement from ~&gt; 1.42.0 to &gt;= 1.42, &lt; 1.51 [#115](https://github.com/inspec/train-aws/pull/115) ([dependabot-preview[bot]](https://github.com/dependabot-preview[bot])) <!-- 0.1.27 -->
-- Update aws-sdk-glue requirement from ~&gt; 1.71.0 to &gt;= 1.71, &lt; 1.83 [#114](https://github.com/inspec/train-aws/pull/114) ([dependabot-preview[bot]](https://github.com/dependabot-preview[bot])) <!-- 0.1.26 -->
-- Update aws-sdk-batch requirement from ~&gt; 1.36.0 to &gt;= 1.36, &lt; 1.44 [#111](https://github.com/inspec/train-aws/pull/111) ([dependabot-preview[bot]](https://github.com/dependabot-preview[bot])) <!-- 0.1.25 -->
-- Update aws-sdk-cognitoidentityprovider requirement from ~&gt; 1.46.0 to &gt;= 1.46, &lt; 1.49 [#106](https://github.com/inspec/train-aws/pull/106) ([dependabot-preview[bot]](https://github.com/dependabot-preview[bot])) <!-- 0.1.24 -->
-- Update aws-sdk-organizations requirement from ~&gt; 1.17.0 to &gt;= 1.17, &lt; 1.56 [#91](https://github.com/inspec/train-aws/pull/91) ([dependabot-preview[bot]](https://github.com/dependabot-preview[bot])) <!-- 0.1.23 -->
-- Update aws-sdk-secretsmanager requirement from ~&gt; 1.42.0 to &gt;= 1.42, &lt; 1.44 [#71](https://github.com/inspec/train-aws/pull/71) ([dependabot-preview[bot]](https://github.com/dependabot-preview[bot])) <!-- 0.1.22 -->
-- Add AWS Shield SDK [#68](https://github.com/inspec/train-aws/pull/68) ([samscottchef](https://github.com/samscottchef)) <!-- 0.1.21 -->
-- Drop ruby 2.4, add ruby 3; get Ruby 2.5 working [#120](https://github.com/inspec/train-aws/pull/120) ([clintoncwolfe](https://github.com/clintoncwolfe)) <!-- 0.1.20 -->
-- Add missing SDKs for an up-coming work [#65](https://github.com/inspec/train-aws/pull/65) ([omerdemirok](https://github.com/omerdemirok)) <!-- 0.1.19 -->
+<!-- release_rollup -->
 <!-- release_rollup -->
 
 <!-- latest_stable_release -->
+## [v0.1.31](https://github.com/inspec/train-aws/tree/v0.1.31) (2021-01-25)
+
+#### Merged Pull Requests
+- Add missing SDKs for an up-coming work [#65](https://github.com/inspec/train-aws/pull/65) ([omerdemirok](https://github.com/omerdemirok))
+- Drop ruby 2.4, add ruby 3; get Ruby 2.5 working [#120](https://github.com/inspec/train-aws/pull/120) ([clintoncwolfe](https://github.com/clintoncwolfe))
+- Add AWS Shield SDK [#68](https://github.com/inspec/train-aws/pull/68) ([samscottchef](https://github.com/samscottchef))
+- Update aws-sdk-secretsmanager requirement from ~&gt; 1.42.0 to &gt;= 1.42, &lt; 1.44 [#71](https://github.com/inspec/train-aws/pull/71) ([dependabot-preview[bot]](https://github.com/dependabot-preview[bot]))
+- Update aws-sdk-organizations requirement from ~&gt; 1.17.0 to &gt;= 1.17, &lt; 1.56 [#91](https://github.com/inspec/train-aws/pull/91) ([dependabot-preview[bot]](https://github.com/dependabot-preview[bot]))
+- Update aws-sdk-cognitoidentityprovider requirement from ~&gt; 1.46.0 to &gt;= 1.46, &lt; 1.49 [#106](https://github.com/inspec/train-aws/pull/106) ([dependabot-preview[bot]](https://github.com/dependabot-preview[bot]))
+- Update aws-sdk-batch requirement from ~&gt; 1.36.0 to &gt;= 1.36, &lt; 1.44 [#111](https://github.com/inspec/train-aws/pull/111) ([dependabot-preview[bot]](https://github.com/dependabot-preview[bot]))
+- Update aws-sdk-glue requirement from ~&gt; 1.71.0 to &gt;= 1.71, &lt; 1.83 [#114](https://github.com/inspec/train-aws/pull/114) ([dependabot-preview[bot]](https://github.com/dependabot-preview[bot]))
+- Update aws-sdk-databasemigrationservice requirement from ~&gt; 1.42.0 to &gt;= 1.42, &lt; 1.51 [#115](https://github.com/inspec/train-aws/pull/115) ([dependabot-preview[bot]](https://github.com/dependabot-preview[bot]))
+- Update aws-sdk-applicationautoscaling requirement from ~&gt; 1.46.0 to &gt;= 1.46, &lt; 1.50 [#117](https://github.com/inspec/train-aws/pull/117) ([dependabot-preview[bot]](https://github.com/dependabot-preview[bot]))
+- Update aws-sdk-transfer requirement from ~&gt; 1.26.0 to &gt;= 1.26, &lt; 1.30 [#118](https://github.com/inspec/train-aws/pull/118) ([dependabot-preview[bot]](https://github.com/dependabot-preview[bot]))
+- Update aws-sdk-servicecatalog requirement from ~&gt; 1.48.0 to &gt;= 1.48, &lt; 1.58 [#116](https://github.com/inspec/train-aws/pull/116) ([dependabot-preview[bot]](https://github.com/dependabot-preview[bot]))
+- Update aws-sdk-autoscaling requirement from ~&gt; 1.22.0 to &gt;= 1.22, &lt; 1.54 [#119](https://github.com/inspec/train-aws/pull/119) ([dependabot-preview[bot]](https://github.com/dependabot-preview[bot]))
+<!-- latest_stable_release -->
+
 ## [v0.1.18](https://github.com/inspec/train-aws/tree/v0.1.18) (2020-09-16)
 
 #### Merged Pull Requests
 - add guardduty dependency [#62](https://github.com/inspec/train-aws/pull/62) ([samscottchef](https://github.com/samscottchef))
-<!-- latest_stable_release -->
 
 ## [v0.1.17](https://github.com/inspec/train-aws/tree/v0.1.17) (2020-06-16)
 
