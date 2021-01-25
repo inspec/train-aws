@@ -1,8 +1,8 @@
-<!-- latest_release 0.1.20 -->
-## [v0.1.20](https://github.com/inspec/train-aws/tree/v0.1.20) (2021-01-25)
+<!-- latest_release 0.1.21 -->
+## [v0.1.21](https://github.com/inspec/train-aws/tree/v0.1.21) (2021-01-25)
 
 #### Merged Pull Requests
-- Drop ruby 2.4, add ruby 3; get Ruby 2.5 working [#120](https://github.com/inspec/train-aws/pull/120) ([clintoncwolfe](https://github.com/clintoncwolfe))
+- Add AWS Shield SDK [#68](https://github.com/inspec/train-aws/pull/68) ([samscottchef](https://github.com/samscottchef))
 <!-- latest_release -->
 
 ## [v0.1.1](https://github.com/inspec/train-aws/tree/v0.1.1) (2019-05-21)
@@ -14,6 +14,7 @@
 ### Changes not yet released to rubygems.org
 
 #### Merged Pull Requests
+- Add AWS Shield SDK [#68](https://github.com/inspec/train-aws/pull/68) ([samscottchef](https://github.com/samscottchef)) <!-- 0.1.21 -->
 - Drop ruby 2.4, add ruby 3; get Ruby 2.5 working [#120](https://github.com/inspec/train-aws/pull/120) ([clintoncwolfe](https://github.com/clintoncwolfe)) <!-- 0.1.20 -->
 - Add missing SDKs for an up-coming work [#65](https://github.com/inspec/train-aws/pull/65) ([omerdemirok](https://github.com/omerdemirok)) <!-- 0.1.19 -->
 <!-- release_rollup -->
