@@ -1,8 +1,8 @@
-<!-- latest_release 0.1.34 -->
-## [v0.1.34](https://github.com/inspec/train-aws/tree/v0.1.34) (2021-01-26)
+<!-- latest_release 0.1.35 -->
+## [v0.1.35](https://github.com/inspec/train-aws/tree/v0.1.35) (2021-01-26)
 
 #### Merged Pull Requests
-- Update aws-sdk-cloudwatchevents requirement from ~&gt; 1.36.0 to &gt;= 1.36, &lt; 1.41 [#123](https://github.com/inspec/train-aws/pull/123) ([dependabot-preview[bot]](https://github.com/dependabot-preview[bot]))
+- Update aws-sdk-cognitoidentity requirement from ~&gt; 1.26.0 to &gt;= 1.26, &lt; 1.30 [#124](https://github.com/inspec/train-aws/pull/124) ([dependabot-preview[bot]](https://github.com/dependabot-preview[bot]))
 <!-- latest_release -->
 
 ## [v0.1.1](https://github.com/inspec/train-aws/tree/v0.1.1) (2019-05-21)
@@ -14,6 +14,7 @@
 ### Changes not yet released to rubygems.org
 
 #### Merged Pull Requests
+- Update aws-sdk-cognitoidentity requirement from ~&gt; 1.26.0 to &gt;= 1.26, &lt; 1.30 [#124](https://github.com/inspec/train-aws/pull/124) ([dependabot-preview[bot]](https://github.com/dependabot-preview[bot])) <!-- 0.1.35 -->
 - Update aws-sdk-cloudwatchevents requirement from ~&gt; 1.36.0 to &gt;= 1.36, &lt; 1.41 [#123](https://github.com/inspec/train-aws/pull/123) ([dependabot-preview[bot]](https://github.com/dependabot-preview[bot])) <!-- 0.1.34 -->
 - Update aws-sdk-states requirement from ~&gt; 1.35.0 to &gt;= 1.35, &lt; 1.38 [#122](https://github.com/inspec/train-aws/pull/122) ([dependabot-preview[bot]](https://github.com/dependabot-preview[bot])) <!-- 0.1.33 -->
 - Update aws-sdk-ram requirement from ~&gt; 1.21.0 to &gt;= 1.21, &lt; 1.23 [#121](https://github.com/inspec/train-aws/pull/121) ([dependabot-preview[bot]](https://github.com/dependabot-preview[bot])) <!-- 0.1.32 -->
