@@ -207,7 +207,7 @@ Gem::Specification.new do |spec|
   spec.add_dependency "aws-sdk-sns", "~> 1.9"
   spec.add_dependency "aws-sdk-sqs", "~> 1.10"
   spec.add_dependency "aws-sdk-ssm", "~> 1.0"
-  spec.add_dependency "aws-sdk-states", ">= 1.35", "< 1.38"
+  spec.add_dependency "aws-sdk-states", ">= 1.35", "< 1.39"
   # spec.add_dependency "aws-sdk-storagegateway", "~> 1.0"
   # spec.add_dependency "aws-sdk-support", "~> 1.0"
   # spec.add_dependency "aws-sdk-swf", "~> 1.0"
