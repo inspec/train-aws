@@ -1,8 +1,8 @@
-<!-- latest_release 0.1.43 -->
-## [v0.1.43](https://github.com/inspec/train-aws/tree/v0.1.43) (2021-02-04)
+<!-- latest_release 0.1.44 -->
+## [v0.1.44](https://github.com/inspec/train-aws/tree/v0.1.44) (2021-02-04)
 
 #### Merged Pull Requests
-- Update aws-sdk-cloudwatchevents requirement from &gt;= 1.36, &lt; 1.41 to &gt;= 1.36, &lt; 1.42 [#133](https://github.com/inspec/train-aws/pull/133) ([dependabot-preview[bot]](https://github.com/dependabot-preview[bot]))
+- Update aws-sdk-applicationautoscaling requirement from &gt;= 1.46, &lt; 1.50 to &gt;= 1.46, &lt; 1.51 [#134](https://github.com/inspec/train-aws/pull/134) ([dependabot-preview[bot]](https://github.com/dependabot-preview[bot]))
 <!-- latest_release -->
 
 ## [v0.1.1](https://github.com/inspec/train-aws/tree/v0.1.1) (2019-05-21)
@@ -14,6 +14,7 @@
 ### Changes not yet released to rubygems.org
 
 #### Merged Pull Requests
+- Update aws-sdk-applicationautoscaling requirement from &gt;= 1.46, &lt; 1.50 to &gt;= 1.46, &lt; 1.51 [#134](https://github.com/inspec/train-aws/pull/134) ([dependabot-preview[bot]](https://github.com/dependabot-preview[bot])) <!-- 0.1.44 -->
 - Update aws-sdk-cloudwatchevents requirement from &gt;= 1.36, &lt; 1.41 to &gt;= 1.36, &lt; 1.42 [#133](https://github.com/inspec/train-aws/pull/133) ([dependabot-preview[bot]](https://github.com/dependabot-preview[bot])) <!-- 0.1.43 -->
 - Update aws-sdk-states requirement from &gt;= 1.35, &lt; 1.38 to &gt;= 1.35, &lt; 1.39 [#132](https://github.com/inspec/train-aws/pull/132) ([dependabot-preview[bot]](https://github.com/dependabot-preview[bot])) <!-- 0.1.42 -->
 - Update aws-sdk-glue requirement from &gt;= 1.71, &lt; 1.83 to &gt;= 1.71, &lt; 1.84 [#131](https://github.com/inspec/train-aws/pull/131) ([dependabot-preview[bot]](https://github.com/dependabot-preview[bot])) <!-- 0.1.41 -->
