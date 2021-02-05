@@ -1,8 +1,8 @@
-<!-- latest_release 0.1.46 -->
-## [v0.1.46](https://github.com/inspec/train-aws/tree/v0.1.46) (2021-02-05)
+<!-- latest_release 0.1.47 -->
+## [v0.1.47](https://github.com/inspec/train-aws/tree/v0.1.47) (2021-02-05)
 
 #### Merged Pull Requests
-- Update aws-sdk-batch requirement from &gt;= 1.36, &lt; 1.44 to &gt;= 1.36, &lt; 1.45 [#135](https://github.com/inspec/train-aws/pull/135) ([dependabot-preview[bot]](https://github.com/dependabot-preview[bot]))
+- Update aws-sdk-ram requirement from &gt;= 1.21, &lt; 1.23 to &gt;= 1.21, &lt; 1.24 [#136](https://github.com/inspec/train-aws/pull/136) ([dependabot-preview[bot]](https://github.com/dependabot-preview[bot]))
 <!-- latest_release -->
 
 ## [v0.1.1](https://github.com/inspec/train-aws/tree/v0.1.1) (2019-05-21)
@@ -14,6 +14,7 @@
 ### Changes not yet released to rubygems.org
 
 #### Merged Pull Requests
+- Update aws-sdk-ram requirement from &gt;= 1.21, &lt; 1.23 to &gt;= 1.21, &lt; 1.24 [#136](https://github.com/inspec/train-aws/pull/136) ([dependabot-preview[bot]](https://github.com/dependabot-preview[bot])) <!-- 0.1.47 -->
 - Update aws-sdk-batch requirement from &gt;= 1.36, &lt; 1.44 to &gt;= 1.36, &lt; 1.45 [#135](https://github.com/inspec/train-aws/pull/135) ([dependabot-preview[bot]](https://github.com/dependabot-preview[bot])) <!-- 0.1.46 -->
 - Update aws-sdk-servicecatalog requirement from &gt;= 1.48, &lt; 1.58 to &gt;= 1.48, &lt; 1.59 [#130](https://github.com/inspec/train-aws/pull/130) ([dependabot-preview[bot]](https://github.com/dependabot-preview[bot])) <!-- 0.1.45 -->
 - Update aws-sdk-applicationautoscaling requirement from &gt;= 1.46, &lt; 1.50 to &gt;= 1.46, &lt; 1.51 [#134](https://github.com/inspec/train-aws/pull/134) ([dependabot-preview[bot]](https://github.com/dependabot-preview[bot])) <!-- 0.1.44 -->
