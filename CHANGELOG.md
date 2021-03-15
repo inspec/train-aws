@@ -1,8 +1,4 @@
-<!-- latest_release 0.1.60 -->
-## [v0.1.60](https://github.com/inspec/train-aws/tree/v0.1.60) (2021-03-15)
-
-#### Merged Pull Requests
-- Update aws-sdk-secretsmanager requirement from &gt;= 1.42, &lt; 1.45 to &gt;= 1.42, &lt; 1.47 [#155](https://github.com/inspec/train-aws/pull/155) ([dependabot-preview[bot]](https://github.com/dependabot-preview[bot]))
+<!-- latest_release -->
 <!-- latest_release -->
 
 ## [v0.1.1](https://github.com/inspec/train-aws/tree/v0.1.1) (2019-05-21)
@@ -10,37 +6,39 @@
 #### Merged Pull Requests
 - Update README for ORP [#3](https://github.com/inspec/train-aws/pull/3) ([miah](https://github.com/miah))
 
-<!-- release_rollup since=0.1.35 -->
-### Changes not yet released to rubygems.org
-
-#### Merged Pull Requests
-- Update aws-sdk-cognitoidentityprovider requirement from &gt;= 1.46, &lt; 1.50 to &gt;= 1.46, &lt; 1.51 [#150](https://github.com/inspec/train-aws/pull/150) ([dependabot-preview[bot]](https://github.com/dependabot-preview[bot])) <!-- 0.1.59 -->
-- Update aws-sdk-servicecatalog requirement from &gt;= 1.48, &lt; 1.59 to &gt;= 1.48, &lt; 1.60 [#149](https://github.com/inspec/train-aws/pull/149) ([dependabot-preview[bot]](https://github.com/dependabot-preview[bot])) <!-- 0.1.58 -->
-- Update aws-sdk-autoscaling requirement from &gt;= 1.22, &lt; 1.55 to &gt;= 1.22, &lt; 1.59 [#148](https://github.com/inspec/train-aws/pull/148) ([dependabot-preview[bot]](https://github.com/dependabot-preview[bot])) <!-- 0.1.57 -->
-- Update aws-sdk-ram requirement from &gt;= 1.21, &lt; 1.24 to &gt;= 1.21, &lt; 1.25 [#151](https://github.com/inspec/train-aws/pull/151) ([dependabot-preview[bot]](https://github.com/dependabot-preview[bot])) <!-- 0.1.56 -->
-- Update aws-sdk-organizations requirement from &gt;= 1.17, &lt; 1.57 to &gt;= 1.17, &lt; 1.59 [#152](https://github.com/inspec/train-aws/pull/152) ([dependabot-preview[bot]](https://github.com/dependabot-preview[bot])) <!-- 0.1.55 -->
-- Update aws-sdk-transfer requirement from &gt;= 1.26, &lt; 1.31 to &gt;= 1.26, &lt; 1.33 [#154](https://github.com/inspec/train-aws/pull/154) ([dependabot-preview[bot]](https://github.com/dependabot-preview[bot])) <!-- 0.1.54 -->
-- Update aws-sdk-cognitoidentity requirement from &gt;= 1.26, &lt; 1.31 to &gt;= 1.26, &lt; 1.32 [#153](https://github.com/inspec/train-aws/pull/153) ([dependabot-preview[bot]](https://github.com/dependabot-preview[bot])) <!-- 0.1.53 -->
-- Update aws-sdk-secretsmanager requirement from &gt;= 1.42, &lt; 1.45 to &gt;= 1.42, &lt; 1.47 [#155](https://github.com/inspec/train-aws/pull/155) ([dependabot-preview[bot]](https://github.com/dependabot-preview[bot])) <!-- 0.1.52 -->
-- Update aws-sdk-cloudwatchevents requirement from &gt;= 1.36, &lt; 1.42 to &gt;= 1.36, &lt; 1.45 [#156](https://github.com/inspec/train-aws/pull/156) ([dependabot-preview[bot]](https://github.com/dependabot-preview[bot])) <!-- 0.1.51 -->
-- Update aws-sdk-glue requirement from &gt;= 1.71, &lt; 1.84 to &gt;= 1.71, &lt; 1.86 [#157](https://github.com/inspec/train-aws/pull/157) ([dependabot-preview[bot]](https://github.com/dependabot-preview[bot])) <!-- 0.1.50 -->
-- Update aws-sdk-autoscaling requirement from &gt;= 1.22, &lt; 1.54 to &gt;= 1.22, &lt; 1.55 [#138](https://github.com/inspec/train-aws/pull/138) ([dependabot-preview[bot]](https://github.com/dependabot-preview[bot])) <!-- 0.1.49 -->
-- Update aws-sdk-cognitoidentityprovider requirement from &gt;= 1.46, &lt; 1.49 to &gt;= 1.46, &lt; 1.50 [#137](https://github.com/inspec/train-aws/pull/137) ([dependabot-preview[bot]](https://github.com/dependabot-preview[bot])) <!-- 0.1.48 -->
-- Update aws-sdk-ram requirement from &gt;= 1.21, &lt; 1.23 to &gt;= 1.21, &lt; 1.24 [#136](https://github.com/inspec/train-aws/pull/136) ([dependabot-preview[bot]](https://github.com/dependabot-preview[bot])) <!-- 0.1.47 -->
-- Update aws-sdk-batch requirement from &gt;= 1.36, &lt; 1.44 to &gt;= 1.36, &lt; 1.45 [#135](https://github.com/inspec/train-aws/pull/135) ([dependabot-preview[bot]](https://github.com/dependabot-preview[bot])) <!-- 0.1.46 -->
-- Update aws-sdk-servicecatalog requirement from &gt;= 1.48, &lt; 1.58 to &gt;= 1.48, &lt; 1.59 [#130](https://github.com/inspec/train-aws/pull/130) ([dependabot-preview[bot]](https://github.com/dependabot-preview[bot])) <!-- 0.1.45 -->
-- Update aws-sdk-applicationautoscaling requirement from &gt;= 1.46, &lt; 1.50 to &gt;= 1.46, &lt; 1.51 [#134](https://github.com/inspec/train-aws/pull/134) ([dependabot-preview[bot]](https://github.com/dependabot-preview[bot])) <!-- 0.1.44 -->
-- Update aws-sdk-cloudwatchevents requirement from &gt;= 1.36, &lt; 1.41 to &gt;= 1.36, &lt; 1.42 [#133](https://github.com/inspec/train-aws/pull/133) ([dependabot-preview[bot]](https://github.com/dependabot-preview[bot])) <!-- 0.1.43 -->
-- Update aws-sdk-states requirement from &gt;= 1.35, &lt; 1.38 to &gt;= 1.35, &lt; 1.39 [#132](https://github.com/inspec/train-aws/pull/132) ([dependabot-preview[bot]](https://github.com/dependabot-preview[bot])) <!-- 0.1.42 -->
-- Update aws-sdk-glue requirement from &gt;= 1.71, &lt; 1.83 to &gt;= 1.71, &lt; 1.84 [#131](https://github.com/inspec/train-aws/pull/131) ([dependabot-preview[bot]](https://github.com/dependabot-preview[bot])) <!-- 0.1.41 -->
-- Update aws-sdk-secretsmanager requirement from &gt;= 1.42, &lt; 1.44 to &gt;= 1.42, &lt; 1.45 [#129](https://github.com/inspec/train-aws/pull/129) ([dependabot-preview[bot]](https://github.com/dependabot-preview[bot])) <!-- 0.1.40 -->
-- Update aws-sdk-databasemigrationservice requirement from &gt;= 1.42, &lt; 1.51 to &gt;= 1.42, &lt; 1.52 [#128](https://github.com/inspec/train-aws/pull/128) ([dependabot-preview[bot]](https://github.com/dependabot-preview[bot])) <!-- 0.1.39 -->
-- Update aws-sdk-cognitoidentity requirement from &gt;= 1.26, &lt; 1.30 to &gt;= 1.26, &lt; 1.31 [#127](https://github.com/inspec/train-aws/pull/127) ([dependabot-preview[bot]](https://github.com/dependabot-preview[bot])) <!-- 0.1.38 -->
-- Update aws-sdk-organizations requirement from &gt;= 1.17, &lt; 1.56 to &gt;= 1.17, &lt; 1.57 [#126](https://github.com/inspec/train-aws/pull/126) ([dependabot-preview[bot]](https://github.com/dependabot-preview[bot])) <!-- 0.1.37 -->
-- Update aws-sdk-transfer requirement from &gt;= 1.26, &lt; 1.30 to &gt;= 1.26, &lt; 1.31 [#125](https://github.com/inspec/train-aws/pull/125) ([dependabot-preview[bot]](https://github.com/dependabot-preview[bot])) <!-- 0.1.36 -->
+<!-- release_rollup -->
 <!-- release_rollup -->
 
 <!-- latest_stable_release -->
+## [v0.1.60](https://github.com/inspec/train-aws/tree/v0.1.60) (2021-03-15)
+
+#### Merged Pull Requests
+- Update aws-sdk-transfer requirement from &gt;= 1.26, &lt; 1.30 to &gt;= 1.26, &lt; 1.31 [#125](https://github.com/inspec/train-aws/pull/125) ([dependabot-preview[bot]](https://github.com/dependabot-preview[bot]))
+- Update aws-sdk-organizations requirement from &gt;= 1.17, &lt; 1.56 to &gt;= 1.17, &lt; 1.57 [#126](https://github.com/inspec/train-aws/pull/126) ([dependabot-preview[bot]](https://github.com/dependabot-preview[bot]))
+- Update aws-sdk-cognitoidentity requirement from &gt;= 1.26, &lt; 1.30 to &gt;= 1.26, &lt; 1.31 [#127](https://github.com/inspec/train-aws/pull/127) ([dependabot-preview[bot]](https://github.com/dependabot-preview[bot]))
+- Update aws-sdk-databasemigrationservice requirement from &gt;= 1.42, &lt; 1.51 to &gt;= 1.42, &lt; 1.52 [#128](https://github.com/inspec/train-aws/pull/128) ([dependabot-preview[bot]](https://github.com/dependabot-preview[bot]))
+- Update aws-sdk-secretsmanager requirement from &gt;= 1.42, &lt; 1.44 to &gt;= 1.42, &lt; 1.45 [#129](https://github.com/inspec/train-aws/pull/129) ([dependabot-preview[bot]](https://github.com/dependabot-preview[bot]))
+- Update aws-sdk-glue requirement from &gt;= 1.71, &lt; 1.83 to &gt;= 1.71, &lt; 1.84 [#131](https://github.com/inspec/train-aws/pull/131) ([dependabot-preview[bot]](https://github.com/dependabot-preview[bot]))
+- Update aws-sdk-states requirement from &gt;= 1.35, &lt; 1.38 to &gt;= 1.35, &lt; 1.39 [#132](https://github.com/inspec/train-aws/pull/132) ([dependabot-preview[bot]](https://github.com/dependabot-preview[bot]))
+- Update aws-sdk-cloudwatchevents requirement from &gt;= 1.36, &lt; 1.41 to &gt;= 1.36, &lt; 1.42 [#133](https://github.com/inspec/train-aws/pull/133) ([dependabot-preview[bot]](https://github.com/dependabot-preview[bot]))
+- Update aws-sdk-applicationautoscaling requirement from &gt;= 1.46, &lt; 1.50 to &gt;= 1.46, &lt; 1.51 [#134](https://github.com/inspec/train-aws/pull/134) ([dependabot-preview[bot]](https://github.com/dependabot-preview[bot]))
+- Update aws-sdk-servicecatalog requirement from &gt;= 1.48, &lt; 1.58 to &gt;= 1.48, &lt; 1.59 [#130](https://github.com/inspec/train-aws/pull/130) ([dependabot-preview[bot]](https://github.com/dependabot-preview[bot]))
+- Update aws-sdk-batch requirement from &gt;= 1.36, &lt; 1.44 to &gt;= 1.36, &lt; 1.45 [#135](https://github.com/inspec/train-aws/pull/135) ([dependabot-preview[bot]](https://github.com/dependabot-preview[bot]))
+- Update aws-sdk-ram requirement from &gt;= 1.21, &lt; 1.23 to &gt;= 1.21, &lt; 1.24 [#136](https://github.com/inspec/train-aws/pull/136) ([dependabot-preview[bot]](https://github.com/dependabot-preview[bot]))
+- Update aws-sdk-cognitoidentityprovider requirement from &gt;= 1.46, &lt; 1.49 to &gt;= 1.46, &lt; 1.50 [#137](https://github.com/inspec/train-aws/pull/137) ([dependabot-preview[bot]](https://github.com/dependabot-preview[bot]))
+- Update aws-sdk-autoscaling requirement from &gt;= 1.22, &lt; 1.54 to &gt;= 1.22, &lt; 1.55 [#138](https://github.com/inspec/train-aws/pull/138) ([dependabot-preview[bot]](https://github.com/dependabot-preview[bot]))
+- Update aws-sdk-glue requirement from &gt;= 1.71, &lt; 1.84 to &gt;= 1.71, &lt; 1.86 [#157](https://github.com/inspec/train-aws/pull/157) ([dependabot-preview[bot]](https://github.com/dependabot-preview[bot]))
+- Update aws-sdk-cloudwatchevents requirement from &gt;= 1.36, &lt; 1.42 to &gt;= 1.36, &lt; 1.45 [#156](https://github.com/inspec/train-aws/pull/156) ([dependabot-preview[bot]](https://github.com/dependabot-preview[bot]))
+- Update aws-sdk-secretsmanager requirement from &gt;= 1.42, &lt; 1.45 to &gt;= 1.42, &lt; 1.47 [#155](https://github.com/inspec/train-aws/pull/155) ([dependabot-preview[bot]](https://github.com/dependabot-preview[bot]))
+- Update aws-sdk-cognitoidentity requirement from &gt;= 1.26, &lt; 1.31 to &gt;= 1.26, &lt; 1.32 [#153](https://github.com/inspec/train-aws/pull/153) ([dependabot-preview[bot]](https://github.com/dependabot-preview[bot]))
+- Update aws-sdk-transfer requirement from &gt;= 1.26, &lt; 1.31 to &gt;= 1.26, &lt; 1.33 [#154](https://github.com/inspec/train-aws/pull/154) ([dependabot-preview[bot]](https://github.com/dependabot-preview[bot]))
+- Update aws-sdk-organizations requirement from &gt;= 1.17, &lt; 1.57 to &gt;= 1.17, &lt; 1.59 [#152](https://github.com/inspec/train-aws/pull/152) ([dependabot-preview[bot]](https://github.com/dependabot-preview[bot]))
+- Update aws-sdk-ram requirement from &gt;= 1.21, &lt; 1.24 to &gt;= 1.21, &lt; 1.25 [#151](https://github.com/inspec/train-aws/pull/151) ([dependabot-preview[bot]](https://github.com/dependabot-preview[bot]))
+- Update aws-sdk-autoscaling requirement from &gt;= 1.22, &lt; 1.55 to &gt;= 1.22, &lt; 1.59 [#148](https://github.com/inspec/train-aws/pull/148) ([dependabot-preview[bot]](https://github.com/dependabot-preview[bot]))
+- Update aws-sdk-servicecatalog requirement from &gt;= 1.48, &lt; 1.59 to &gt;= 1.48, &lt; 1.60 [#149](https://github.com/inspec/train-aws/pull/149) ([dependabot-preview[bot]](https://github.com/dependabot-preview[bot]))
+- Update aws-sdk-cognitoidentityprovider requirement from &gt;= 1.46, &lt; 1.50 to &gt;= 1.46, &lt; 1.51 [#150](https://github.com/inspec/train-aws/pull/150) ([dependabot-preview[bot]](https://github.com/dependabot-preview[bot]))
+<!-- latest_stable_release -->
+
 ## [v0.1.35](https://github.com/inspec/train-aws/tree/v0.1.35) (2021-01-26)
 
 #### Merged Pull Requests
@@ -48,7 +46,6 @@
 - Update aws-sdk-states requirement from ~&gt; 1.35.0 to &gt;= 1.35, &lt; 1.38 [#122](https://github.com/inspec/train-aws/pull/122) ([dependabot-preview[bot]](https://github.com/dependabot-preview[bot]))
 - Update aws-sdk-cloudwatchevents requirement from ~&gt; 1.36.0 to &gt;= 1.36, &lt; 1.41 [#123](https://github.com/inspec/train-aws/pull/123) ([dependabot-preview[bot]](https://github.com/dependabot-preview[bot]))
 - Update aws-sdk-cognitoidentity requirement from ~&gt; 1.26.0 to &gt;= 1.26, &lt; 1.30 [#124](https://github.com/inspec/train-aws/pull/124) ([dependabot-preview[bot]](https://github.com/dependabot-preview[bot]))
-<!-- latest_stable_release -->
 
 ## [v0.1.31](https://github.com/inspec/train-aws/tree/v0.1.31) (2021-01-25)
 
