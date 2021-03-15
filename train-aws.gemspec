@@ -195,7 +195,7 @@ Gem::Specification.new do |spec|
   spec.add_dependency "aws-sdk-secretsmanager", ">= 1.42", "< 1.47"
   spec.add_dependency "aws-sdk-securityhub", "~> 1.0"
   # spec.add_dependency "aws-sdk-serverlessapplicationrepository", "~> 1.0"
-  spec.add_dependency "aws-sdk-servicecatalog", ">= 1.48", "< 1.59"
+  spec.add_dependency "aws-sdk-servicecatalog", ">= 1.48", "< 1.60"
   # spec.add_dependency "aws-sdk-servicediscovery", "~> 1.0"
   # spec.add_dependency "aws-sdk-servicequotas", "~> 1.0"
   spec.add_dependency "aws-sdk-ses", "~> 1.0"
