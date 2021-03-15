@@ -1,8 +1,8 @@
-<!-- latest_release 0.1.59 -->
-## [v0.1.59](https://github.com/inspec/train-aws/tree/v0.1.59) (2021-03-15)
+<!-- latest_release 0.1.60 -->
+## [v0.1.60](https://github.com/inspec/train-aws/tree/v0.1.60) (2021-03-15)
 
 #### Merged Pull Requests
-- Update aws-sdk-cognitoidentityprovider requirement from &gt;= 1.46, &lt; 1.50 to &gt;= 1.46, &lt; 1.51 [#150](https://github.com/inspec/train-aws/pull/150) ([dependabot-preview[bot]](https://github.com/dependabot-preview[bot]))
+- Update aws-sdk-secretsmanager requirement from &gt;= 1.42, &lt; 1.45 to &gt;= 1.42, &lt; 1.47 [#155](https://github.com/inspec/train-aws/pull/155) ([dependabot-preview[bot]](https://github.com/dependabot-preview[bot]))
 <!-- latest_release -->
 
 ## [v0.1.1](https://github.com/inspec/train-aws/tree/v0.1.1) (2019-05-21)
