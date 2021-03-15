@@ -1,8 +1,8 @@
-<!-- latest_release 0.1.54 -->
-## [v0.1.54](https://github.com/inspec/train-aws/tree/v0.1.54) (2021-03-15)
+<!-- latest_release 0.1.55 -->
+## [v0.1.55](https://github.com/inspec/train-aws/tree/v0.1.55) (2021-03-15)
 
 #### Merged Pull Requests
-- Update aws-sdk-transfer requirement from &gt;= 1.26, &lt; 1.31 to &gt;= 1.26, &lt; 1.33 [#154](https://github.com/inspec/train-aws/pull/154) ([dependabot-preview[bot]](https://github.com/dependabot-preview[bot]))
+- Update aws-sdk-organizations requirement from &gt;= 1.17, &lt; 1.57 to &gt;= 1.17, &lt; 1.59 [#152](https://github.com/inspec/train-aws/pull/152) ([dependabot-preview[bot]](https://github.com/dependabot-preview[bot]))
 <!-- latest_release -->
 
 ## [v0.1.1](https://github.com/inspec/train-aws/tree/v0.1.1) (2019-05-21)
@@ -14,6 +14,7 @@
 ### Changes not yet released to rubygems.org
 
 #### Merged Pull Requests
+- Update aws-sdk-organizations requirement from &gt;= 1.17, &lt; 1.57 to &gt;= 1.17, &lt; 1.59 [#152](https://github.com/inspec/train-aws/pull/152) ([dependabot-preview[bot]](https://github.com/dependabot-preview[bot])) <!-- 0.1.55 -->
 - Update aws-sdk-transfer requirement from &gt;= 1.26, &lt; 1.31 to &gt;= 1.26, &lt; 1.33 [#154](https://github.com/inspec/train-aws/pull/154) ([dependabot-preview[bot]](https://github.com/dependabot-preview[bot])) <!-- 0.1.54 -->
 - Update aws-sdk-cognitoidentity requirement from &gt;= 1.26, &lt; 1.31 to &gt;= 1.26, &lt; 1.32 [#153](https://github.com/inspec/train-aws/pull/153) ([dependabot-preview[bot]](https://github.com/dependabot-preview[bot])) <!-- 0.1.53 -->
 - Update aws-sdk-secretsmanager requirement from &gt;= 1.42, &lt; 1.45 to &gt;= 1.42, &lt; 1.47 [#155](https://github.com/inspec/train-aws/pull/155) ([dependabot-preview[bot]](https://github.com/dependabot-preview[bot])) <!-- 0.1.52 -->
