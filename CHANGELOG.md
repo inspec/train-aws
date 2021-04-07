@@ -1,4 +1,8 @@
-<!-- latest_release -->
+<!-- latest_release 0.1.61 -->
+## [v0.1.61](https://github.com/inspec/train-aws/tree/v0.1.61) (2021-04-07)
+
+#### Merged Pull Requests
+- Update aws-sdk-applicationautoscaling requirement from &gt;= 1.46, &lt; 1.51 to &gt;= 1.46, &lt; 1.52 [#159](https://github.com/inspec/train-aws/pull/159) ([dependabot-preview[bot]](https://github.com/dependabot-preview[bot]))
 <!-- latest_release -->
 
 ## [v0.1.1](https://github.com/inspec/train-aws/tree/v0.1.1) (2019-05-21)
@@ -6,7 +10,11 @@
 #### Merged Pull Requests
 - Update README for ORP [#3](https://github.com/inspec/train-aws/pull/3) ([miah](https://github.com/miah))
 
-<!-- release_rollup -->
+<!-- release_rollup since=0.1.60 -->
+### Changes not yet released to rubygems.org
+
+#### Merged Pull Requests
+- Update aws-sdk-applicationautoscaling requirement from &gt;= 1.46, &lt; 1.51 to &gt;= 1.46, &lt; 1.52 [#159](https://github.com/inspec/train-aws/pull/159) ([dependabot-preview[bot]](https://github.com/dependabot-preview[bot])) <!-- 0.1.61 -->
 <!-- release_rollup -->
 
 <!-- latest_stable_release -->
