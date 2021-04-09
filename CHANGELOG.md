@@ -1,4 +1,8 @@
-<!-- latest_release -->
+<!-- latest_release 0.1.68 -->
+## [v0.1.68](https://github.com/inspec/train-aws/tree/v0.1.68) (2021-04-09)
+
+#### Merged Pull Requests
+- Update aws-sdk-ram requirement from &gt;= 1.21, &lt; 1.25 to &gt;= 1.21, &lt; 1.26 [#168](https://github.com/inspec/train-aws/pull/168) ([dependabot-preview[bot]](https://github.com/dependabot-preview[bot]))
 <!-- latest_release -->
 
 ## [v0.1.1](https://github.com/inspec/train-aws/tree/v0.1.1) (2019-05-21)
@@ -6,7 +10,11 @@
 #### Merged Pull Requests
 - Update README for ORP [#3](https://github.com/inspec/train-aws/pull/3) ([miah](https://github.com/miah))
 
-<!-- release_rollup -->
+<!-- release_rollup since=0.1.67 -->
+### Changes not yet released to rubygems.org
+
+#### Merged Pull Requests
+- Update aws-sdk-ram requirement from &gt;= 1.21, &lt; 1.25 to &gt;= 1.21, &lt; 1.26 [#168](https://github.com/inspec/train-aws/pull/168) ([dependabot-preview[bot]](https://github.com/dependabot-preview[bot])) <!-- 0.1.68 -->
 <!-- release_rollup -->
 
 <!-- latest_stable_release -->
