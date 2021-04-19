@@ -98,6 +98,7 @@ Gem::Specification.new do |spec|
   spec.add_dependency "aws-sdk-ec2", "~> 1.70"
   # spec.add_dependency "aws-sdk-ec2instanceconnect", "~> 1.0"
   spec.add_dependency "aws-sdk-ecr", "~> 1.18"
+  spec.add_dependency "aws-sdk-ecrpublic", "~> 1.3"
   spec.add_dependency "aws-sdk-ecs", "~> 1.30"
   spec.add_dependency "aws-sdk-efs", "~> 1.0"
   spec.add_dependency "aws-sdk-eks", "~> 1.9"
