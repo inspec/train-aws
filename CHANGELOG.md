@@ -1,8 +1,8 @@
-<!-- latest_release 0.1.69 -->
-## [v0.1.69](https://github.com/inspec/train-aws/tree/v0.1.69) (2021-04-09)
+<!-- latest_release 0.2.0 -->
+## [v0.2.0](https://github.com/inspec/train-aws/tree/v0.2.0) (2021-04-19)
 
 #### Merged Pull Requests
-- Update aws-sdk-autoscaling requirement from &gt;= 1.22, &lt; 1.60 to &gt;= 1.22, &lt; 1.61 [#167](https://github.com/inspec/train-aws/pull/167) ([dependabot-preview[bot]](https://github.com/dependabot-preview[bot]))
+- added aws-sdk-ecrpublic to gemspec [#170](https://github.com/inspec/train-aws/pull/170) ([Jentul-Gift](https://github.com/Jentul-Gift))
 <!-- latest_release -->
 
 ## [v0.1.1](https://github.com/inspec/train-aws/tree/v0.1.1) (2019-05-21)
@@ -14,6 +14,7 @@
 ### Changes not yet released to rubygems.org
 
 #### Merged Pull Requests
+- added aws-sdk-ecrpublic to gemspec [#170](https://github.com/inspec/train-aws/pull/170) ([Jentul-Gift](https://github.com/Jentul-Gift)) <!-- 0.2.0 -->
 - Update aws-sdk-autoscaling requirement from &gt;= 1.22, &lt; 1.60 to &gt;= 1.22, &lt; 1.61 [#167](https://github.com/inspec/train-aws/pull/167) ([dependabot-preview[bot]](https://github.com/dependabot-preview[bot])) <!-- 0.1.69 -->
 - Update aws-sdk-ram requirement from &gt;= 1.21, &lt; 1.25 to &gt;= 1.21, &lt; 1.26 [#168](https://github.com/inspec/train-aws/pull/168) ([dependabot-preview[bot]](https://github.com/dependabot-preview[bot])) <!-- 0.1.68 -->
 <!-- release_rollup -->
