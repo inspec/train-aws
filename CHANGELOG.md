@@ -10,17 +10,22 @@
 #### Merged Pull Requests
 - Update README for ORP [#3](https://github.com/inspec/train-aws/pull/3) ([miah](https://github.com/miah))
 
-<!-- release_rollup since=0.1.67 -->
+<!-- release_rollup since=0.2.0 -->
 ### Changes not yet released to rubygems.org
 
 #### Merged Pull Requests
 - Update aws-sdk-databasemigrationservice requirement from &gt;= 1.42, &lt; 1.53 to &gt;= 1.42, &lt; 1.54 [#169](https://github.com/inspec/train-aws/pull/169) ([dependabot-preview[bot]](https://github.com/dependabot-preview[bot])) <!-- 0.2.1 -->
-- added aws-sdk-ecrpublic to gemspec [#170](https://github.com/inspec/train-aws/pull/170) ([Jentul-Gift](https://github.com/Jentul-Gift)) <!-- 0.2.0 -->
-- Update aws-sdk-autoscaling requirement from &gt;= 1.22, &lt; 1.60 to &gt;= 1.22, &lt; 1.61 [#167](https://github.com/inspec/train-aws/pull/167) ([dependabot-preview[bot]](https://github.com/dependabot-preview[bot])) <!-- 0.1.69 -->
-- Update aws-sdk-ram requirement from &gt;= 1.21, &lt; 1.25 to &gt;= 1.21, &lt; 1.26 [#168](https://github.com/inspec/train-aws/pull/168) ([dependabot-preview[bot]](https://github.com/dependabot-preview[bot])) <!-- 0.1.68 -->
 <!-- release_rollup -->
 
 <!-- latest_stable_release -->
+## [v0.2.0](https://github.com/inspec/train-aws/tree/v0.2.0) (2021-04-20)
+
+#### Merged Pull Requests
+- Update aws-sdk-ram requirement from &gt;= 1.21, &lt; 1.25 to &gt;= 1.21, &lt; 1.26 [#168](https://github.com/inspec/train-aws/pull/168) ([dependabot-preview[bot]](https://github.com/dependabot-preview[bot]))
+- Update aws-sdk-autoscaling requirement from &gt;= 1.22, &lt; 1.60 to &gt;= 1.22, &lt; 1.61 [#167](https://github.com/inspec/train-aws/pull/167) ([dependabot-preview[bot]](https://github.com/dependabot-preview[bot]))
+- added aws-sdk-ecrpublic to gemspec [#170](https://github.com/inspec/train-aws/pull/170) ([Jentul-Gift](https://github.com/Jentul-Gift))
+<!-- latest_stable_release -->
+
 ## [v0.1.67](https://github.com/inspec/train-aws/tree/v0.1.67) (2021-04-07)
 
 #### Merged Pull Requests
@@ -31,7 +36,6 @@
 - Update aws-sdk-cloudwatchevents requirement from &gt;= 1.36, &lt; 1.45 to &gt;= 1.36, &lt; 1.46 [#164](https://github.com/inspec/train-aws/pull/164) ([dependabot-preview[bot]](https://github.com/dependabot-preview[bot]))
 - Update aws-sdk-glue requirement from &gt;= 1.71, &lt; 1.86 to &gt;= 1.71, &lt; 1.87 [#165](https://github.com/inspec/train-aws/pull/165) ([dependabot-preview[bot]](https://github.com/dependabot-preview[bot]))
 - Update aws-sdk-batch requirement from &gt;= 1.36, &lt; 1.45 to &gt;= 1.36, &lt; 1.48 [#166](https://github.com/inspec/train-aws/pull/166) ([dependabot-preview[bot]](https://github.com/dependabot-preview[bot]))
-<!-- latest_stable_release -->
 
 ## [v0.1.60](https://github.com/inspec/train-aws/tree/v0.1.60) (2021-03-15)
 
