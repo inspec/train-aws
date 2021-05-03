@@ -1,0 +1,33 @@
+version: 2
+updates:
+- package-ecosystem: bundler
+  directory: "/"
+  schedule:
+    interval: daily
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: aws-sdk-batch
+    versions:
+    - 1.45.0
+    - 1.46.0
+  - dependency-name: aws-sdk-autoscaling
+    versions:
+    - 1.55.0
+    - 1.56.0
+    - 1.57.0
+  - dependency-name: aws-sdk-cloudwatchevents
+    versions:
+    - 1.42.0
+    - 1.43.0
+  - dependency-name: aws-sdk-secretsmanager
+    versions:
+    - 1.45.0
+  - dependency-name: aws-sdk-transfer
+    versions:
+    - 1.31.0
+  - dependency-name: aws-sdk-glue
+    versions:
+    - 1.84.0
+  - dependency-name: aws-sdk-organizations
+    versions:
+    - 1.57.0
