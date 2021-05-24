@@ -1,8 +1,8 @@
-<!-- latest_release 0.2.5 -->
-## [v0.2.5](https://github.com/inspec/train-aws/tree/v0.2.5) (2021-05-24)
+<!-- latest_release 0.2.6 -->
+## [v0.2.6](https://github.com/inspec/train-aws/tree/v0.2.6) (2021-05-24)
 
 #### Merged Pull Requests
-- adding the eventbridge dependency in the train-aws.gemspec [#176](https://github.com/inspec/train-aws/pull/176) ([soumyo13](https://github.com/soumyo13))
+- Update aws-sdk-organizations requirement from &gt;= 1.17, &lt; 1.59 to &gt;= 1.17, &lt; 1.60 [#174](https://github.com/inspec/train-aws/pull/174) ([dependabot-preview[bot]](https://github.com/dependabot-preview[bot]))
 <!-- latest_release -->
 
 ## [v0.1.1](https://github.com/inspec/train-aws/tree/v0.1.1) (2019-05-21)
@@ -14,6 +14,7 @@
 ### Changes not yet released to rubygems.org
 
 #### Merged Pull Requests
+- Update aws-sdk-organizations requirement from &gt;= 1.17, &lt; 1.59 to &gt;= 1.17, &lt; 1.60 [#174](https://github.com/inspec/train-aws/pull/174) ([dependabot-preview[bot]](https://github.com/dependabot-preview[bot])) <!-- 0.2.6 -->
 - adding the eventbridge dependency in the train-aws.gemspec [#176](https://github.com/inspec/train-aws/pull/176) ([soumyo13](https://github.com/soumyo13)) <!-- 0.2.5 -->
 - Upgrade to GitHub-native Dependabot [#173](https://github.com/inspec/train-aws/pull/173) ([dependabot-preview[bot]](https://github.com/dependabot-preview[bot])) <!-- 0.2.4 -->
 - Update aws-sdk-cognitoidentityprovider requirement from &gt;= 1.46, &lt; 1.51 to &gt;= 1.46, &lt; 1.52 [#171](https://github.com/inspec/train-aws/pull/171) ([dependabot-preview[bot]](https://github.com/dependabot-preview[bot])) <!-- 0.2.3 -->
