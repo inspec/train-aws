@@ -1,8 +1,8 @@
-<!-- latest_release 0.2.6 -->
-## [v0.2.6](https://github.com/inspec/train-aws/tree/v0.2.6) (2021-05-24)
+<!-- latest_release 0.2.7 -->
+## [v0.2.7](https://github.com/inspec/train-aws/tree/v0.2.7) (2021-05-24)
 
 #### Merged Pull Requests
-- Update aws-sdk-organizations requirement from &gt;= 1.17, &lt; 1.59 to &gt;= 1.17, &lt; 1.60 [#174](https://github.com/inspec/train-aws/pull/174) ([dependabot-preview[bot]](https://github.com/dependabot-preview[bot]))
+- Update aws-sdk-cloudwatchevents requirement from &gt;= 1.36, &lt; 1.46 to &gt;= 1.36, &lt; 1.47 [#175](https://github.com/inspec/train-aws/pull/175) ([dependabot[bot]](https://github.com/dependabot[bot]))
 <!-- latest_release -->
 
 ## [v0.1.1](https://github.com/inspec/train-aws/tree/v0.1.1) (2019-05-21)
@@ -14,6 +14,7 @@
 ### Changes not yet released to rubygems.org
 
 #### Merged Pull Requests
+- Update aws-sdk-cloudwatchevents requirement from &gt;= 1.36, &lt; 1.46 to &gt;= 1.36, &lt; 1.47 [#175](https://github.com/inspec/train-aws/pull/175) ([dependabot[bot]](https://github.com/dependabot[bot])) <!-- 0.2.7 -->
 - Update aws-sdk-organizations requirement from &gt;= 1.17, &lt; 1.59 to &gt;= 1.17, &lt; 1.60 [#174](https://github.com/inspec/train-aws/pull/174) ([dependabot-preview[bot]](https://github.com/dependabot-preview[bot])) <!-- 0.2.6 -->
 - adding the eventbridge dependency in the train-aws.gemspec [#176](https://github.com/inspec/train-aws/pull/176) ([soumyo13](https://github.com/soumyo13)) <!-- 0.2.5 -->
 - Upgrade to GitHub-native Dependabot [#173](https://github.com/inspec/train-aws/pull/173) ([dependabot-preview[bot]](https://github.com/dependabot-preview[bot])) <!-- 0.2.4 -->
