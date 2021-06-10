@@ -1,8 +1,8 @@
-<!-- latest_release 0.2.12 -->
-## [v0.2.12](https://github.com/inspec/train-aws/tree/v0.2.12) (2021-06-10)
+<!-- latest_release 0.2.13 -->
+## [v0.2.13](https://github.com/inspec/train-aws/tree/v0.2.13) (2021-06-10)
 
 #### Merged Pull Requests
-- Update aws-sdk-autoscaling requirement from &gt;= 1.22, &lt; 1.62 to &gt;= 1.22, &lt; 1.64 [#180](https://github.com/inspec/train-aws/pull/180) ([dependabot[bot]](https://github.com/dependabot[bot]))
+- Update aws-sdk-transfer requirement from &gt;= 1.26, &lt; 1.33 to &gt;= 1.26, &lt; 1.34 [#178](https://github.com/inspec/train-aws/pull/178) ([dependabot[bot]](https://github.com/dependabot[bot]))
 <!-- latest_release -->
 
 ## [v0.1.1](https://github.com/inspec/train-aws/tree/v0.1.1) (2019-05-21)
@@ -14,6 +14,7 @@
 ### Changes not yet released to rubygems.org
 
 #### Merged Pull Requests
+- Update aws-sdk-transfer requirement from &gt;= 1.26, &lt; 1.33 to &gt;= 1.26, &lt; 1.34 [#178](https://github.com/inspec/train-aws/pull/178) ([dependabot[bot]](https://github.com/dependabot[bot])) <!-- 0.2.13 -->
 - Update aws-sdk-autoscaling requirement from &gt;= 1.22, &lt; 1.62 to &gt;= 1.22, &lt; 1.64 [#180](https://github.com/inspec/train-aws/pull/180) ([dependabot[bot]](https://github.com/dependabot[bot])) <!-- 0.2.12 -->
 - Update aws-sdk-glue requirement from &gt;= 1.71, &lt; 1.88 to &gt;= 1.71, &lt; 1.89 [#181](https://github.com/inspec/train-aws/pull/181) ([dependabot[bot]](https://github.com/dependabot[bot])) <!-- 0.2.11 -->
 - Update aws-sdk-cognitoidentityprovider requirement from &gt;= 1.46, &lt; 1.52 to &gt;= 1.46, &lt; 1.53 [#182](https://github.com/inspec/train-aws/pull/182) ([dependabot[bot]](https://github.com/dependabot[bot])) <!-- 0.2.10 -->
