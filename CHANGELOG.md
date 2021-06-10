@@ -1,4 +1,8 @@
-<!-- latest_release -->
+<!-- latest_release 0.2.9 -->
+## [v0.2.9](https://github.com/inspec/train-aws/tree/v0.2.9) (2021-06-10)
+
+#### Merged Pull Requests
+- Update aws-sdk-servicecatalog requirement from &gt;= 1.48, &lt; 1.60 to &gt;= 1.48, &lt; 1.61 [#183](https://github.com/inspec/train-aws/pull/183) ([dependabot[bot]](https://github.com/dependabot[bot]))
 <!-- latest_release -->
 
 ## [v0.1.1](https://github.com/inspec/train-aws/tree/v0.1.1) (2019-05-21)
@@ -6,7 +10,11 @@
 #### Merged Pull Requests
 - Update README for ORP [#3](https://github.com/inspec/train-aws/pull/3) ([miah](https://github.com/miah))
 
-<!-- release_rollup -->
+<!-- release_rollup since=0.2.8 -->
+### Changes not yet released to rubygems.org
+
+#### Merged Pull Requests
+- Update aws-sdk-servicecatalog requirement from &gt;= 1.48, &lt; 1.60 to &gt;= 1.48, &lt; 1.61 [#183](https://github.com/inspec/train-aws/pull/183) ([dependabot[bot]](https://github.com/dependabot[bot])) <!-- 0.2.9 -->
 <!-- release_rollup -->
 
 <!-- latest_stable_release -->
