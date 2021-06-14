@@ -5,6 +5,6 @@
 
 module TrainPlugins
   module Aws
-    VERSION = "0.2.15".freeze
+    VERSION = "0.2.16".freeze
   end
 end
