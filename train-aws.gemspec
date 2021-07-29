@@ -55,7 +55,7 @@ Gem::Specification.new do |spec|
   spec.add_dependency "aws-sdk-autoscaling", ">= 1.22", "< 1.64"
   # spec.add_dependency "aws-sdk-autoscalingplans", "~> 1.0"
   # spec.add_dependency "aws-sdk-backup", "~> 1.0"
-  spec.add_dependency "aws-sdk-batch", ">= 1.36", "< 1.48"
+  spec.add_dependency "aws-sdk-batch", ">= 1.36", "< 1.50"
   spec.add_dependency "aws-sdk-budgets", "~> 1.0"
   # spec.add_dependency "aws-sdk-chime", "~> 1.0"
   # spec.add_dependency "aws-sdk-cloud9", "~> 1.0"
