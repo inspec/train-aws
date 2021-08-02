@@ -76,7 +76,7 @@ Gem::Specification.new do |spec|
   spec.add_dependency "aws-sdk-codepipeline", "~> 1.0"
   # spec.add_dependency "aws-sdk-codestar", "~> 1.0"
   spec.add_dependency "aws-sdk-cognitoidentity", ">= 1.26", "< 1.32"
-  spec.add_dependency "aws-sdk-cognitoidentityprovider", ">= 1.46", "< 1.54"
+  spec.add_dependency "aws-sdk-cognitoidentityprovider", ">= 1.46", "< 1.57"
   # spec.add_dependency "aws-sdk-cognitosync", "~> 1.0"
   # spec.add_dependency "aws-sdk-comprehend", "~> 1.0"
   # spec.add_dependency "aws-sdk-comprehendmedical", "~> 1.0"
