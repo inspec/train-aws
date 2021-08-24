@@ -84,7 +84,7 @@ Gem::Specification.new do |spec|
   spec.add_dependency "aws-sdk-core", "~> 3.0"
   spec.add_dependency "aws-sdk-costandusagereportservice", "~> 1.6"
   # spec.add_dependency "aws-sdk-costexplorer", "~> 1.0"
-  spec.add_dependency "aws-sdk-databasemigrationservice", ">= 1.42", "< 1.54"
+  spec.add_dependency "aws-sdk-databasemigrationservice", ">= 1.42", "< 1.58"
   # spec.add_dependency "aws-sdk-datapipeline", "~> 1.0"
   # spec.add_dependency "aws-sdk-datasync", "~> 1.0"
   # spec.add_dependency "aws-sdk-dax", "~> 1.0"
