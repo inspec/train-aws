@@ -169,6 +169,7 @@ Gem::Specification.new do |spec|
   # spec.add_dependency "aws-sdk-opsworks", "~> 1.0"
   # spec.add_dependency "aws-sdk-opsworkscm", "~> 1.0"
   spec.add_dependency "aws-sdk-organizations", ">= 1.17", "< 1.59"
+  spec.add_dependency "aws-sdk-networkmanager", ">= 1.13.0"
   # spec.add_dependency "aws-sdk-personalize", "~> 1.0"
   # spec.add_dependency "aws-sdk-personalizeevents", "~> 1.0"
   # spec.add_dependency "aws-sdk-personalizeruntime", "~> 1.0"
