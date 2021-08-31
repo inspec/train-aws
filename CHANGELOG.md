@@ -1,8 +1,8 @@
-<!-- latest_release 0.2.16 -->
-## [v0.2.16](https://github.com/inspec/train-aws/tree/v0.2.16) (2021-06-14)
+<!-- latest_release 0.2.17 -->
+## [v0.2.17](https://github.com/inspec/train-aws/tree/v0.2.17) (2021-08-31)
 
 #### Merged Pull Requests
-- Update aws-sdk-transfer requirement from &gt;= 1.26, &lt; 1.34 to &gt;= 1.26, &lt; 1.35 [#184](https://github.com/inspec/train-aws/pull/184) ([dependabot[bot]](https://github.com/dependabot[bot]))
+- adding the network manager gemspec [#225](https://github.com/inspec/train-aws/pull/225) ([soumyo13](https://github.com/soumyo13))
 <!-- latest_release -->
 
 ## [v0.1.1](https://github.com/inspec/train-aws/tree/v0.1.1) (2019-05-21)
@@ -14,6 +14,7 @@
 ### Changes not yet released to rubygems.org
 
 #### Merged Pull Requests
+- adding the network manager gemspec [#225](https://github.com/inspec/train-aws/pull/225) ([soumyo13](https://github.com/soumyo13)) <!-- 0.2.17 -->
 - Update aws-sdk-transfer requirement from &gt;= 1.26, &lt; 1.34 to &gt;= 1.26, &lt; 1.35 [#184](https://github.com/inspec/train-aws/pull/184) ([dependabot[bot]](https://github.com/dependabot[bot])) <!-- 0.2.16 -->
 - Update aws-sdk-cognitoidentityprovider requirement from &gt;= 1.46, &lt; 1.53 to &gt;= 1.46, &lt; 1.54 [#185](https://github.com/inspec/train-aws/pull/185) ([dependabot[bot]](https://github.com/dependabot[bot])) <!-- 0.2.15 -->
 - Update aws-sdk-ram requirement from &gt;= 1.21, &lt; 1.26 to &gt;= 1.21, &lt; 1.27 [#186](https://github.com/inspec/train-aws/pull/186) ([dependabot[bot]](https://github.com/dependabot[bot])) <!-- 0.2.14 -->
