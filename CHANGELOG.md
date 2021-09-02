@@ -1,8 +1,4 @@
-<!-- latest_release 0.2.17 -->
-## [v0.2.17](https://github.com/inspec/train-aws/tree/v0.2.17) (2021-08-31)
-
-#### Merged Pull Requests
-- adding the network manager gemspec [#225](https://github.com/inspec/train-aws/pull/225) ([soumyo13](https://github.com/soumyo13))
+<!-- latest_release -->
 <!-- latest_release -->
 
 ## [v0.1.1](https://github.com/inspec/train-aws/tree/v0.1.1) (2019-05-21)
@@ -10,22 +6,24 @@
 #### Merged Pull Requests
 - Update README for ORP [#3](https://github.com/inspec/train-aws/pull/3) ([miah](https://github.com/miah))
 
-<!-- release_rollup since=0.2.8 -->
-### Changes not yet released to rubygems.org
-
-#### Merged Pull Requests
-- adding the network manager gemspec [#225](https://github.com/inspec/train-aws/pull/225) ([soumyo13](https://github.com/soumyo13)) <!-- 0.2.17 -->
-- Update aws-sdk-transfer requirement from &gt;= 1.26, &lt; 1.34 to &gt;= 1.26, &lt; 1.35 [#184](https://github.com/inspec/train-aws/pull/184) ([dependabot[bot]](https://github.com/dependabot[bot])) <!-- 0.2.16 -->
-- Update aws-sdk-cognitoidentityprovider requirement from &gt;= 1.46, &lt; 1.53 to &gt;= 1.46, &lt; 1.54 [#185](https://github.com/inspec/train-aws/pull/185) ([dependabot[bot]](https://github.com/dependabot[bot])) <!-- 0.2.15 -->
-- Update aws-sdk-ram requirement from &gt;= 1.21, &lt; 1.26 to &gt;= 1.21, &lt; 1.27 [#186](https://github.com/inspec/train-aws/pull/186) ([dependabot[bot]](https://github.com/dependabot[bot])) <!-- 0.2.14 -->
-- Update aws-sdk-transfer requirement from &gt;= 1.26, &lt; 1.33 to &gt;= 1.26, &lt; 1.34 [#178](https://github.com/inspec/train-aws/pull/178) ([dependabot[bot]](https://github.com/dependabot[bot])) <!-- 0.2.13 -->
-- Update aws-sdk-autoscaling requirement from &gt;= 1.22, &lt; 1.62 to &gt;= 1.22, &lt; 1.64 [#180](https://github.com/inspec/train-aws/pull/180) ([dependabot[bot]](https://github.com/dependabot[bot])) <!-- 0.2.12 -->
-- Update aws-sdk-glue requirement from &gt;= 1.71, &lt; 1.88 to &gt;= 1.71, &lt; 1.89 [#181](https://github.com/inspec/train-aws/pull/181) ([dependabot[bot]](https://github.com/dependabot[bot])) <!-- 0.2.11 -->
-- Update aws-sdk-cognitoidentityprovider requirement from &gt;= 1.46, &lt; 1.52 to &gt;= 1.46, &lt; 1.53 [#182](https://github.com/inspec/train-aws/pull/182) ([dependabot[bot]](https://github.com/dependabot[bot])) <!-- 0.2.10 -->
-- Update aws-sdk-servicecatalog requirement from &gt;= 1.48, &lt; 1.60 to &gt;= 1.48, &lt; 1.61 [#183](https://github.com/inspec/train-aws/pull/183) ([dependabot[bot]](https://github.com/dependabot[bot])) <!-- 0.2.9 -->
+<!-- release_rollup -->
 <!-- release_rollup -->
 
 <!-- latest_stable_release -->
+## [v0.2.17](https://github.com/inspec/train-aws/tree/v0.2.17) (2021-09-02)
+
+#### Merged Pull Requests
+- Update aws-sdk-servicecatalog requirement from &gt;= 1.48, &lt; 1.60 to &gt;= 1.48, &lt; 1.61 [#183](https://github.com/inspec/train-aws/pull/183) ([dependabot[bot]](https://github.com/dependabot[bot]))
+- Update aws-sdk-cognitoidentityprovider requirement from &gt;= 1.46, &lt; 1.52 to &gt;= 1.46, &lt; 1.53 [#182](https://github.com/inspec/train-aws/pull/182) ([dependabot[bot]](https://github.com/dependabot[bot]))
+- Update aws-sdk-glue requirement from &gt;= 1.71, &lt; 1.88 to &gt;= 1.71, &lt; 1.89 [#181](https://github.com/inspec/train-aws/pull/181) ([dependabot[bot]](https://github.com/dependabot[bot]))
+- Update aws-sdk-autoscaling requirement from &gt;= 1.22, &lt; 1.62 to &gt;= 1.22, &lt; 1.64 [#180](https://github.com/inspec/train-aws/pull/180) ([dependabot[bot]](https://github.com/dependabot[bot]))
+- Update aws-sdk-transfer requirement from &gt;= 1.26, &lt; 1.33 to &gt;= 1.26, &lt; 1.34 [#178](https://github.com/inspec/train-aws/pull/178) ([dependabot[bot]](https://github.com/dependabot[bot]))
+- Update aws-sdk-ram requirement from &gt;= 1.21, &lt; 1.26 to &gt;= 1.21, &lt; 1.27 [#186](https://github.com/inspec/train-aws/pull/186) ([dependabot[bot]](https://github.com/dependabot[bot]))
+- Update aws-sdk-cognitoidentityprovider requirement from &gt;= 1.46, &lt; 1.53 to &gt;= 1.46, &lt; 1.54 [#185](https://github.com/inspec/train-aws/pull/185) ([dependabot[bot]](https://github.com/dependabot[bot]))
+- Update aws-sdk-transfer requirement from &gt;= 1.26, &lt; 1.34 to &gt;= 1.26, &lt; 1.35 [#184](https://github.com/inspec/train-aws/pull/184) ([dependabot[bot]](https://github.com/dependabot[bot]))
+- adding the network manager gemspec [#225](https://github.com/inspec/train-aws/pull/225) ([soumyo13](https://github.com/soumyo13))
+<!-- latest_stable_release -->
+
 ## [v0.2.8](https://github.com/inspec/train-aws/tree/v0.2.8) (2021-05-24)
 
 #### Merged Pull Requests
@@ -37,7 +35,6 @@
 - Update aws-sdk-organizations requirement from &gt;= 1.17, &lt; 1.59 to &gt;= 1.17, &lt; 1.60 [#174](https://github.com/inspec/train-aws/pull/174) ([dependabot-preview[bot]](https://github.com/dependabot-preview[bot]))
 - Update aws-sdk-cloudwatchevents requirement from &gt;= 1.36, &lt; 1.46 to &gt;= 1.36, &lt; 1.47 [#175](https://github.com/inspec/train-aws/pull/175) ([dependabot[bot]](https://github.com/dependabot[bot]))
 - Update aws-sdk-autoscaling requirement from &gt;= 1.22, &lt; 1.61 to &gt;= 1.22, &lt; 1.62 [#177](https://github.com/inspec/train-aws/pull/177) ([dependabot[bot]](https://github.com/dependabot[bot]))
-<!-- latest_stable_release -->
 
 ## [v0.2.0](https://github.com/inspec/train-aws/tree/v0.2.0) (2021-04-20)
 
