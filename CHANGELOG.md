@@ -1,8 +1,4 @@
-<!-- latest_release 0.2.19 -->
-## [v0.2.19](https://github.com/inspec/train-aws/tree/v0.2.19) (2021-09-07)
-
-#### Merged Pull Requests
-- Added dependencies for INSPEC-AWS [#239](https://github.com/inspec/train-aws/pull/239) ([Nirbhay1997](https://github.com/Nirbhay1997))
+<!-- latest_release -->
 <!-- latest_release -->
 
 ## [v0.1.1](https://github.com/inspec/train-aws/tree/v0.1.1) (2019-05-21)
@@ -10,19 +6,20 @@
 #### Merged Pull Requests
 - Update README for ORP [#3](https://github.com/inspec/train-aws/pull/3) ([miah](https://github.com/miah))
 
-<!-- release_rollup since=0.2.18 -->
-### Changes not yet released to rubygems.org
-
-#### Merged Pull Requests
-- Added dependencies for INSPEC-AWS [#239](https://github.com/inspec/train-aws/pull/239) ([Nirbhay1997](https://github.com/Nirbhay1997)) <!-- 0.2.19 -->
+<!-- release_rollup -->
 <!-- release_rollup -->
 
 <!-- latest_stable_release -->
+## [v0.2.19](https://github.com/inspec/train-aws/tree/v0.2.19) (2021-09-07)
+
+#### Merged Pull Requests
+- Added dependencies for INSPEC-AWS [#239](https://github.com/inspec/train-aws/pull/239) ([Nirbhay1997](https://github.com/Nirbhay1997))
+<!-- latest_stable_release -->
+
 ## [v0.2.18](https://github.com/inspec/train-aws/tree/v0.2.18) (2021-09-03)
 
 #### Merged Pull Requests
 - soumyo/adding_networkfirewall_gem [#237](https://github.com/inspec/train-aws/pull/237) ([soumyo13](https://github.com/soumyo13))
-<!-- latest_stable_release -->
 
 ## [v0.2.17](https://github.com/inspec/train-aws/tree/v0.2.17) (2021-09-02)
 
