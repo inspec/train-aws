@@ -10,6 +10,17 @@
 <!-- release_rollup -->
 
 <!-- latest_stable_release -->
+## [v0.2.19](https://github.com/inspec/train-aws/tree/v0.2.19) (2021-09-07)
+
+#### Merged Pull Requests
+- Added dependencies for INSPEC-AWS [#239](https://github.com/inspec/train-aws/pull/239) ([Nirbhay1997](https://github.com/Nirbhay1997))
+<!-- latest_stable_release -->
+
+## [v0.2.18](https://github.com/inspec/train-aws/tree/v0.2.18) (2021-09-03)
+
+#### Merged Pull Requests
+- soumyo/adding_networkfirewall_gem [#237](https://github.com/inspec/train-aws/pull/237) ([soumyo13](https://github.com/soumyo13))
+
 ## [v0.2.17](https://github.com/inspec/train-aws/tree/v0.2.17) (2021-09-02)
 
 #### Merged Pull Requests
@@ -22,7 +33,6 @@
 - Update aws-sdk-cognitoidentityprovider requirement from &gt;= 1.46, &lt; 1.53 to &gt;= 1.46, &lt; 1.54 [#185](https://github.com/inspec/train-aws/pull/185) ([dependabot[bot]](https://github.com/dependabot[bot]))
 - Update aws-sdk-transfer requirement from &gt;= 1.26, &lt; 1.34 to &gt;= 1.26, &lt; 1.35 [#184](https://github.com/inspec/train-aws/pull/184) ([dependabot[bot]](https://github.com/dependabot[bot]))
 - adding the network manager gemspec [#225](https://github.com/inspec/train-aws/pull/225) ([soumyo13](https://github.com/soumyo13))
-<!-- latest_stable_release -->
 
 ## [v0.2.8](https://github.com/inspec/train-aws/tree/v0.2.8) (2021-05-24)
 
