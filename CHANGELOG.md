@@ -1,4 +1,8 @@
-<!-- latest_release -->
+<!-- latest_release 0.2.20 -->
+## [v0.2.20](https://github.com/inspec/train-aws/tree/v0.2.20) (2021-09-27)
+
+#### Merged Pull Requests
+- soumyo/adding_ses_amplify_signer_mq [#241](https://github.com/inspec/train-aws/pull/241) ([soumyo13](https://github.com/soumyo13))
 <!-- latest_release -->
 
 ## [v0.1.1](https://github.com/inspec/train-aws/tree/v0.1.1) (2019-05-21)
@@ -6,7 +10,11 @@
 #### Merged Pull Requests
 - Update README for ORP [#3](https://github.com/inspec/train-aws/pull/3) ([miah](https://github.com/miah))
 
-<!-- release_rollup -->
+<!-- release_rollup since=0.2.19 -->
+### Changes not yet released to rubygems.org
+
+#### Merged Pull Requests
+- soumyo/adding_ses_amplify_signer_mq [#241](https://github.com/inspec/train-aws/pull/241) ([soumyo13](https://github.com/soumyo13)) <!-- 0.2.20 -->
 <!-- release_rollup -->
 
 <!-- latest_stable_release -->
