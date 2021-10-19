@@ -108,7 +108,7 @@ Gem::Specification.new do |spec|
   spec.add_dependency "aws-sdk-elasticloadbalancingv2", "~> 1.0"
   spec.add_dependency "aws-sdk-elasticsearchservice", "~> 1.0"
   # spec.add_dependency "aws-sdk-elastictranscoder", "~> 1.0"
-  # spec.add_dependency "aws-sdk-emr", "~> 1.0"
+  spec.add_dependency "aws-sdk-emr", "~> 1.53.0"
   spec.add_dependency "aws-sdk-eventbridge", "~> 1.24.0"
   spec.add_dependency "aws-sdk-firehose", "~> 1.0"
   # spec.add_dependency "aws-sdk-fms", "~> 1.0"
