@@ -1,8 +1,8 @@
-<!-- latest_release 0.2.21 -->
-## [v0.2.21](https://github.com/inspec/train-aws/tree/v0.2.21) (2021-10-19)
+<!-- latest_release 0.2.22 -->
+## [v0.2.22](https://github.com/inspec/train-aws/tree/v0.2.22) (2021-10-19)
 
 #### Merged Pull Requests
-- adding dependency for aws-sdk-emr [#256](https://github.com/inspec/train-aws/pull/256) ([varunsharma5](https://github.com/varunsharma5))
+- soumyo/added the synthetics client [#257](https://github.com/inspec/train-aws/pull/257) ([soumyo13](https://github.com/soumyo13))
 <!-- latest_release -->
 
 ## [v0.1.1](https://github.com/inspec/train-aws/tree/v0.1.1) (2019-05-21)
@@ -14,6 +14,7 @@
 ### Changes not yet released to rubygems.org
 
 #### Merged Pull Requests
+- soumyo/added the synthetics client [#257](https://github.com/inspec/train-aws/pull/257) ([soumyo13](https://github.com/soumyo13)) <!-- 0.2.22 -->
 - adding dependency for aws-sdk-emr [#256](https://github.com/inspec/train-aws/pull/256) ([varunsharma5](https://github.com/varunsharma5)) <!-- 0.2.21 -->
 <!-- release_rollup -->
 
