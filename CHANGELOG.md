@@ -1,4 +1,8 @@
-<!-- latest_release -->
+<!-- latest_release 0.2.21 -->
+## [v0.2.21](https://github.com/inspec/train-aws/tree/v0.2.21) (2021-10-19)
+
+#### Merged Pull Requests
+- adding dependency for aws-sdk-emr [#256](https://github.com/inspec/train-aws/pull/256) ([varunsharma5](https://github.com/varunsharma5))
 <!-- latest_release -->
 
 ## [v0.1.1](https://github.com/inspec/train-aws/tree/v0.1.1) (2019-05-21)
@@ -6,7 +10,11 @@
 #### Merged Pull Requests
 - Update README for ORP [#3](https://github.com/inspec/train-aws/pull/3) ([miah](https://github.com/miah))
 
-<!-- release_rollup -->
+<!-- release_rollup since=0.2.20 -->
+### Changes not yet released to rubygems.org
+
+#### Merged Pull Requests
+- adding dependency for aws-sdk-emr [#256](https://github.com/inspec/train-aws/pull/256) ([varunsharma5](https://github.com/varunsharma5)) <!-- 0.2.21 -->
 <!-- release_rollup -->
 
 <!-- latest_stable_release -->
