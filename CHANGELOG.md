@@ -1,8 +1,4 @@
-<!-- latest_release 0.2.23 -->
-## [v0.2.23](https://github.com/inspec/train-aws/tree/v0.2.23) (2021-11-25)
-
-#### Merged Pull Requests
-- Added support for S3 control gem [#274](https://github.com/inspec/train-aws/pull/274) ([Nirbhay1997](https://github.com/Nirbhay1997))
+<!-- latest_release -->
 <!-- latest_release -->
 
 ## [v0.1.1](https://github.com/inspec/train-aws/tree/v0.1.1) (2019-05-21)
@@ -10,20 +6,21 @@
 #### Merged Pull Requests
 - Update README for ORP [#3](https://github.com/inspec/train-aws/pull/3) ([miah](https://github.com/miah))
 
-<!-- release_rollup since=0.2.22 -->
-### Changes not yet released to rubygems.org
-
-#### Merged Pull Requests
-- Added support for S3 control gem [#274](https://github.com/inspec/train-aws/pull/274) ([Nirbhay1997](https://github.com/Nirbhay1997)) <!-- 0.2.23 -->
+<!-- release_rollup -->
 <!-- release_rollup -->
 
 <!-- latest_stable_release -->
+## [v0.2.23](https://github.com/inspec/train-aws/tree/v0.2.23) (2021-11-25)
+
+#### Merged Pull Requests
+- Added support for S3 control gem [#274](https://github.com/inspec/train-aws/pull/274) ([Nirbhay1997](https://github.com/Nirbhay1997))
+<!-- latest_stable_release -->
+
 ## [v0.2.22](https://github.com/inspec/train-aws/tree/v0.2.22) (2021-10-19)
 
 #### Merged Pull Requests
 - adding dependency for aws-sdk-emr [#256](https://github.com/inspec/train-aws/pull/256) ([varunsharma5](https://github.com/varunsharma5))
 - soumyo/added the synthetics client [#257](https://github.com/inspec/train-aws/pull/257) ([soumyo13](https://github.com/soumyo13))
-<!-- latest_stable_release -->
 
 ## [v0.2.20](https://github.com/inspec/train-aws/tree/v0.2.20) (2021-09-30)
 
