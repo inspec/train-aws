@@ -193,7 +193,7 @@ Gem::Specification.new do |spec|
   spec.add_dependency "aws-sdk-route53domains", "~> 1.0"
   spec.add_dependency "aws-sdk-route53resolver", "~> 1.0"
   spec.add_dependency "aws-sdk-s3", "~> 1.30"
-  # spec.add_dependency "aws-sdk-s3control", "~> 1.0"
+  spec.add_dependency "aws-sdk-s3control", "~> 1.43.0"
   # spec.add_dependency "aws-sdk-sagemaker", "~> 1.0"
   # spec.add_dependency "aws-sdk-sagemakerruntime", "~> 1.0"
   spec.add_dependency "aws-sdk-secretsmanager", ">= 1.42", "< 1.47"
