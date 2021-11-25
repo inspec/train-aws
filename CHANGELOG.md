@@ -1,8 +1,4 @@
-<!-- latest_release 0.2.24 -->
-## [v0.2.24](https://github.com/inspec/train-aws/tree/v0.2.24) (2021-11-25)
-
-#### Merged Pull Requests
-- soumyo/added the waf gemspec [#276](https://github.com/inspec/train-aws/pull/276) ([soumyo13](https://github.com/soumyo13))
+<!-- latest_release -->
 <!-- latest_release -->
 
 ## [v0.1.1](https://github.com/inspec/train-aws/tree/v0.1.1) (2019-05-21)
@@ -10,19 +6,20 @@
 #### Merged Pull Requests
 - Update README for ORP [#3](https://github.com/inspec/train-aws/pull/3) ([miah](https://github.com/miah))
 
-<!-- release_rollup since=0.2.23 -->
-### Changes not yet released to rubygems.org
-
-#### Merged Pull Requests
-- soumyo/added the waf gemspec [#276](https://github.com/inspec/train-aws/pull/276) ([soumyo13](https://github.com/soumyo13)) <!-- 0.2.24 -->
+<!-- release_rollup -->
 <!-- release_rollup -->
 
 <!-- latest_stable_release -->
+## [v0.2.24](https://github.com/inspec/train-aws/tree/v0.2.24) (2021-11-25)
+
+#### Merged Pull Requests
+- soumyo/added the waf gemspec [#276](https://github.com/inspec/train-aws/pull/276) ([soumyo13](https://github.com/soumyo13))
+<!-- latest_stable_release -->
+
 ## [v0.2.23](https://github.com/inspec/train-aws/tree/v0.2.23) (2021-11-25)
 
 #### Merged Pull Requests
 - Added support for S3 control gem [#274](https://github.com/inspec/train-aws/pull/274) ([Nirbhay1997](https://github.com/Nirbhay1997))
-<!-- latest_stable_release -->
 
 ## [v0.2.22](https://github.com/inspec/train-aws/tree/v0.2.22) (2021-10-19)
 
