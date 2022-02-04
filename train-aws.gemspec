@@ -68,7 +68,7 @@ Gem::Specification.new do |spec|
   # spec.add_dependency "aws-sdk-cloudsearchdomain", "~> 1.0"
   spec.add_dependency "aws-sdk-cloudtrail", "~> 1.8"
   spec.add_dependency "aws-sdk-cloudwatch", "~> 1.13"
-  spec.add_dependency "aws-sdk-cloudwatchevents", ">= 1.36", "< 1.47"
+  spec.add_dependency "aws-sdk-cloudwatchevents", ">= 1.36", "< 1.57"
   spec.add_dependency "aws-sdk-cloudwatchlogs", "~> 1.13"
   # spec.add_dependency "aws-sdk-codebuild", "~> 1.0"
   spec.add_dependency "aws-sdk-codecommit", "~> 1.0"
