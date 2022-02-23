@@ -1,4 +1,8 @@
-<!-- latest_release -->
+<!-- latest_release 0.2.25 -->
+## [v0.2.25](https://github.com/inspec/train-aws/tree/v0.2.25) (2022-02-23)
+
+#### Merged Pull Requests
+- RESOURCE-204 update train-aws tests to use ruby versions 2.7 and 3.0 only [#316](https://github.com/inspec/train-aws/pull/316) ([soumyo13](https://github.com/soumyo13))
 <!-- latest_release -->
 
 ## [v0.1.1](https://github.com/inspec/train-aws/tree/v0.1.1) (2019-05-21)
@@ -6,7 +10,11 @@
 #### Merged Pull Requests
 - Update README for ORP [#3](https://github.com/inspec/train-aws/pull/3) ([miah](https://github.com/miah))
 
-<!-- release_rollup -->
+<!-- release_rollup since=0.2.24 -->
+### Changes not yet released to rubygems.org
+
+#### Merged Pull Requests
+- RESOURCE-204 update train-aws tests to use ruby versions 2.7 and 3.0 only [#316](https://github.com/inspec/train-aws/pull/316) ([soumyo13](https://github.com/soumyo13)) <!-- 0.2.25 -->
 <!-- release_rollup -->
 
 <!-- latest_stable_release -->
