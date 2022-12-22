@@ -219,7 +219,7 @@ Gem::Specification.new do |spec|
   # spec.add_dependency "aws-sdk-textract", "~> 1.0"
   # spec.add_dependency "aws-sdk-transcribeservice", "~> 1.0"
   # spec.add_dependency "aws-sdk-transcribestreamingservice", "~> 1.0"
-  spec.add_dependency "aws-sdk-transfer", ">= 1.26", "< 1.35"
+  spec.add_dependency "aws-sdk-transfer", ">= 1.26", "< 1.65"
   # spec.add_dependency "aws-sdk-translate", "~> 1.0"
   spec.add_dependency "aws-sdk-waf", "~> 1.43.0"
   # spec.add_dependency "aws-sdk-wafregional", "~> 1.0"
