@@ -168,7 +168,7 @@ Gem::Specification.new do |spec|
   # spec.add_dependency "aws-sdk-neptune", "~> 1.0"
   # spec.add_dependency "aws-sdk-opsworks", "~> 1.0"
   # spec.add_dependency "aws-sdk-opsworkscm", "~> 1.0"
-  spec.add_dependency "aws-sdk-organizations", ">= 1.17", "< 1.60"
+  spec.add_dependency "aws-sdk-organizations", ">= 1.17", "< 1.74"
   spec.add_dependency "aws-sdk-networkmanager", ">= 1.13.0"
   spec.add_dependency "aws-sdk-networkfirewall", ">= 1.6.0"
   # spec.add_dependency "aws-sdk-personalize", "~> 1.0"
