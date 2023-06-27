@@ -38,6 +38,7 @@ Gem::Specification.new do |spec|
   # Do not list inspec as a dependency of a train plugin.
   # Do not list train as a dependency of a train plugin.
 
+  spec.add_dependency "aws-sdk-account", "~> 1.14"
   # spec.add_dependency "aws-sdk-acm", "~> 1.0"
   # spec.add_dependency "aws-sdk-acmpca", "~> 1.0"
   spec.add_dependency "aws-sdk-alexaforbusiness", "~> 1.0"
