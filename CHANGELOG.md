@@ -1,8 +1,8 @@
-<!-- latest_release 0.2.26 -->
-## [v0.2.26](https://github.com/inspec/train-aws/tree/v0.2.26) (2023-06-27)
+<!-- latest_release 0.2.27 -->
+## [v0.2.27](https://github.com/inspec/train-aws/tree/v0.2.27) (2023-07-04)
 
 #### Merged Pull Requests
-- add aws-sdk-account [#457](https://github.com/inspec/train-aws/pull/457) ([Amndeep7](https://github.com/Amndeep7))
+- Update aws-sdk-batch requirement from &gt;= 1.36, &lt; 1.48 to &gt;= 1.36, &lt; 1.74 [#471](https://github.com/inspec/train-aws/pull/471) ([dependabot[bot]](https://github.com/dependabot[bot]))
 <!-- latest_release -->
 
 ## [v0.1.1](https://github.com/inspec/train-aws/tree/v0.1.1) (2019-05-21)
@@ -14,6 +14,7 @@
 ### Changes not yet released to rubygems.org
 
 #### Merged Pull Requests
+- Update aws-sdk-batch requirement from &gt;= 1.36, &lt; 1.48 to &gt;= 1.36, &lt; 1.74 [#471](https://github.com/inspec/train-aws/pull/471) ([dependabot[bot]](https://github.com/dependabot[bot])) <!-- 0.2.27 -->
 - add aws-sdk-account [#457](https://github.com/inspec/train-aws/pull/457) ([Amndeep7](https://github.com/Amndeep7)) <!-- 0.2.26 -->
 - RESOURCE-204 update train-aws tests to use ruby versions 2.7 and 3.0 only [#316](https://github.com/inspec/train-aws/pull/316) ([soumyo13](https://github.com/soumyo13)) <!-- 0.2.25 -->
 <!-- release_rollup -->
