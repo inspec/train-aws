@@ -1,8 +1,8 @@
-<!-- latest_release 0.2.35 -->
-## [v0.2.35](https://github.com/inspec/train-aws/tree/v0.2.35) (2023-07-04)
+<!-- latest_release 0.2.36 -->
+## [v0.2.36](https://github.com/inspec/train-aws/tree/v0.2.36) (2023-07-04)
 
 #### Merged Pull Requests
-- Update aws-sdk-cloudwatchevents requirement from &gt;= 1.36, &lt; 1.47 to &gt;= 1.36, &lt; 1.63 [#463](https://github.com/inspec/train-aws/pull/463) ([dependabot[bot]](https://github.com/dependabot[bot]))
+- Update aws-sdk-databasemigrationservice requirement from &gt;= 1.42, &lt; 1.54 to &gt;= 1.42, &lt; 1.81 [#460](https://github.com/inspec/train-aws/pull/460) ([dependabot[bot]](https://github.com/dependabot[bot]))
 <!-- latest_release -->
 
 ## [v0.1.1](https://github.com/inspec/train-aws/tree/v0.1.1) (2019-05-21)
@@ -14,6 +14,7 @@
 ### Changes not yet released to rubygems.org
 
 #### Merged Pull Requests
+- Update aws-sdk-databasemigrationservice requirement from &gt;= 1.42, &lt; 1.54 to &gt;= 1.42, &lt; 1.81 [#460](https://github.com/inspec/train-aws/pull/460) ([dependabot[bot]](https://github.com/dependabot[bot])) <!-- 0.2.36 -->
 - Update aws-sdk-cloudwatchevents requirement from &gt;= 1.36, &lt; 1.47 to &gt;= 1.36, &lt; 1.63 [#463](https://github.com/inspec/train-aws/pull/463) ([dependabot[bot]](https://github.com/dependabot[bot])) <!-- 0.2.35 -->
 - Update aws-sdk-eventbridge requirement from ~&gt; 1.24.0 to &gt;= 1.24, &lt; 1.47 [#465](https://github.com/inspec/train-aws/pull/465) ([dependabot[bot]](https://github.com/dependabot[bot])) <!-- 0.2.34 -->
 - Update aws-sdk-autoscaling requirement from &gt;= 1.22, &lt; 1.64 to &gt;= 1.22, &lt; 1.93 [#466](https://github.com/inspec/train-aws/pull/466) ([dependabot[bot]](https://github.com/dependabot[bot])) <!-- 0.2.33 -->
