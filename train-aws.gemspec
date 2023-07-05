@@ -216,7 +216,7 @@ Gem::Specification.new do |spec|
   # spec.add_dependency "aws-sdk-storagegateway", "~> 1.0"
   # spec.add_dependency "aws-sdk-support", "~> 1.0"
   # spec.add_dependency "aws-sdk-swf", "~> 1.0"
-  spec.add_dependency "aws-sdk-synthetics", "~> 1.19.0"
+  spec.add_dependency "aws-sdk-synthetics", ">= 1.19", "< 1.34"
   # spec.add_dependency "aws-sdk-textract", "~> 1.0"
   # spec.add_dependency "aws-sdk-transcribeservice", "~> 1.0"
   # spec.add_dependency "aws-sdk-transcribestreamingservice", "~> 1.0"
