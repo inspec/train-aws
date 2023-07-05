@@ -164,7 +164,7 @@ Gem::Specification.new do |spec|
   # spec.add_dependency "aws-sdk-mediatailor", "~> 1.0"
   # spec.add_dependency "aws-sdk-migrationhub", "~> 1.0"
   # spec.add_dependency "aws-sdk-mobile", "~> 1.0"
-  spec.add_dependency "aws-sdk-mq", "~> 1.40.0"
+  spec.add_dependency "aws-sdk-mq", ">= 1.40", "< 1.54"
   # spec.add_dependency "aws-sdk-mturk", "~> 1.0"
   # spec.add_dependency "aws-sdk-neptune", "~> 1.0"
   # spec.add_dependency "aws-sdk-opsworks", "~> 1.0"
