@@ -46,7 +46,7 @@ Gem::Specification.new do |spec|
   spec.add_dependency "aws-sdk-apigateway", "~> 1.0"
   # spec.add_dependency "aws-sdk-apigatewaymanagementapi", "~> 1.0"
   spec.add_dependency "aws-sdk-apigatewayv2", "~> 1.0"
-  spec.add_dependency "aws-sdk-applicationautoscaling", ">= 1.46", "< 1.52"
+  spec.add_dependency "aws-sdk-applicationautoscaling", ">= 1.46", "< 1.75"
   # spec.add_dependency "aws-sdk-applicationdiscoveryservice", "~> 1.0"
   # spec.add_dependency "aws-sdk-applicationinsights", "~> 1.0"
   # spec.add_dependency "aws-sdk-appmesh", "~> 1.0"
