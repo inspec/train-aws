@@ -1,8 +1,4 @@
-<!-- latest_release 0.2.36 -->
-## [v0.2.36](https://github.com/inspec/train-aws/tree/v0.2.36) (2023-07-04)
-
-#### Merged Pull Requests
-- Update aws-sdk-databasemigrationservice requirement from &gt;= 1.42, &lt; 1.54 to &gt;= 1.42, &lt; 1.81 [#460](https://github.com/inspec/train-aws/pull/460) ([dependabot[bot]](https://github.com/dependabot[bot]))
+<!-- latest_release -->
 <!-- latest_release -->
 
 ## [v0.1.1](https://github.com/inspec/train-aws/tree/v0.1.1) (2019-05-21)
@@ -10,30 +6,31 @@
 #### Merged Pull Requests
 - Update README for ORP [#3](https://github.com/inspec/train-aws/pull/3) ([miah](https://github.com/miah))
 
-<!-- release_rollup since=0.2.24 -->
-### Changes not yet released to rubygems.org
-
-#### Merged Pull Requests
-- Update aws-sdk-databasemigrationservice requirement from &gt;= 1.42, &lt; 1.54 to &gt;= 1.42, &lt; 1.81 [#460](https://github.com/inspec/train-aws/pull/460) ([dependabot[bot]](https://github.com/dependabot[bot])) <!-- 0.2.36 -->
-- Update aws-sdk-cloudwatchevents requirement from &gt;= 1.36, &lt; 1.47 to &gt;= 1.36, &lt; 1.63 [#463](https://github.com/inspec/train-aws/pull/463) ([dependabot[bot]](https://github.com/dependabot[bot])) <!-- 0.2.35 -->
-- Update aws-sdk-eventbridge requirement from ~&gt; 1.24.0 to &gt;= 1.24, &lt; 1.47 [#465](https://github.com/inspec/train-aws/pull/465) ([dependabot[bot]](https://github.com/dependabot[bot])) <!-- 0.2.34 -->
-- Update aws-sdk-autoscaling requirement from &gt;= 1.22, &lt; 1.64 to &gt;= 1.22, &lt; 1.93 [#466](https://github.com/inspec/train-aws/pull/466) ([dependabot[bot]](https://github.com/dependabot[bot])) <!-- 0.2.33 -->
-- Update aws-sdk-organizations requirement from &gt;= 1.17, &lt; 1.60 to &gt;= 1.17, &lt; 1.78 [#467](https://github.com/inspec/train-aws/pull/467) ([dependabot[bot]](https://github.com/dependabot[bot])) <!-- 0.2.32 -->
-- Update aws-sdk-cognitoidentityprovider requirement from &gt;= 1.46, &lt; 1.54 to &gt;= 1.46, &lt; 1.77 [#461](https://github.com/inspec/train-aws/pull/461) ([dependabot[bot]](https://github.com/dependabot[bot])) <!-- 0.2.31 -->
-- Update aws-sdk-cognitoidentity requirement from &gt;= 1.26, &lt; 1.32 to &gt;= 1.26, &lt; 1.46 [#468](https://github.com/inspec/train-aws/pull/468) ([dependabot[bot]](https://github.com/dependabot[bot])) <!-- 0.2.30 -->
-- Update aws-sdk-glue requirement from &gt;= 1.71, &lt; 1.89 to &gt;= 1.71, &lt; 1.146 [#469](https://github.com/inspec/train-aws/pull/469) ([dependabot[bot]](https://github.com/dependabot[bot])) <!-- 0.2.29 -->
-- Update aws-sdk-transfer requirement from &gt;= 1.26, &lt; 1.35 to &gt;= 1.26, &lt; 1.74 [#470](https://github.com/inspec/train-aws/pull/470) ([dependabot[bot]](https://github.com/dependabot[bot])) <!-- 0.2.28 -->
-- Update aws-sdk-batch requirement from &gt;= 1.36, &lt; 1.48 to &gt;= 1.36, &lt; 1.74 [#471](https://github.com/inspec/train-aws/pull/471) ([dependabot[bot]](https://github.com/dependabot[bot])) <!-- 0.2.27 -->
-- add aws-sdk-account [#457](https://github.com/inspec/train-aws/pull/457) ([Amndeep7](https://github.com/Amndeep7)) <!-- 0.2.26 -->
-- RESOURCE-204 update train-aws tests to use ruby versions 2.7 and 3.0 only [#316](https://github.com/inspec/train-aws/pull/316) ([soumyo13](https://github.com/soumyo13)) <!-- 0.2.25 -->
+<!-- release_rollup -->
 <!-- release_rollup -->
 
 <!-- latest_stable_release -->
+## [v0.2.36](https://github.com/inspec/train-aws/tree/v0.2.36) (2023-07-25)
+
+#### Merged Pull Requests
+- RESOURCE-204 update train-aws tests to use ruby versions 2.7 and 3.0 only [#316](https://github.com/inspec/train-aws/pull/316) ([soumyo13](https://github.com/soumyo13))
+- add aws-sdk-account [#457](https://github.com/inspec/train-aws/pull/457) ([Amndeep7](https://github.com/Amndeep7))
+- Update aws-sdk-batch requirement from &gt;= 1.36, &lt; 1.48 to &gt;= 1.36, &lt; 1.74 [#471](https://github.com/inspec/train-aws/pull/471) ([dependabot[bot]](https://github.com/dependabot[bot]))
+- Update aws-sdk-transfer requirement from &gt;= 1.26, &lt; 1.35 to &gt;= 1.26, &lt; 1.74 [#470](https://github.com/inspec/train-aws/pull/470) ([dependabot[bot]](https://github.com/dependabot[bot]))
+- Update aws-sdk-glue requirement from &gt;= 1.71, &lt; 1.89 to &gt;= 1.71, &lt; 1.146 [#469](https://github.com/inspec/train-aws/pull/469) ([dependabot[bot]](https://github.com/dependabot[bot]))
+- Update aws-sdk-cognitoidentity requirement from &gt;= 1.26, &lt; 1.32 to &gt;= 1.26, &lt; 1.46 [#468](https://github.com/inspec/train-aws/pull/468) ([dependabot[bot]](https://github.com/dependabot[bot]))
+- Update aws-sdk-cognitoidentityprovider requirement from &gt;= 1.46, &lt; 1.54 to &gt;= 1.46, &lt; 1.77 [#461](https://github.com/inspec/train-aws/pull/461) ([dependabot[bot]](https://github.com/dependabot[bot]))
+- Update aws-sdk-organizations requirement from &gt;= 1.17, &lt; 1.60 to &gt;= 1.17, &lt; 1.78 [#467](https://github.com/inspec/train-aws/pull/467) ([dependabot[bot]](https://github.com/dependabot[bot]))
+- Update aws-sdk-autoscaling requirement from &gt;= 1.22, &lt; 1.64 to &gt;= 1.22, &lt; 1.93 [#466](https://github.com/inspec/train-aws/pull/466) ([dependabot[bot]](https://github.com/dependabot[bot]))
+- Update aws-sdk-eventbridge requirement from ~&gt; 1.24.0 to &gt;= 1.24, &lt; 1.47 [#465](https://github.com/inspec/train-aws/pull/465) ([dependabot[bot]](https://github.com/dependabot[bot]))
+- Update aws-sdk-cloudwatchevents requirement from &gt;= 1.36, &lt; 1.47 to &gt;= 1.36, &lt; 1.63 [#463](https://github.com/inspec/train-aws/pull/463) ([dependabot[bot]](https://github.com/dependabot[bot]))
+- Update aws-sdk-databasemigrationservice requirement from &gt;= 1.42, &lt; 1.54 to &gt;= 1.42, &lt; 1.81 [#460](https://github.com/inspec/train-aws/pull/460) ([dependabot[bot]](https://github.com/dependabot[bot]))
+<!-- latest_stable_release -->
+
 ## [v0.2.24](https://github.com/inspec/train-aws/tree/v0.2.24) (2021-11-25)
 
 #### Merged Pull Requests
 - soumyo/added the waf gemspec [#276](https://github.com/inspec/train-aws/pull/276) ([soumyo13](https://github.com/soumyo13))
-<!-- latest_stable_release -->
 
 ## [v0.2.23](https://github.com/inspec/train-aws/tree/v0.2.23) (2021-11-25)
 
