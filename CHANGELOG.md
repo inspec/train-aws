@@ -1,4 +1,8 @@
-<!-- latest_release -->
+<!-- latest_release 0.2.37 -->
+## [v0.2.37](https://github.com/inspec/train-aws/tree/v0.2.37) (2023-12-05)
+
+#### Merged Pull Requests
+- Updated Deps for All Gems [#519](https://github.com/inspec/train-aws/pull/519) ([aaronlippold](https://github.com/aaronlippold))
 <!-- latest_release -->
 
 ## [v0.1.1](https://github.com/inspec/train-aws/tree/v0.1.1) (2019-05-21)
@@ -6,7 +10,11 @@
 #### Merged Pull Requests
 - Update README for ORP [#3](https://github.com/inspec/train-aws/pull/3) ([miah](https://github.com/miah))
 
-<!-- release_rollup -->
+<!-- release_rollup since=0.2.36 -->
+### Changes not yet released to rubygems.org
+
+#### Merged Pull Requests
+- Updated Deps for All Gems [#519](https://github.com/inspec/train-aws/pull/519) ([aaronlippold](https://github.com/aaronlippold)) <!-- 0.2.37 -->
 <!-- release_rollup -->
 
 <!-- latest_stable_release -->
