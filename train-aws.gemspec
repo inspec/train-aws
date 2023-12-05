@@ -153,6 +153,7 @@ Gem::Specification.new do |spec|
   # spec.add_dependency "aws-sdk-lightsail", "~> 1.84.0"
   # spec.add_dependency "aws-sdk-machinelearning", "~> 1.49.0"
   spec.add_dependency "aws-sdk-macie", "~> 1.48.0"
+  spec.add_dependency "aws-sdk-macie2", "~> 1.64.0"
   # spec.add_dependency "aws-sdk-managedblockchain", "~> 1.48.0"
   # spec.add_dependency "aws-sdk-marketplacecommerceanalytics", "~> 1.53.0"
   # spec.add_dependency "aws-sdk-marketplaceentitlementservice", "~> 1.47.0"
