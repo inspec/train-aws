@@ -1,8 +1,8 @@
-<!-- latest_release 0.2.37 -->
-## [v0.2.37](https://github.com/inspec/train-aws/tree/v0.2.37) (2023-12-05)
+<!-- latest_release 0.2.38 -->
+## [v0.2.38](https://github.com/inspec/train-aws/tree/v0.2.38) (2023-12-06)
 
 #### Merged Pull Requests
-- Updated Deps for All Gems [#519](https://github.com/inspec/train-aws/pull/519) ([aaronlippold](https://github.com/aaronlippold))
+- adding aws-sdk-macie2 given aws-sdk-macie is going EOL [#521](https://github.com/inspec/train-aws/pull/521) ([aaronlippold](https://github.com/aaronlippold))
 <!-- latest_release -->
 
 ## [v0.1.1](https://github.com/inspec/train-aws/tree/v0.1.1) (2019-05-21)
@@ -14,6 +14,7 @@
 ### Changes not yet released to rubygems.org
 
 #### Merged Pull Requests
+- adding aws-sdk-macie2 given aws-sdk-macie is going EOL [#521](https://github.com/inspec/train-aws/pull/521) ([aaronlippold](https://github.com/aaronlippold)) <!-- 0.2.38 -->
 - Updated Deps for All Gems [#519](https://github.com/inspec/train-aws/pull/519) ([aaronlippold](https://github.com/aaronlippold)) <!-- 0.2.37 -->
 <!-- release_rollup -->
 
