@@ -64,7 +64,7 @@ Gem::Specification.new do |spec|
   # spec.add_dependency "aws-sdk-chime", "~> 1.80.0"
   # spec.add_dependency "aws-sdk-cloud9", "~> 1.63.0"
   # spec.add_dependency "aws-sdk-clouddirectory", "~> 1.53.0"
-  spec.add_dependency "aws-sdk-cloudformation", "~> 1.96.0"
+  spec.add_dependency "aws-sdk-cloudformation", ">= 1.96", "< 1.98"
   spec.add_dependency "aws-sdk-cloudfront", "~> 1.86.0"
   spec.add_dependency "aws-sdk-cloudhsm", "~> 1.50.0"
   spec.add_dependency "aws-sdk-cloudhsmv2", "~> 1.53.0"
