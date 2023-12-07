@@ -55,7 +55,7 @@ Gem::Specification.new do |spec|
   # spec.add_dependency "aws-sdk-appmesh", "~> 1.59.0"
   # spec.add_dependency "aws-sdk-appstream", "~> 1.82.0"
   # spec.add_dependency "aws-sdk-appsync", "~> 1.69.0"
-  spec.add_dependency "aws-sdk-athena", "~> 1.78.0"
+  spec.add_dependency "aws-sdk-athena", ">= 1.78", "< 1.80"
   spec.add_dependency "aws-sdk-autoscaling", "1.102.0"
   # spec.add_dependency "aws-sdk-autoscalingplans", "~> 1.51.0"
   # spec.add_dependency "aws-sdk-backup", "~> 1.63.0"
