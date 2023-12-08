@@ -76,7 +76,7 @@ Gem::Specification.new do |spec|
   spec.add_dependency "aws-sdk-cloudwatchlogs", "~> 1.75"
   # spec.add_dependency "aws-sdk-codebuild", "~> 1.100.0"
   spec.add_dependency "aws-sdk-codecommit", "~> 1.62.0"
-  spec.add_dependency "aws-sdk-codedeploy", "~> 1.62.0"
+  spec.add_dependency "aws-sdk-codedeploy", ">= 1.62", "< 1.64"
   spec.add_dependency "aws-sdk-codepipeline", "~> 1.67.0"
   # spec.add_dependency "aws-sdk-codestar", "~> 1.49.0"
   spec.add_dependency "aws-sdk-cognitoidentity", "~> 1.51.0"
