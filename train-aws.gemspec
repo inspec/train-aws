@@ -114,7 +114,7 @@ Gem::Specification.new do |spec|
   # spec.add_dependency "aws-sdk-elastictranscoder", "~> 1.49.0"
   spec.add_dependency "aws-sdk-emr", "~> 1.81.0"
   spec.add_dependency "aws-sdk-eventbridge", "~> 1.54.0"
-  spec.add_dependency "aws-sdk-firehose", "~> 1.60.0"
+  spec.add_dependency "aws-sdk-firehose", ">= 1.60", "< 1.62"
   # spec.add_dependency "aws-sdk-fms", "~> 1.66.0"
   # spec.add_dependency "aws-sdk-fsx", "~> 1.82.0"
   # spec.add_dependency "aws-sdk-gamelift", "~> 1.74.0"
