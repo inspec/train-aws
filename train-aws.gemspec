@@ -105,7 +105,7 @@ Gem::Specification.new do |spec|
   spec.add_dependency "aws-sdk-ecrpublic", "~> 1.25.0"
   spec.add_dependency "aws-sdk-ecs", "~> 1.135.0"
   spec.add_dependency "aws-sdk-efs", "~> 1.71.0"
-  spec.add_dependency "aws-sdk-eks", "~> 1.95.0"
+  spec.add_dependency "aws-sdk-eks", ">= 1.95", "< 1.97"
   spec.add_dependency "aws-sdk-elasticache", "~> 1.95.0"
   spec.add_dependency "aws-sdk-elasticbeanstalk", "~> 1.63.0"
   spec.add_dependency "aws-sdk-elasticloadbalancing", "~> 1.51.0"
