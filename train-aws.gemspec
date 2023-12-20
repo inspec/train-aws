@@ -99,7 +99,7 @@ Gem::Specification.new do |spec|
   # spec.add_dependency "aws-sdk-docdb", "~> 1.58.0"
   spec.add_dependency "aws-sdk-dynamodb", "~> 1.98.0"
   # spec.add_dependency "aws-sdk-dynamodbstreams", "~> 1.52.0"
-  spec.add_dependency "aws-sdk-ec2", ">= 1.427", "< 1.430"
+  spec.add_dependency "aws-sdk-ec2", ">= 1.427", "< 1.432"
   # spec.add_dependency "aws-sdk-ec2instanceconnect", "~> 1.36.0"
   spec.add_dependency "aws-sdk-ecr", "~> 1.68.0"
   spec.add_dependency "aws-sdk-ecrpublic", "~> 1.25.0"
