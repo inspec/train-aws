@@ -1,8 +1,4 @@
-<!-- latest_release 0.2.41 -->
-## [v0.2.41](https://github.com/inspec/train-aws/tree/v0.2.41) (2023-12-07)
-
-#### Merged Pull Requests
-- Update aws-sdk-athena requirement from ~&gt; 1.78.0 to &gt;= 1.78, &lt; 1.80 [#522](https://github.com/inspec/train-aws/pull/522) ([dependabot[bot]](https://github.com/dependabot[bot]))
+<!-- latest_release -->
 <!-- latest_release -->
 
 ## [v0.1.1](https://github.com/inspec/train-aws/tree/v0.1.1) (2019-05-21)
@@ -10,18 +6,20 @@
 #### Merged Pull Requests
 - Update README for ORP [#3](https://github.com/inspec/train-aws/pull/3) ([miah](https://github.com/miah))
 
-<!-- release_rollup since=0.2.36 -->
-### Changes not yet released to rubygems.org
-
-#### Merged Pull Requests
-- Update aws-sdk-athena requirement from ~&gt; 1.78.0 to &gt;= 1.78, &lt; 1.80 [#522](https://github.com/inspec/train-aws/pull/522) ([dependabot[bot]](https://github.com/dependabot[bot])) <!-- 0.2.41 -->
-- Update aws-sdk-ec2 requirement from ~&gt; 1.427.0 to &gt;= 1.427, &lt; 1.430 [#523](https://github.com/inspec/train-aws/pull/523) ([dependabot[bot]](https://github.com/dependabot[bot])) <!-- 0.2.40 -->
-- Update aws-sdk-cloudformation requirement from ~&gt; 1.96.0 to &gt;= 1.96, &lt; 1.98 [#524](https://github.com/inspec/train-aws/pull/524) ([dependabot[bot]](https://github.com/dependabot[bot])) <!-- 0.2.39 -->
-- adding aws-sdk-macie2 given aws-sdk-macie is going EOL [#521](https://github.com/inspec/train-aws/pull/521) ([aaronlippold](https://github.com/aaronlippold)) <!-- 0.2.38 -->
-- Updated Deps for All Gems [#519](https://github.com/inspec/train-aws/pull/519) ([aaronlippold](https://github.com/aaronlippold)) <!-- 0.2.37 -->
+<!-- release_rollup -->
 <!-- release_rollup -->
 
 <!-- latest_stable_release -->
+## [v0.2.41](https://github.com/inspec/train-aws/tree/v0.2.41) (2023-12-20)
+
+#### Merged Pull Requests
+- Updated Deps for All Gems [#519](https://github.com/inspec/train-aws/pull/519) ([aaronlippold](https://github.com/aaronlippold))
+- adding aws-sdk-macie2 given aws-sdk-macie is going EOL [#521](https://github.com/inspec/train-aws/pull/521) ([aaronlippold](https://github.com/aaronlippold))
+- Update aws-sdk-cloudformation requirement from ~&gt; 1.96.0 to &gt;= 1.96, &lt; 1.98 [#524](https://github.com/inspec/train-aws/pull/524) ([dependabot[bot]](https://github.com/dependabot[bot]))
+- Update aws-sdk-ec2 requirement from ~&gt; 1.427.0 to &gt;= 1.427, &lt; 1.430 [#523](https://github.com/inspec/train-aws/pull/523) ([dependabot[bot]](https://github.com/dependabot[bot]))
+- Update aws-sdk-athena requirement from ~&gt; 1.78.0 to &gt;= 1.78, &lt; 1.80 [#522](https://github.com/inspec/train-aws/pull/522) ([dependabot[bot]](https://github.com/dependabot[bot]))
+<!-- latest_stable_release -->
+
 ## [v0.2.36](https://github.com/inspec/train-aws/tree/v0.2.36) (2023-07-25)
 
 #### Merged Pull Requests
@@ -37,7 +35,6 @@
 - Update aws-sdk-eventbridge requirement from ~&gt; 1.24.0 to &gt;= 1.24, &lt; 1.47 [#465](https://github.com/inspec/train-aws/pull/465) ([dependabot[bot]](https://github.com/dependabot[bot]))
 - Update aws-sdk-cloudwatchevents requirement from &gt;= 1.36, &lt; 1.47 to &gt;= 1.36, &lt; 1.63 [#463](https://github.com/inspec/train-aws/pull/463) ([dependabot[bot]](https://github.com/dependabot[bot]))
 - Update aws-sdk-databasemigrationservice requirement from &gt;= 1.42, &lt; 1.54 to &gt;= 1.42, &lt; 1.81 [#460](https://github.com/inspec/train-aws/pull/460) ([dependabot[bot]](https://github.com/dependabot[bot]))
-<!-- latest_stable_release -->
 
 ## [v0.2.24](https://github.com/inspec/train-aws/tree/v0.2.24) (2021-11-25)
 
