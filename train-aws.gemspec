@@ -186,7 +186,7 @@ Gem::Specification.new do |spec|
   # spec.add_dependency "aws-sdk-pricing", "~> 1.53.0"
   # spec.add_dependency "aws-sdk-quicksight", "~> 1.99.0"
   spec.add_dependency "aws-sdk-ram", "~> 1.52.0"
-  spec.add_dependency "aws-sdk-rds", "~> 1.208.0"
+  spec.add_dependency "aws-sdk-rds", ">= 1.208", "< 1.211"
   # spec.add_dependency "aws-sdk-rdsdataservice", "~> 1.49.0"
   spec.add_dependency "aws-sdk-redshift", "~> 1.107.0"
   # spec.add_dependency "aws-sdk-rekognition", "~> 1.91.0"
