@@ -50,3 +50,7 @@ pipelines:
   - verify:
       description: Pull Request validation tests
       public: true
+  - coverage:
+      description: Unit test coverage
+      public: false
+      trigger: pull_request
