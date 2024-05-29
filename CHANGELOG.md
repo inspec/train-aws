@@ -1,8 +1,8 @@
-<!-- latest_release 0.2.42 -->
-## [v0.2.42](https://github.com/inspec/train-aws/tree/v0.2.42) (2024-01-08)
+<!-- latest_release 0.2.43 -->
+## [v0.2.43](https://github.com/inspec/train-aws/tree/v0.2.43) (2024-05-29)
 
 #### Merged Pull Requests
-- CHEF-7501 Configures SonarQube for code coverage analysis [#551](https://github.com/inspec/train-aws/pull/551) ([Vasu1105](https://github.com/Vasu1105))
+- Remove chef-utils dependency added for Ruby 2.5  [#580](https://github.com/inspec/train-aws/pull/580) ([Vasu1105](https://github.com/Vasu1105))
 <!-- latest_release -->
 
 ## [v0.1.1](https://github.com/inspec/train-aws/tree/v0.1.1) (2019-05-21)
@@ -14,6 +14,7 @@
 ### Changes not yet released to rubygems.org
 
 #### Merged Pull Requests
+- Remove chef-utils dependency added for Ruby 2.5  [#580](https://github.com/inspec/train-aws/pull/580) ([Vasu1105](https://github.com/Vasu1105)) <!-- 0.2.43 -->
 - CHEF-7501 Configures SonarQube for code coverage analysis [#551](https://github.com/inspec/train-aws/pull/551) ([Vasu1105](https://github.com/Vasu1105)) <!-- 0.2.42 -->
 <!-- release_rollup -->
 
