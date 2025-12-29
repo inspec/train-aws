@@ -8,12 +8,11 @@ expeditor:
           limit: 1
 
 steps:
-
-  - label: coverage-ruby-3.0
+  - label: coverage-ruby-3.1
     command:
       - CI_ENABLE_COVERAGE=1 RAKE_TASK=default /workdir/.expeditor/buildkite/verify.sh
     expeditor:
       secrets: true
       executor:
         docker:
-          image: ruby:3.0
+          image: ruby:3.1.7-bullseye
