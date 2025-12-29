@@ -196,7 +196,7 @@ Gem::Specification.new do |spec|
   spec.add_dependency "aws-sdk-route53", "~> 1.83.0"
   spec.add_dependency "aws-sdk-route53domains", "~> 1.54.0"
   spec.add_dependency "aws-sdk-route53resolver", "~> 1.51.0"
-  spec.add_dependency "aws-sdk-s3", "~> 1.141.0"
+  spec.add_dependency "aws-sdk-s3", "~> 1.208.0"
   spec.add_dependency "aws-sdk-s3control", "~> 1.74.0"
   # spec.add_dependency "aws-sdk-sagemaker", "~> 1.224.0"
   # spec.add_dependency "aws-sdk-sagemakerruntime", "~> 1.60.0"
