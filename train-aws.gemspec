@@ -39,7 +39,7 @@ Gem::Specification.new do |spec|
   # Do not list train as a dependency of a train plugin.
 
   # full version sync - 02 DEC 2023
-  spec.add_dependency "aws-partitions", "~> 1.863.0"
+  spec.add_dependency "aws-partitions", "~> 1.992.0"
   spec.add_dependency "aws-sdk-account", "~> 1.20.0"
   spec.add_dependency "aws-sdk-accessanalyzer", "~> 1.44.0"
   # spec.add_dependency "aws-sdk-acm", "~> 1.64.0"
@@ -85,7 +85,7 @@ Gem::Specification.new do |spec|
   # spec.add_dependency "aws-sdk-comprehend", "~> 1.77.0"
   # spec.add_dependency "aws-sdk-comprehendmedical", "~> 1.49.0"
   spec.add_dependency "aws-sdk-configservice", "~> 1.103.0"
-  spec.add_dependency "aws-sdk-core", "~> 3.190.0"
+  spec.add_dependency "aws-sdk-core", "~> 3.234.0"
   spec.add_dependency "aws-sdk-costandusagereportservice", "~> 1.53.0"
   # spec.add_dependency "aws-sdk-costexplorer", "~> 1.94.0"
   spec.add_dependency "aws-sdk-databasemigrationservice", "~> 1.91.0"
