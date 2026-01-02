@@ -1,8 +1,4 @@
-<!-- latest_release 0.2.44 -->
-## [v0.2.44](https://github.com/inspec/train-aws/tree/v0.2.44) (2025-12-31)
-
-#### Merged Pull Requests
-- CHEF-29491 Update AWS SDK s3 [#588](https://github.com/inspec/train-aws/pull/588) ([sathish-progress](https://github.com/sathish-progress))
+<!-- latest_release -->
 <!-- latest_release -->
 
 ## [v0.1.1](https://github.com/inspec/train-aws/tree/v0.1.1) (2019-05-21)
@@ -10,16 +6,18 @@
 #### Merged Pull Requests
 - Update README for ORP [#3](https://github.com/inspec/train-aws/pull/3) ([miah](https://github.com/miah))
 
-<!-- release_rollup since=0.2.41 -->
-### Changes not yet released to rubygems.org
-
-#### Merged Pull Requests
-- CHEF-29491 Update AWS SDK s3 [#588](https://github.com/inspec/train-aws/pull/588) ([sathish-progress](https://github.com/sathish-progress)) <!-- 0.2.44 -->
-- Remove chef-utils dependency added for Ruby 2.5  [#580](https://github.com/inspec/train-aws/pull/580) ([Vasu1105](https://github.com/Vasu1105)) <!-- 0.2.43 -->
-- CHEF-7501 Configures SonarQube for code coverage analysis [#551](https://github.com/inspec/train-aws/pull/551) ([Vasu1105](https://github.com/Vasu1105)) <!-- 0.2.42 -->
+<!-- release_rollup -->
 <!-- release_rollup -->
 
 <!-- latest_stable_release -->
+## [v0.2.44](https://github.com/inspec/train-aws/tree/v0.2.44) (2026-01-02)
+
+#### Merged Pull Requests
+- CHEF-7501 Configures SonarQube for code coverage analysis [#551](https://github.com/inspec/train-aws/pull/551) ([Vasu1105](https://github.com/Vasu1105))
+- Remove chef-utils dependency added for Ruby 2.5  [#580](https://github.com/inspec/train-aws/pull/580) ([Vasu1105](https://github.com/Vasu1105))
+- CHEF-29491 Update AWS SDK s3 [#588](https://github.com/inspec/train-aws/pull/588) ([sathish-progress](https://github.com/sathish-progress))
+<!-- latest_stable_release -->
+
 ## [v0.2.41](https://github.com/inspec/train-aws/tree/v0.2.41) (2023-12-20)
 
 #### Merged Pull Requests
@@ -28,7 +26,6 @@
 - Update aws-sdk-cloudformation requirement from ~&gt; 1.96.0 to &gt;= 1.96, &lt; 1.98 [#524](https://github.com/inspec/train-aws/pull/524) ([dependabot[bot]](https://github.com/dependabot[bot]))
 - Update aws-sdk-ec2 requirement from ~&gt; 1.427.0 to &gt;= 1.427, &lt; 1.430 [#523](https://github.com/inspec/train-aws/pull/523) ([dependabot[bot]](https://github.com/dependabot[bot]))
 - Update aws-sdk-athena requirement from ~&gt; 1.78.0 to &gt;= 1.78, &lt; 1.80 [#522](https://github.com/inspec/train-aws/pull/522) ([dependabot[bot]](https://github.com/dependabot[bot]))
-<!-- latest_stable_release -->
 
 ## [v0.2.36](https://github.com/inspec/train-aws/tree/v0.2.36) (2023-07-25)
 
