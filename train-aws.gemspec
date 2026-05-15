@@ -123,7 +123,7 @@ Gem::Specification.new do |spec|
   spec.add_dependency "aws-sdk-glue", "~> 1.164"
   # spec.add_dependency "aws-sdk-greengrass", "~> 1.62.0"
   # spec.add_dependency "aws-sdk-groundstation", "~> 1.43.0"
-  spec.add_dependency "aws-sdk-guardduty", "~> 1.85.0"
+  spec.add_dependency "aws-sdk-guardduty", ">= 1.85", "< 1.87"
   # spec.add_dependency "aws-sdk-health", "~> 1.59.0"
   spec.add_dependency "aws-sdk-iam", "~> 1.92.0"
   # spec.add_dependency "aws-sdk-importexport", "~> 1.42.0"
